@@ -5,10 +5,11 @@ Módulo de Treinamento e Avaliação de Modelos:
 1. Divide os dados limpos em Treino e Teste Cego (80/20).
 2. Aplica validação cruzada (5-fold) estratificada exclusivamente no conjunto de treino.
 3. Treina o melhor modelo e avalia o seu desempenho no teste cego.
-4. Gera e guarda gráficos de desempenho (Curvas ROC, PR e Matrizes de Confusão).
+4. Gera e guarda gráficos de desempenho e exporta o modelo final treinado.
 """
 
 import time
+import joblib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -50,6 +51,7 @@ sns.set_theme(style="whitegrid", context="notebook")
 ROOT = Path(__file__).resolve().parents[2]
 PROC_DIR = ROOT / "data" / "processed"
 REPORTS_DIR = ROOT / "reports"
+MODELS_DIR = ROOT / "models"
 PASTA_FIG = REPORTS_DIR / "figuras_modelagem"
 PASTA_TABELAS = REPORTS_DIR / "tabelas"
 
@@ -61,10 +63,11 @@ LIMITE_SKEW = 1.0
 # 1. Pré-processamento
 # ==========================================
 def separar_grupos(df: pd.DataFrame) -> Tuple[List[str], List[str], List[str]]:
-    """Separa as features em Físico-Químicas, Composição (AAC) e One-Hot."""
+    """Separa as features numéricas clássicas, PseAAC/Latentes, AAC e One-Hot."""
     aac = [c for c in df.columns if c.startswith("AAC_")]
     oh = [c for c in df.columns if c.startswith("OH_")]
-    fis = [c for c in df.columns if c not in ("sequence", "label", "classe") and c not in aac and c not in oh]
+    # `fis` agrupa clássicas, zscale, pc6 e pseaac (todas as contínuas além de aac)
+    fis = [c for c in df.columns if c not in ("id", "sequence", "label", "classe") and c not in aac and c not in oh]
     return fis, aac, oh
 
 
@@ -75,7 +78,7 @@ def criar_preprocessador(X: pd.DataFrame, limite: float = LIMITE_SKEW) -> Column
     """
     fis, aac, _ = separar_grupos(X)
     
-    # Garante que apenas as colunas numéricas de `fis` são enviadas para o cálculo de skew
+    # Garante que apenas as colunas numéricas de `fis` são avaliadas para skewness
     fis_numericas = X[fis].select_dtypes(include=[np.number])
     skew = fis_numericas.skew()
     
@@ -279,7 +282,7 @@ def main(caminho: Path = PROC_DIR / "dataset_treino_limpo.csv", n_splits: int = 
     y = df["label"]
     
     # Remove as colunas de identificação e o label
-    X = df.drop(columns=["sequence", "label", "classe"], errors="ignore")
+    X = df.drop(columns=["id", "sequence", "label", "classe"], errors="ignore")
     
     # Força X a manter apenas as colunas com números
     X = X.select_dtypes(include=[np.number])
@@ -302,26 +305,37 @@ def main(caminho: Path = PROC_DIR / "dataset_treino_limpo.csv", n_splits: int = 
     print(tabela_formatada(resumo).to_string(index=False))
     plot_cv(por_dobra, list(resumo["modelo"]))
 
-    # 3) Avaliação no Teste Cego
+    # 3) Avaliação no Teste Cego e Exportação
     candidatos = list(resumo["modelo"]) if avaliar_todos_no_teste else [resumo.loc[0, "modelo"]]
     print(f"\n[2/3] Avaliando modelo(s) no Teste Cego: {', '.join(candidatos)}")
     
-    linhas, melhor = [], None
+    linhas, melhor_resultado = [], None
     for nome in candidatos:
-        modelo = clone(modelos[nome]).fit(X_tr, y_tr)
-        met, score, matriz = metricas_holdout(modelo, X_te, y_te)
+        modelo_treinado = clone(modelos[nome]).fit(X_tr, y_tr)
+        met, score, matriz = metricas_holdout(modelo_treinado, X_te, y_te)
         linhas.append({"modelo": nome, **met})
-        if melhor is None:
-            melhor = (nome, score, matriz)
+        
+        # Guarda a referência ao modelo com melhor score (o primeiro da lista)
+        if melhor_resultado is None:
+            melhor_resultado = (nome, score, matriz, modelo_treinado)
             
     teste = pd.DataFrame(linhas)
     teste.to_csv(PASTA_TABELAS / "resultados_teste_cego.csv", index=False)
     
     print("\nDesempenho Final (Holdout Cego):")
     print(teste.round(3).to_string(index=False))
-    plot_holdout(melhor[0], y_te, melhor[1], melhor[2])
     
-    print(f"\n=== Sucesso! Tabelas salvas em {PASTA_TABELAS.relative_to(ROOT)} e Imagens em {PASTA_FIG.relative_to(ROOT)} ===")
+    nome_melhor, score_melhor, matriz_melhor, modelo_final = melhor_resultado
+    plot_holdout(nome_melhor, y_te, score_melhor, matriz_melhor)
+    
+    # 4) Guardar o modelo final treinado
+    MODELS_DIR.mkdir(parents=True, exist_ok=True)
+    caminho_modelo = MODELS_DIR / "modelo_final.joblib"
+    joblib.dump(modelo_final, caminho_modelo)
+    
+    print(f"\n=== Sucesso! ===")
+    print(f"  -> Modelo guardado em: {caminho_modelo.relative_to(ROOT)}")
+    print(f"  -> Tabelas em {PASTA_TABELAS.relative_to(ROOT)} e Imagens em {PASTA_FIG.relative_to(ROOT)}")
     
     return resumo, teste
 

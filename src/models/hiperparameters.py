@@ -59,7 +59,7 @@ MODELOS_ALVO = ("SVM (RBF)", "LightGBM", "XGBoost", "Random Forest")
 def separar_grupos(df):
     aac = [c for c in df.columns if c.startswith("AAC_")]
     oh = [c for c in df.columns if c.startswith("OH_")]
-    fis = [c for c in df.columns if c not in ("sequence", "label", "classe") and c not in aac and c not in oh]
+    fis = [c for c in df.columns if c not in ("id", "sequence", "label", "classe") and c not in aac and c not in oh]
     return fis, aac, oh
 
 
@@ -240,8 +240,8 @@ def main(n_splits=5, n_iter=60):
     df = pd.read_csv(caminho)
     y = df["label"]
     
-    # Remove identificadores e foca nas colunas numéricas (evita strings)
-    X = df.drop(columns=["sequence", "label", "classe"], errors="ignore")
+    # Adicionado o 'id' na lista de exclusão
+    X = df.drop(columns=["id", "sequence", "label", "classe"], errors="ignore")
     X = X.select_dtypes(include=[np.number])
 
     X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, stratify=y, random_state=SEED)

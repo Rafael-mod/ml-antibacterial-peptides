@@ -2,12 +2,13 @@
 src/features/preprocessamento.py
 
 Módulo para limpeza e pré-processamento de features:
-1. Remoção de features altamente correlacionadas (redundantes).
+1. Remoção dinâmica de features altamente correlacionadas (redundantes) via Spearman.
 2. Remoção de features One-Hot com variância nula.
 3. Criação de um pipeline (ColumnTransformer) para padronização e transformação de distribuições assimétricas.
 """
 
 from pathlib import Path
+import numpy as np
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.feature_selection import VarianceThreshold
@@ -17,7 +18,7 @@ from sklearn.preprocessing import PowerTransformer, StandardScaler
 ROOT = Path(__file__).resolve().parents[2]
 PROC_DIR = ROOT / "data" / "processed"
 
-COLS_REMOVER = ["peso_molecular", "ponto_isoeletrico"]
+LIMITE_CORR = 0.90
 LIMITE_SKEW = 1.0
 
 
@@ -25,23 +26,36 @@ def separar_grupos(df: pd.DataFrame) -> tuple[list[str], list[str], list[str]]:
     """Separa as colunas do dataset nos três grupos de features."""
     aac = [c for c in df.columns if c.startswith("AAC_")]
     oh = [c for c in df.columns if c.startswith("OH_")]
-    fis = [c for c in df.columns if c not in ("sequence", "label", "classe") and c not in aac and c not in oh]
+    fis = [c for c in df.columns if c not in ("id", "sequence", "label", "classe") and c not in aac and c not in oh]
     
     return fis, aac, oh
 
 
-def remover_colunas_redundantes(df: pd.DataFrame, colunas: list[str] = COLS_REMOVER) -> pd.DataFrame:
-    """Remove colunas previamente identificadas como redundantes por alta correlação."""
-    existentes = [c for c in colunas if c in df.columns]
-    ausentes = [c for c in colunas if c not in df.columns]
+def remover_alta_correlacao(df: pd.DataFrame, limite: float = LIMITE_CORR) -> pd.DataFrame:
+    """
+    Calcula a matriz de correlação de Spearman para features contínuas
+    e remove uma feature de cada par com correlação absoluta >= limite.
+    """
+    fis, aac, _ = separar_grupos(df)
+    cols_continuas = fis + aac
     
-    if ausentes:
-        print(f"  -> Aviso: Colunas a remover não encontradas (ignoradas): {ausentes}")
+    # Calcula a matriz de correlação absoluta
+    corr_matrix = df[cols_continuas].corr(method="spearman").abs()
     
-    if existentes:
-        print(f"  -> Colunas removidas por redundância: {existentes}")
-        return df.drop(columns=existentes)
+    # Seleciona apenas o triângulo superior da matriz para não duplicar pares
+    upper = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
     
+    # Identifica colunas a serem removidas
+    colunas_remover = [col for col in upper.columns if any(upper[col] >= limite)]
+    
+    if colunas_remover:
+        print(f"  -> {len(colunas_remover)} colunas removidas por alta correlação (|r| >= {limite}):")
+        # Exibe as colunas de forma compacta (grupos de 5)
+        for i in range(0, len(colunas_remover), 5):
+            print(f"     {', '.join(colunas_remover[i:i+5])}")
+        return df.drop(columns=colunas_remover)
+    
+    print(f"  -> Nenhuma coluna removida (Nenhuma correlação >= {limite}).")
     return df
 
 
@@ -72,13 +86,13 @@ def colunas_assimetricas(df: pd.DataFrame, cols: list[str], limite: float = LIMI
     return list(alvo.index)
 
 
-def criar_preprocessador(df: pd.DataFrame, limite: float = LIMITE_SKEW) -> ColumnTransformer:
+def criar_preprocessador(df: pd.DataFrame, limite_skew: float = LIMITE_SKEW) -> ColumnTransformer:
     """
     Cria um pipeline de transformação ajustado para Modelos Lineares, SVM e Redes Neuronais.
     Nota: Deve ser ajustado (.fit) EXCLUSIVAMENTE nos dados de treino para evitar vazamento de dados.
     """
     fis, aac, _ = separar_grupos(df)
-    assimetricas = colunas_assimetricas(df, fis, limite)
+    assimetricas = colunas_assimetricas(df, fis, limite_skew)
     normais = [c for c in fis if c not in assimetricas]
     
     preprocessor = ColumnTransformer(
@@ -104,7 +118,10 @@ def main(entrada: Path = PROC_DIR / "dataset_treino.csv",
     df = pd.read_csv(entrada)
     print(f"  -> Shape original: {df.shape}")
 
-    df = remover_colunas_redundantes(df)
+    # Remove correlações dinamicamente
+    df = remover_alta_correlacao(df, limite=LIMITE_CORR)
+    
+    # Remove colunas one-hot inativas
     df, _ = remover_one_hot_variancia_zero(df)
 
     df.to_csv(saida, index=False)
