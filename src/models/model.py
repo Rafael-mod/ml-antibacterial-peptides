@@ -2,7 +2,7 @@
 src/models/treinamento.py
 
 Módulo de Treinamento e Avaliação de Modelos:
-1. Divide os dados limpos em Treino e Teste Cego (80/20).
+1. Carrega os dados limpos já separados em Treino e Teste Cego.
 2. Aplica validação cruzada (5-fold) estratificada exclusivamente no conjunto de treino.
 3. Treina o melhor modelo e avalia o seu desempenho no teste cego.
 4. Gera e guarda gráficos de desempenho e exporta o modelo final treinado.
@@ -26,7 +26,7 @@ from sklearn.metrics import (accuracy_score, average_precision_score,
                              confusion_matrix, make_scorer, matthews_corrcoef,
                              precision_recall_curve, recall_score,
                              roc_auc_score, roc_curve)
-from sklearn.model_selection import StratifiedKFold, cross_validate, train_test_split
+from sklearn.model_selection import StratifiedKFold, cross_validate
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PowerTransformer, StandardScaler
 from sklearn.svm import SVC
@@ -66,7 +66,6 @@ def separar_grupos(df: pd.DataFrame) -> Tuple[List[str], List[str], List[str]]:
     """Separa as features numéricas clássicas, PseAAC/Latentes, AAC e One-Hot."""
     aac = [c for c in df.columns if c.startswith("AAC_")]
     oh = [c for c in df.columns if c.startswith("OH_")]
-    # `fis` agrupa clássicas, zscale, pc6 e pseaac (todas as contínuas além de aac)
     fis = [c for c in df.columns if c not in ("id", "sequence", "label", "classe") and c not in aac and c not in oh]
     return fis, aac, oh
 
@@ -74,11 +73,10 @@ def separar_grupos(df: pd.DataFrame) -> Tuple[List[str], List[str], List[str]]:
 def criar_preprocessador(X: pd.DataFrame, limite: float = LIMITE_SKEW) -> ColumnTransformer:
     """
     Aplica transformação de Yeo-Johnson em colunas assimétricas e StandardScaler nas contínuas.
-    Mantém as representações One-Hot intactas.
+    Mantém as representações One-Hot intactas. Ajustado dinamicamente com base no Treino.
     """
     fis, aac, _ = separar_grupos(X)
     
-    # Garante que apenas as colunas numéricas de `fis` são avaliadas para skewness
     fis_numericas = X[fis].select_dtypes(include=[np.number])
     skew = fis_numericas.skew()
     
@@ -101,8 +99,6 @@ def criar_preprocessador(X: pd.DataFrame, limite: float = LIMITE_SKEW) -> Column
 # ==========================================
 def criar_modelos(X_tr: pd.DataFrame, n_arvores: int = 300) -> Dict[str, Any]:
     """Instancia o dicionário de modelos, injetando pipelines onde o scaling é necessário."""
-    
-    # Modelo SVC calibrado para evitar warnings de depreciação do probability=True
     svc_base = SVC(kernel="rbf", C=1.0, gamma="scale", random_state=SEED)
     svc_calibrado = CalibratedClassifierCV(estimator=svc_base, ensemble=False)
 
@@ -269,29 +265,31 @@ def plot_holdout(nome: str, y_te: pd.Series, score: np.ndarray, matriz: Tuple[in
 # ==========================================
 # 5. Pipeline Principal de Execução
 # ==========================================
-def main(caminho: Path = PROC_DIR / "dataset_treino_limpo.csv", n_splits: int = 5, n_arvores: int = 300, avaliar_todos_no_teste: bool = False) -> Tuple[pd.DataFrame, pd.DataFrame]:
+def main(
+    path_X_tr: Path = PROC_DIR / "X_train_limpo.csv",
+    path_X_te: Path = PROC_DIR / "X_test_limpo.csv",
+    path_y_tr: Path = PROC_DIR / "y_train.csv",
+    path_y_te: Path = PROC_DIR / "y_test.csv",
+    n_splits: int = 5, 
+    n_arvores: int = 300, 
+    avaliar_todos_no_teste: bool = False
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
     
     print("=== Iniciando Pipeline de Modelação ===")
     
-    if not caminho.exists():
-        raise FileNotFoundError(f"Ficheiro de dados limpos não encontrado em: {caminho}")
+    # 1) Carregamento Direto dos Dados Limpos
+    for p in [path_X_tr, path_X_te, path_y_tr, path_y_te]:
+        if not p.exists():
+            raise FileNotFoundError(f"Arquivo não encontrado: {p}")
 
-    df = pd.read_csv(caminho)
+    X_tr = pd.read_csv(path_X_tr)
+    X_te = pd.read_csv(path_X_te)
+    # Squeeze converte os targets de DataFrame para Series unidimensionais
+    y_tr = pd.read_csv(path_y_tr).squeeze("columns")
+    y_te = pd.read_csv(path_y_te).squeeze("columns")
     
-    # Isola o alvo (label)
-    y = df["label"]
-    
-    # Remove as colunas de identificação e o label
-    X = df.drop(columns=["id", "sequence", "label", "classe"], errors="ignore")
-    
-    # Força X a manter apenas as colunas com números
-    X = X.select_dtypes(include=[np.number])
-    
-    print(f"Dataset: {X.shape[0]} amostras, {X.shape[1]} features numéricas processáveis")
-
-    # 1) Holdout Cego de 20%
-    X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, stratify=y, random_state=SEED)
-    print(f"Divisão: Treino ({len(X_tr)} amostras) | Teste Cego ({len(X_te)} amostras)")
+    print(f"Conjunto de Treino: {X_tr.shape[0]} amostras, {X_tr.shape[1]} features")
+    print(f"Conjunto de Teste Cego: {X_te.shape[0]} amostras, {X_te.shape[1]} features")
 
     # 2) Definição e Avaliação via CV (Apenas no Treino)
     modelos = criar_modelos(X_tr, n_arvores)
@@ -315,7 +313,6 @@ def main(caminho: Path = PROC_DIR / "dataset_treino_limpo.csv", n_splits: int = 
         met, score, matriz = metricas_holdout(modelo_treinado, X_te, y_te)
         linhas.append({"modelo": nome, **met})
         
-        # Guarda a referência ao modelo com melhor score (o primeiro da lista)
         if melhor_resultado is None:
             melhor_resultado = (nome, score, matriz, modelo_treinado)
             
@@ -338,7 +335,6 @@ def main(caminho: Path = PROC_DIR / "dataset_treino_limpo.csv", n_splits: int = 
     print(f"  -> Tabelas em {PASTA_TABELAS.relative_to(ROOT)} e Imagens em {PASTA_FIG.relative_to(ROOT)}")
     
     return resumo, teste
-
 
 if __name__ == "__main__":
     df_resumo, df_teste = main()
