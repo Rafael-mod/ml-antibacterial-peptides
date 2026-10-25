@@ -1,7 +1,8 @@
 """
-src/models/tuning.py
+src/models/tuning.py (ou hiperparameters.py)
 
 Busca de hiperparâmetros (RandomizedSearchCV) e exportação do modelo final.
+Adaptado para a nova pipeline sem data leakage (carregando splits pré-definidos).
 """
 
 import json
@@ -20,8 +21,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import (accuracy_score, average_precision_score, confusion_matrix,
                              make_scorer, matthews_corrcoef, precision_recall_curve,
                              recall_score, roc_auc_score, roc_curve)
-from sklearn.model_selection import (RandomizedSearchCV, StratifiedKFold, cross_validate,
-                                     train_test_split)
+from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold, cross_validate
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PowerTransformer, StandardScaler
 from sklearn.svm import SVC
@@ -66,7 +66,6 @@ def separar_grupos(df):
 def criar_preprocessador(X, limite=LIMITE_SKEW):
     fis, aac, _ = separar_grupos(X)
     
-    # Filtro de segurança para colunas puramente numéricas
     fis_numericas = X[fis].select_dtypes(include=[np.number])
     skew = fis_numericas.skew()
     
@@ -233,18 +232,22 @@ def plot_holdout(nome, y_te, score_pad, score_otm):
 # 6. Execução Principal
 # ==========================================
 def main(n_splits=5, n_iter=60):
-    caminho = PROC_DIR / "dataset_treino_limpo.csv"
-    if not caminho.exists():
-        raise FileNotFoundError(f"Ficheiro não encontrado: {caminho}")
-
-    df = pd.read_csv(caminho)
-    y = df["label"]
     
-    # Adicionado o 'id' na lista de exclusão
-    X = df.drop(columns=["id", "sequence", "label", "classe"], errors="ignore")
-    X = X.select_dtypes(include=[np.number])
+    # 1) Carregamento Direto dos Dados Limpos
+    path_X_tr = PROC_DIR / "X_train_limpo.csv"
+    path_X_te = PROC_DIR / "X_test_limpo.csv"
+    path_y_tr = PROC_DIR / "y_train.csv"
+    path_y_te = PROC_DIR / "y_test.csv"
+    
+    for p in [path_X_tr, path_X_te, path_y_tr, path_y_te]:
+        if not p.exists():
+            raise FileNotFoundError(f"Arquivo não encontrado: {p}")
 
-    X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, stratify=y, random_state=SEED)
+    X_tr = pd.read_csv(path_X_tr)
+    X_te = pd.read_csv(path_X_te)
+    y_tr = pd.read_csv(path_y_tr).squeeze("columns")
+    y_te = pd.read_csv(path_y_te).squeeze("columns")
+
     print(f"Treino: {len(X_tr)} amostras | Teste cego: {len(X_te)} amostras")
 
     base = criar_estimadores(X_tr)
@@ -287,7 +290,7 @@ def main(n_splits=5, n_iter=60):
     plot_holdout(campeao, y_te, s_pad, s_otm)
 
     # Guarda o modelo treinado
-    caminho_modelo = MODELS_DIR / "modelo_final.joblib"
+    caminho_modelo = MODELS_DIR / "modelo_final_otimizado.joblib"
     joblib.dump(otimizado, caminho_modelo)
     print(f"\nModelo otimizado salvo em: {caminho_modelo.relative_to(ROOT)}")
     
