@@ -1,12 +1,8 @@
 """
 src/features/tratamentoColunas.py
 
-Módulo para divisão do dataset e filtragem rigorosa de atributos (Anti-Data Leakage):
-1. Divisão Holdout (80% Treino / 20% Teste Cego).
-2. Filtro Não-Supervisionado (Treino): Remoção de features com variância nula.
-3. Filtro Não-Supervisionado (Treino): Remoção de features altamente correlacionadas (Spearman > 0.90).
-4. Filtro Supervisionado (Treino): Teste de Mann-Whitney U (p < 0.05).
-5. Aplicação das colunas sobreviventes no Teste Cego.
+Módulo agnóstico para divisão do dataset e filtragem rigorosa de atributos (Anti-Data Leakage).
+Suporta crescimento ilimitado do espaço de features (AAC, PseAAC, OHE, etc.).
 """
 
 from pathlib import Path
@@ -16,7 +12,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import VarianceThreshold
 from scipy.stats import mannwhitneyu
 
-# Configuração de caminhos e constantes
 ROOT = Path(__file__).resolve().parents[2]
 PROC_DIR = ROOT / "data" / "processed"
 
@@ -25,110 +20,116 @@ LIMITE_P_VALOR = 0.05
 TEST_SIZE = 0.2
 SEED = 42
 
-def separar_metadados(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Separa as colunas de metadados das features numéricas."""
-    colunas_meta = [c for c in ["id", "sequence", "classe"] if c in df.columns]
-    meta = df[colunas_meta] if colunas_meta else pd.DataFrame(index=df.index)
-    features = df.drop(columns=colunas_meta)
+def separar_metadados(df: pd.DataFrame, alvo: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Isola dinamicamente o alvo, dados numéricos e colunas de texto/metadados."""
+    # Identifica colunas que não são numéricas (ex: 'sequence', 'id' textual)
+    cols_nao_numericas = df.select_dtypes(exclude=[np.number]).columns.tolist()
+    
+    # Adiciona colunas conhecidas de metadados se existirem, mesmo se forem numéricas
+    for meta_comum in ["id", "index", "Unnamed: 0"]:
+        if meta_comum in df.columns and meta_comum not in cols_nao_numericas:
+            cols_nao_numericas.append(meta_comum)
+            
+    meta = df[cols_nao_numericas].copy() if cols_nao_numericas else pd.DataFrame(index=df.index)
+    features = df.drop(columns=cols_nao_numericas)
+    
     return features, meta
 
 def remover_variancia_zero(X_train: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
-    """Remove colunas que possuem o mesmo valor em todas as amostras (constantes)."""
-    # Identifica colunas numéricas
-    num_cols = X_train.select_dtypes(include=[np.number]).columns
-    
+    """Remove colunas constantes independentemente do tamanho do dataframe."""
     sel = VarianceThreshold(threshold=0.0)
-    sel.fit(X_train[num_cols])
+    sel.fit(X_train)
     
-    colunas_mantidas = [c for c, ok in zip(num_cols, sel.get_support()) if ok]
-    colunas_removidas = [c for c in num_cols if c not in colunas_mantidas]
+    colunas_mantidas = X_train.columns[sel.get_support()].tolist()
+    removidas = len(X_train.columns) - len(colunas_mantidas)
     
-    print(f"  -> {len(colunas_removidas)} colunas constantes/variância zero removidas.")
+    print(f"  -> {removidas} colunas constantes (variância zero) removidas.")
     return X_train[colunas_mantidas], colunas_mantidas
 
 def remover_alta_correlacao(X_train: pd.DataFrame, limite: float = LIMITE_CORR) -> tuple[pd.DataFrame, list[str]]:
-    """Calcula Spearman no treino e remove features redundantes."""
-    corr_matrix = X_train.corr(method="spearman").abs()
+    """Remove features altamente correlacionadas com conversão de precisão para otimizar RAM."""
+    # Reduz precisão para float32 temporariamente para acelerar Spearman em datasets largos
+    X_temp = X_train.astype(np.float32)
+    
+    corr_matrix = X_temp.corr(method="spearman").abs()
     upper = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
     
     colunas_remover = [col for col in upper.columns if any(upper[col] >= limite)]
     colunas_mantidas = [col for col in X_train.columns if col not in colunas_remover]
     
-    if colunas_remover:
-        print(f"  -> {len(colunas_remover)} colunas removidas por alta correlação (|r| >= {limite}).")
-    else:
-        print(f"  -> Nenhuma coluna removida por correlação.")
-        
+    print(f"  -> {len(colunas_remover)} colunas removidas por alta redundância (|r| >= {limite}).")
     return X_train[colunas_mantidas], colunas_mantidas
 
 def aplicar_mann_whitney(X_train: pd.DataFrame, y_train: pd.Series, limite_p: float = LIMITE_P_VALOR) -> tuple[pd.DataFrame, list[str]]:
-    """Aplica o teste de Mann-Whitney U para reter apenas features que separam as classes."""
+    """Teste estatístico de sobrevivência tolerante a distribuições assimétricas extremas."""
     pos = X_train[y_train == 1]
     neg = X_train[y_train == 0]
     
     colunas_mantidas = []
-    colunas_descartadas = []
     
     for col in X_train.columns:
-        # Pula colunas que não têm variância suficiente dentro de um dos grupos para o teste
+        # Prevenção de quebra do loop por colunas com variância local zero ou NaNs
         if pos[col].nunique() <= 1 and neg[col].nunique() <= 1:
-            colunas_descartadas.append(col)
             continue
             
-        _, p_valor = mannwhitneyu(pos[col], neg[col], alternative="two-sided")
-        
-        if p_valor < limite_p:
-            colunas_mantidas.append(col)
-        else:
-            colunas_descartadas.append(col)
+        try:
+            _, p_valor = mannwhitneyu(pos[col].dropna(), neg[col].dropna(), alternative="two-sided")
+            if p_valor < limite_p:
+                colunas_mantidas.append(col)
+        except Exception:
+            # Falhas numéricas silenciosas descartam a coluna (feature inviável)
+            continue
             
-    print(f"  -> {len(colunas_descartadas)} colunas removidas pelo Mann-Whitney U (p >= {limite_p}).")
-    print(f"  -> {len(colunas_mantidas)} colunas selecionadas como estatisticamente significativas.")
+    removidas = len(X_train.columns) - len(colunas_mantidas)
+    print(f"  -> {removidas} colunas removidas (p >= {limite_p} ou erro numérico).")
+    print(f"  -> {len(colunas_mantidas)} features biológicas estatisticamente relevantes mantidas.")
     
     return X_train[colunas_mantidas], colunas_mantidas
 
-def main(entrada: Path = PROC_DIR / "dataset_bruto.csv"):
-    print("=== Iniciando Divisão e Filtragem Anti-Vazamento ===")
-    
-    if not entrada.exists():
-        raise FileNotFoundError(f"Ficheiro não encontrado: {entrada}")
+def processar_pipeline(entrada_csv: Path, alvo: str = "label"):
+    if not entrada_csv.exists():
+        raise FileNotFoundError(f"Arquivo não encontrado: {entrada_csv}")
 
-    df = pd.read_csv(entrada)
-    print(f"  -> Shape original do dataset: {df.shape}")
+    df = pd.read_csv(entrada_csv)
+    print(f"  -> Shape original: {df.shape}")
 
-    if "label" not in df.columns:
-        raise ValueError("A coluna alvo 'label' não foi encontrada no dataset.")
+    if alvo not in df.columns:
+        raise ValueError(f"Coluna alvo '{alvo}' não encontrada.")
 
-    # 1. Separação de X e y, isolando metadados
-    df_features, df_meta = separar_metadados(df)
-    X = df_features.drop(columns=["label"])
-    y = df_features["label"]
+    # 1. Isolamento Automático
+    df_features, df_meta = separar_metadados(df, alvo)
+    X = df_features.drop(columns=[alvo])
+    y = df_features[alvo]
+
+    # Preenche NaNs eventuais gerados por extratores com 0 antes do pipeline
+    X = X.fillna(0)
 
     # 2. Split Holdout Estratificado
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=TEST_SIZE, random_state=SEED, stratify=y
     )
-    print(f"  -> Split concluído: Treino ({X_train.shape[0]} amostras), Teste ({X_test.shape[0]} amostras).")
+    print(f"  -> Treino: {X_train.shape[0]} amostras | Teste Cego: {X_test.shape[0]} amostras.")
 
-    # 3. Pipeline de Filtros aplicados APENAS no Treino
-    print("\n--- Aplicando Filtros no Conjunto de Treino ---")
+    # 3. Pipeline Anti-Leakage (Somente Treino)
+    print("\n--- Pipeline de Filtragem (Espaço de Treino) ---")
     X_train_limpo, cols_validas = remover_variancia_zero(X_train)
     X_train_limpo, cols_validas = remover_alta_correlacao(X_train_limpo, limite=LIMITE_CORR)
     X_train_limpo, colunas_finais = aplicar_mann_whitney(X_train_limpo, y_train, limite_p=LIMITE_P_VALOR)
 
-    # 4. Aplicação das colunas sobreviventes no Teste Cego
+    # 4. Projeção das features validadas no Teste
     X_test_limpo = X_test[colunas_finais]
 
-    # 5. Exportação
+    # 5. Salvamento Vetorial
+    PROC_DIR.mkdir(parents=True, exist_ok=True)
     X_train_limpo.to_csv(PROC_DIR / "X_train_limpo.csv", index=False)
     X_test_limpo.to_csv(PROC_DIR / "X_test_limpo.csv", index=False)
     y_train.to_csv(PROC_DIR / "y_train.csv", index=False)
     y_test.to_csv(PROC_DIR / "y_test.csv", index=False)
 
-    print("\n=== Sucesso! ===")
-    print(f"  -> Shape final de Treino: {X_train_limpo.shape}")
-    print(f"  -> Shape final de Teste:  {X_test_limpo.shape}")
-    print(f"  -> Arquivos limpos guardados em: {PROC_DIR.relative_to(ROOT)}")
+    print("\n=== Pipeline Finalizado ===")
+    print(f"  -> Shape Final - Treino: {X_train_limpo.shape}")
+    print(f"  -> Shape Final - Teste:  {X_test_limpo.shape}")
 
 if __name__ == "__main__":
-    main()
+    print("=== Iniciando Engenharia e Seleção de Atributos ===")
+    processar_pipeline(PROC_DIR / "dataset_treino.csv", alvo="label")

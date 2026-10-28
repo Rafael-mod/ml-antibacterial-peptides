@@ -2,7 +2,7 @@
 src/models/tuning.py (ou hiperparameters.py)
 
 Busca de hiperparâmetros (RandomizedSearchCV) e exportação do modelo final.
-Adaptado para a nova pipeline sem data leakage (carregando splits pré-definidos).
+Totalmente genérico e agnóstico à quantidade/tipo de features.
 """
 
 import json
@@ -54,29 +54,40 @@ MODELOS_ALVO = ("SVM (RBF)", "LightGBM", "XGBoost", "Random Forest")
 
 
 # ==========================================
-# 1. Pré-processamento
+# 1. Pré-processamento Genérico e Inteligente
 # ==========================================
-def separar_grupos(df):
-    aac = [c for c in df.columns if c.startswith("AAC_")]
-    oh = [c for c in df.columns if c.startswith("OH_")]
-    fis = [c for c in df.columns if c not in ("id", "sequence", "label", "classe") and c not in aac and c not in oh]
-    return fis, aac, oh
-
-
-def criar_preprocessador(X, limite=LIMITE_SKEW):
-    fis, aac, _ = separar_grupos(X)
+def criar_preprocessador(X: pd.DataFrame, limite_skew: float = LIMITE_SKEW) -> ColumnTransformer:
+    """
+    Pré-processamento dinâmico resistente à alta dimensionalidade e esparsidade:
+    - Binárias/One-Hot -> Passthrough
+    - Esparsas/Frequências (DPC, CTC, CKSAAP, AAC) -> StandardScaler
+    - Globais contínuas (GRAVY, Peso, Carga) -> PowerTransformer (Yeo-Johnson se assimétricas)
+    """
+    oh_binarias = [c for c in X.columns if c.startswith("OH_") or X[c].nunique() <= 2]
+    resto = [c for c in X.columns if c not in oh_binarias]
     
-    fis_numericas = X[fis].select_dtypes(include=[np.number])
-    skew = fis_numericas.skew()
+    assimetricas = []
+    normais = []
     
-    assimetricas = list(skew[skew.abs() > limite].index)
-    normais = [c for c in fis_numericas.columns if c not in assimetricas]
-    
-    return ColumnTransformer(
-        [("yeo_johnson", PowerTransformer(method="yeo-johnson", standardize=True), assimetricas),
-         ("padroniza", StandardScaler(), normais + aac)],
-        remainder="passthrough", verbose_feature_names_out=False,
-    ).set_output(transform="pandas")
+    for col in resto:
+        # Se a coluna possui >30% de zeros, direciona para o StandardScaler evitando erros no Yeo-Johnson
+        if (X[col] == 0).mean() > 0.30:
+            normais.append(col)
+        else:
+            if abs(X[col].skew()) > limite_skew:
+                assimetricas.append(col)
+            else:
+                normais.append(col)
+                
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("yeo_johnson", PowerTransformer(method="yeo-johnson", standardize=True), assimetricas),
+            ("padroniza", StandardScaler(), normais)
+        ],
+        remainder="passthrough",
+        verbose_feature_names_out=False,
+    )
+    return preprocessor.set_output(transform="pandas")
 
 
 # ==========================================
@@ -233,7 +244,6 @@ def plot_holdout(nome, y_te, score_pad, score_otm):
 # ==========================================
 def main(n_splits=5, n_iter=60):
     
-    # 1) Carregamento Direto dos Dados Limpos
     path_X_tr = PROC_DIR / "X_train_limpo.csv"
     path_X_te = PROC_DIR / "X_test_limpo.csv"
     path_y_tr = PROC_DIR / "y_train.csv"
@@ -249,6 +259,7 @@ def main(n_splits=5, n_iter=60):
     y_te = pd.read_csv(path_y_te).squeeze("columns")
 
     print(f"Treino: {len(X_tr)} amostras | Teste cego: {len(X_te)} amostras")
+    print(f"Total de atributos processados: {X_tr.shape[1]}")
 
     base = criar_estimadores(X_tr)
     alvo = [m for m in MODELOS_ALVO if m in base]

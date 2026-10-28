@@ -62,37 +62,44 @@ LIMITE_SKEW = 1.0
 # ==========================================
 # 1. Pré-processamento
 # ==========================================
-def separar_grupos(df: pd.DataFrame) -> Tuple[List[str], List[str], List[str]]:
-    """Separa as features numéricas clássicas, PseAAC/Latentes, AAC e One-Hot."""
-    aac = [c for c in df.columns if c.startswith("AAC_")]
-    oh = [c for c in df.columns if c.startswith("OH_")]
-    fis = [c for c in df.columns if c not in ("id", "sequence", "label", "classe") and c not in aac and c not in oh]
-    return fis, aac, oh
-
-
-def criar_preprocessador(X: pd.DataFrame, limite: float = LIMITE_SKEW) -> ColumnTransformer:
+def criar_preprocessador(X: pd.DataFrame, limite_skew: float = LIMITE_SKEW) -> ColumnTransformer:
     """
-    Aplica transformação de Yeo-Johnson em colunas assimétricas e StandardScaler nas contínuas.
-    Mantém as representações One-Hot intactas. Ajustado dinamicamente com base no Treino.
+    Pré-processamento dinâmico e genérico resistente a alta dimensionalidade esparsa.
+    - Features One-Hot (OH_*) ou binárias -> Passthrough
+    - Features esparsas/frequências (DPC, CTC, CKSAAP) -> StandardScaler
+    - Features globais contínuas (Peso Molecular, GRAVY) -> PowerTransformer se assimétricas
     """
-    fis, aac, _ = separar_grupos(X)
+    # 1. Separa variáveis binárias/One-hot (não devem ser escaladas)
+    oh_binarias = [c for c in X.columns if c.startswith("OH_") or X[c].nunique() <= 2]
+    resto = [c for c in X.columns if c not in oh_binarias]
     
-    fis_numericas = X[fis].select_dtypes(include=[np.number])
-    skew = fis_numericas.skew()
+    assimetricas = []
+    normais = []
     
-    assimetricas = list(skew[skew.abs() > limite].index)
-    normais = [c for c in fis_numericas.columns if c not in assimetricas]
-    
+    # 2. Triagem de esparsidade vs assimetria
+    for col in resto:
+        # Se a coluna tem mais de 30% de zeros (típico de DPC, CTC, CKSAAP), 
+        # evitamos o Yeo-Johnson para preservar a esparsidade e evitar falhas numéricas.
+        if (X[col] == 0).mean() > 0.30:
+            normais.append(col)
+        else:
+            # Se for contínua e densa, avalia a assimetria
+            if abs(X[col].skew()) > limite_skew:
+                assimetricas.append(col)
+            else:
+                normais.append(col)
+                
+    print(f"  -> Pipeline Prep: {len(assimetricas)} features c/ Yeo-Johnson, {len(normais)} c/ StandardScaler, {len(oh_binarias)} intocadas.")
+                
     preprocessor = ColumnTransformer(
         transformers=[
             ("yeo_johnson", PowerTransformer(method="yeo-johnson", standardize=True), assimetricas),
-            ("padroniza", StandardScaler(), normais + aac)
+            ("padroniza", StandardScaler(), normais)
         ],
         remainder="passthrough",
         verbose_feature_names_out=False,
     )
     return preprocessor.set_output(transform="pandas")
-
 
 # ==========================================
 # 2. Configuração de Modelos
