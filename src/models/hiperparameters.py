@@ -1,8 +1,9 @@
 """
-src/models/tuning.py (ou hiperparameters.py)
+src/models/tuning.py
 
 Busca de hiperparâmetros (RandomizedSearchCV) e exportação do modelo final.
 Totalmente genérico e agnóstico à quantidade/tipo de features.
+Implementa grids focados em alta regularização para evitar overfitting (over-tuning).
 """
 
 import json
@@ -13,14 +14,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-from scipy.stats import loguniform, randint, uniform
+from scipy.stats import loguniform, randint
 
 from sklearn.base import clone
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import (accuracy_score, average_precision_score, confusion_matrix,
                              make_scorer, matthews_corrcoef, precision_recall_curve,
-                             recall_score, roc_auc_score, roc_curve)
+                             roc_auc_score, roc_curve)
 from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold, cross_validate
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PowerTransformer, StandardScaler
@@ -58,10 +59,7 @@ MODELOS_ALVO = ("SVM (RBF)", "LightGBM", "XGBoost", "Random Forest")
 # ==========================================
 def criar_preprocessador(X: pd.DataFrame, limite_skew: float = LIMITE_SKEW) -> ColumnTransformer:
     """
-    Pré-processamento dinâmico resistente à alta dimensionalidade e esparsidade:
-    - Binárias/One-Hot -> Passthrough
-    - Esparsas/Frequências (DPC, CTC, CKSAAP, AAC) -> StandardScaler
-    - Globais contínuas (GRAVY, Peso, Carga) -> PowerTransformer (Yeo-Johnson se assimétricas)
+    Pré-processamento dinâmico resistente à alta dimensionalidade e esparsidade.
     """
     oh_binarias = [c for c in X.columns if c.startswith("OH_") or X[c].nunique() <= 2]
     resto = [c for c in X.columns if c not in oh_binarias]
@@ -70,7 +68,6 @@ def criar_preprocessador(X: pd.DataFrame, limite_skew: float = LIMITE_SKEW) -> C
     normais = []
     
     for col in resto:
-        # Se a coluna possui >30% de zeros, direciona para o StandardScaler evitando erros no Yeo-Johnson
         if (X[col] == 0).mean() > 0.30:
             normais.append(col)
         else:
@@ -110,35 +107,38 @@ def criar_estimadores(X_tr, n_arvores=300):
     return est
 
 
+# Grids restritos forçando forte regularização (Combate ao Overfitting)
 ESPACOS = {
     "SVM (RBF)": {
-        "clf__C": loguniform(1e-1, 1e3),
-        "clf__gamma": loguniform(1e-5, 1e-1),
+        "clf__C": loguniform(0.1, 50.0),
+        "clf__gamma": loguniform(0.0001, 0.05),
     },
     "LightGBM": {
-        "n_estimators": randint(100, 600),
-        "learning_rate": loguniform(0.01, 0.2),
-        "num_leaves": randint(15, 128),
-        "max_depth": [-1, 4, 6, 8, 12],
-        "subsample": uniform(0.6, 0.4),
-        "colsample_bytree": uniform(0.2, 0.6),
-        "min_child_samples": randint(5, 50),
-        "reg_lambda": loguniform(1e-3, 10),
+        "max_depth": [3, 4, 5, 6, 7],
+        "num_leaves": [15, 31, 45],
+        "min_child_samples": [30, 40, 50, 60],
+        "colsample_bytree": [0.2, 0.3, 0.4, 0.5],
+        "subsample": [0.6, 0.7, 0.8],
+        "n_estimators": [100, 150, 200, 250],
+        "learning_rate": [0.03, 0.05, 0.08, 0.1],
+        "reg_alpha": [0.0, 0.1, 1.0, 5.0],
+        "reg_lambda": [0.1, 1.0, 5.0, 10.0],
     },
     "XGBoost": {
-        "n_estimators": randint(100, 600),
-        "learning_rate": loguniform(0.01, 0.3),
-        "max_depth": randint(3, 10),
-        "subsample": uniform(0.6, 0.4),
-        "colsample_bytree": uniform(0.2, 0.6),
-        "min_child_weight": randint(1, 8),
-        "reg_lambda": loguniform(1e-3, 10),
+        "max_depth": [3, 4, 5, 6],
+        "min_child_weight": [3, 5, 7, 10],
+        "colsample_bytree": [0.2, 0.3, 0.4, 0.5],
+        "subsample": [0.6, 0.7, 0.8],
+        "n_estimators": [100, 150, 200, 250],
+        "learning_rate": [0.03, 0.05, 0.08, 0.1],
+        "reg_alpha": [0.1, 1.0, 5.0],
+        "reg_lambda": [1.0, 5.0, 10.0],
     },
     "Random Forest": {
         "n_estimators": randint(100, 500),
-        "max_depth": [None, 10, 20, 30],
+        "max_depth": [10, 15, 20],
         "max_features": ["sqrt", "log2", 0.1, 0.3],
-        "min_samples_leaf": randint(1, 6),
+        "min_samples_leaf": randint(2, 8),
     },
 }
 
@@ -175,7 +175,6 @@ def _nativo(v):
 # ==========================================
 def otimizar(nome, base, X_tr, y_tr, cv, n_iter):
     scoring = criar_scoring()
-
     padrao = cross_validate(base, X_tr, y_tr, cv=cv, scoring=scoring, n_jobs=N_JOBS_BUSCA)
 
     t0 = time.time()
@@ -223,7 +222,7 @@ def plot_padrao_vs_otimizado(resumo):
     salvar("01_padrao_vs_otimizado_cv.png", fig)
 
 
-def plot_holdout(nome, y_te, score_pad, score_otm):
+def plot_holdout(nome, y_te, score_pad, score_otm, filename):
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
     for rotulo, s, cor in [("Padrão", score_pad, "#7f7f7f"), ("Otimizado", score_otm, "#DD8452")]:
         fpr, tpr, _ = roc_curve(y_te, s)
@@ -236,7 +235,7 @@ def plot_holdout(nome, y_te, score_pad, score_otm):
     for ax in axes:
         ax.legend(loc="lower right" if ax is axes[0] else "lower left")
     fig.suptitle(f"{nome}: padrão vs otimizado", y=1.02, fontsize=14)
-    salvar("02_holdout_padrao_vs_otimizado.png", fig)
+    salvar(filename, fig)
 
 
 # ==========================================
@@ -284,26 +283,37 @@ def main(n_splits=5, n_iter=60):
         
     plot_padrao_vs_otimizado(resumo)
 
-    # Avaliação Final no Teste Cego
-    campeao = resumo.loc[0, "modelo"]
-    otimizado = buscas[campeao].best_estimator_ 
-    padrao = clone(base[campeao]).fit(X_tr, y_tr)
+    # Avaliação Final no Teste Cego para TODOS os modelos alvo
+    print("\nCalculando métricas no Teste Cego (Holdout) para todos os algoritmos...")
+    linhas_teste = []
+    for nome in alvo:
+        otimizado = buscas[nome].best_estimator_ 
+        padrao = clone(base[nome]).fit(X_tr, y_tr)
+        
+        met_pad, s_pad = metricas_holdout(padrao, X_te, y_te)
+        met_otm, s_otm = metricas_holdout(otimizado, X_te, y_te)
+        
+        linhas_teste.extend([
+            {"modelo": nome, "config": "padrão", **met_pad},
+            {"modelo": nome, "config": "otimizado", **met_otm}
+        ])
+        
+        slug = nome.replace(' ', '_').replace('(', '').replace(')', '')
+        plot_holdout(nome, y_te, s_pad, s_otm, f"02_holdout_{slug}.png")
     
-    met_pad, s_pad = metricas_holdout(padrao, X_te, y_te)
-    met_otm, s_otm = metricas_holdout(otimizado, X_te, y_te)
-    
-    teste = pd.DataFrame([{"modelo": campeao, "config": "padrão", **met_pad},
-                          {"modelo": campeao, "config": "otimizado", **met_otm}])
+    teste = pd.DataFrame(linhas_teste)
     teste.to_csv(PASTA_TABELAS / "resultados_teste_cego_tuning.csv", index=False)
     
-    print(f"\nCampeão da CV: {campeao}. Desempenho no teste cego:")
+    print("\nDesempenho no Teste Cego (Todos os Modelos):")
     print(teste.round(3).to_string(index=False))
-    plot_holdout(campeao, y_te, s_pad, s_otm)
 
-    # Guarda o modelo treinado
+    # Guarda o modelo campeão da CV
+    campeao = resumo.loc[0, "modelo"]
+    modelo_final = buscas[campeao].best_estimator_
+    
     caminho_modelo = MODELS_DIR / "modelo_final_otimizado.joblib"
-    joblib.dump(otimizado, caminho_modelo)
-    print(f"\nModelo otimizado salvo em: {caminho_modelo.relative_to(ROOT)}")
+    joblib.dump(modelo_final, caminho_modelo)
+    print(f"\n[!] Modelo final campeão geral ({campeao}) salvo em: {caminho_modelo.relative_to(ROOT)}")
     
     return resumo, teste
 
