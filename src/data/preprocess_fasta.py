@@ -4,11 +4,12 @@ src/data/preprocess.py
 Pipeline de Pré-processamento (FASTA -> CD-HIT -> FASTAs Finais):
 1. Aplica lógica de conjuntos nas sequências positivas (exclusividade de grupos).
 2. Filtra por tamanho (8-50 AA) e aminoácidos canônicos.
-3. Roda CD-HIT individualmente em cada grupo positivo e balanceia pelo menor grupo.
-4. Gera o pool de negativos do UniProt com base na distribuição de tamanhos dos positivos.
-5. Roda CD-HIT e CD-HIT-2D para filtrar falsos negativos.
-6. Aplica downsampling para igualar a distribuição de tamanhos.
-7. Salva 'positivos_finais.fasta' e 'negativos_finais.fasta' em data/processed/.
+3. Roda CD-HIT individualmente em cada grupo positivo.
+4. Combina TODOS os peptídeos ativos não redundantes no dataset positivo final (sem travas).
+5. Gera o pool de negativos do UniProt com base na nova distribuição de tamanhos dos positivos.
+6. Roda CD-HIT e CD-HIT-2D para filtrar falsos negativos.
+7. Aplica downsampling para igualar a distribuição exata de tamanhos.
+8. Salva 'positivos_finais.fasta' e 'negativos_finais.fasta' em data/processed/.
 
 Uso:
     python src/data/preprocess.py
@@ -123,23 +124,19 @@ def processar_positivos() -> Path:
         arquivos_cdhit[nome] = list(SeqIO.parse(str(out_file), "fasta"))
         print(f"  CD-HIT ({nome}): {len(arquivos_cdhit[nome])} sequências restantes")
 
-    menor_tamanho = min(len(seqs) for seqs in arquivos_cdhit.values())
-    print(f"\n  [!] Tamanho do menor grupo: {menor_tamanho} sequências/grupo")
-
-    rng = random.Random(SEED)
-    positivos_balanceados = []
+    # Agrupando TODAS as sequências, removendo a limitação do menor grupo
+    positivos_finais_lista = []
     
     for nome, records in arquivos_cdhit.items():
-        amostra = rng.sample(records, menor_tamanho)
-        for i, rec in enumerate(amostra, 1):
+        for i, rec in enumerate(records, 1):
             rec.id = f"{nome}_{i}"
             rec.description = ""
-        positivos_balanceados.extend(amostra)
+        positivos_finais_lista.extend(records)
 
     PROC.mkdir(parents=True, exist_ok=True)
     pos_finais_path = PROC / "positivos_finais.fasta"
-    SeqIO.write(positivos_balanceados, str(pos_finais_path), "fasta")
-    print(f"  -> Positivos Finais Salvos: {len(positivos_balanceados)} sequências.")
+    SeqIO.write(positivos_finais_lista, str(pos_finais_path), "fasta")
+    print(f"\n  -> Positivos Finais Salvos (Todos combinados): {len(positivos_finais_lista)} sequências.")
     
     return pos_finais_path
 

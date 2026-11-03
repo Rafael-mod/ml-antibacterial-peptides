@@ -1,33 +1,33 @@
 {
   "SVM (RBF)": {
-    "clf__C": 34.330447331061876,
-    "clf__gamma": 0.026008312687264896
+    "clf__C": 1.025350969016849,
+    "clf__gamma": 0.03680860814877612
   },
   "LightGBM": {
-    "subsample": 0.8,
-    "reg_lambda": 0.1,
-    "reg_alpha": 0.1,
-    "num_leaves": 31,
-    "n_estimators": 250,
-    "min_child_samples": 60,
-    "max_depth": 5,
-    "learning_rate": 0.05,
-    "colsample_bytree": 0.4
-  },
-  "XGBoost": {
-    "subsample": 0.8,
+    "subsample": 0.6,
     "reg_lambda": 10.0,
-    "reg_alpha": 0.1,
+    "reg_alpha": 5.0,
+    "num_leaves": 31,
     "n_estimators": 200,
-    "min_child_weight": 5,
-    "max_depth": 6,
+    "min_child_samples": 40,
+    "max_depth": 5,
     "learning_rate": 0.08,
     "colsample_bytree": 0.5
   },
+  "XGBoost": {
+    "subsample": 0.6,
+    "reg_lambda": 5.0,
+    "reg_alpha": 5.0,
+    "n_estimators": 200,
+    "min_child_weight": 5,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.5
+  },
   "Random Forest": {
-    "max_depth": 20,
-    "max_features": "log2",
+    "max_depth": 15,
+    "max_features": 0.3,
     "min_samples_leaf": 2,
-    "n_estimators": 215
+    "n_estimators": 415
   }
 }
