@@ -278,8 +278,7 @@ def main(
     path_y_tr: Path = PROC_DIR / "y_train.csv",
     path_y_te: Path = PROC_DIR / "y_test.csv",
     n_splits: int = 5, 
-    n_arvores: int = 300, 
-    avaliar_todos_no_teste: bool = False
+    n_arvores: int = 300
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     
     print("=== Iniciando Pipeline de Modelação ===")
@@ -291,7 +290,6 @@ def main(
 
     X_tr = pd.read_csv(path_X_tr)
     X_te = pd.read_csv(path_X_te)
-    # Squeeze converte os targets de DataFrame para Series unidimensionais
     y_tr = pd.read_csv(path_y_tr).squeeze("columns")
     y_te = pd.read_csv(path_y_te).squeeze("columns")
     
@@ -310,29 +308,37 @@ def main(
     print(tabela_formatada(resumo).to_string(index=False))
     plot_cv(por_dobra, list(resumo["modelo"]))
 
-    # 3) Avaliação no Teste Cego e Exportação
-    candidatos = list(resumo["modelo"]) if avaliar_todos_no_teste else [resumo.loc[0, "modelo"]]
-    print(f"\n[2/3] Avaliando modelo(s) no Teste Cego: {', '.join(candidatos)}")
+    # 3) Avaliação de TODOS os modelos no Teste Cego
+    print("\n[2/3] Treinando e avaliando TODOS os modelos no Teste Cego...")
     
-    linhas, melhor_resultado = [], None
-    for nome in candidatos:
+    linhas = []
+    melhor_resultado = None
+    melhor_mcc = -1.0  # Rastreador do melhor modelo no teste cego
+    
+    # Avalia todos os modelos que passaram pela CV
+    for nome in list(resumo["modelo"]):
         modelo_treinado = clone(modelos[nome]).fit(X_tr, y_tr)
         met, score, matriz = metricas_holdout(modelo_treinado, X_te, y_te)
         linhas.append({"modelo": nome, **met})
         
-        if melhor_resultado is None:
+        # Atualiza o "melhor" com base exclusivamente no MCC do Holdout
+        if met["mcc"] > melhor_mcc:
+            melhor_mcc = met["mcc"]
             melhor_resultado = (nome, score, matriz, modelo_treinado)
             
-    teste = pd.DataFrame(linhas)
+    # Ordena a tabela do Holdout pelo MCC
+    teste = pd.DataFrame(linhas).sort_values("mcc", ascending=False).reset_index(drop=True)
     teste.to_csv(PASTA_TABELAS / "resultados_teste_cego.csv", index=False)
     
-    print("\nDesempenho Final (Holdout Cego):")
+    print("\nDesempenho Final (Holdout Cego) - Ordenado por MCC:")
     print(teste.round(3).to_string(index=False))
     
+    # 4) Guardar o modelo final treinado e gerar gráficos
     nome_melhor, score_melhor, matriz_melhor, modelo_final = melhor_resultado
+    print(f"\n[3/3] Exportando o melhor modelo do holdout: {nome_melhor} (MCC = {melhor_mcc:.3f})")
+    
     plot_holdout(nome_melhor, y_te, score_melhor, matriz_melhor)
     
-    # 4) Guardar o modelo final treinado
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
     caminho_modelo = MODELS_DIR / "modelo_final.joblib"
     joblib.dump(modelo_final, caminho_modelo)

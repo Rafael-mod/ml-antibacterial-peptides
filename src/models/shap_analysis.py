@@ -1,7 +1,7 @@
 """
 src/models/shap_analysis.py
 
-Análise de explicabilidade do modelo campeão (SVM RBF) utilizando SHAP.
+Análise de explicabilidade do modelo campeão utilizando SHAP.
 Gera os gráficos Beeswarm, Bar Plot e a tabela com as Top 30 features.
 """
 
@@ -23,7 +23,7 @@ FIG_DIR = REPORTS_DIR / "figuras_modelagem"
 TAB_DIR = REPORTS_DIR / "tabelas"
 
 def executar_analise_shap():
-    print("=== Iniciando Análise SHAP para o Modelo Campeão (SVM RBF) ===")
+    print("=== Iniciando Análise SHAP para o Modelo Campeão ===")
 
     # 1. Carregar os dados limpos (já filtrados pelo pipeline Anti-Leakage)
     caminho_treino = PROC_DIR / "X_train_limpo.csv"
@@ -36,11 +36,10 @@ def executar_analise_shap():
     X_test = pd.read_csv(caminho_teste)
     print(f"  -> Dados carregados. Features a analisar: {X_test.shape[1]}")
 
-    # 2. Carregar o modelo otimizado
-    caminho_modelo = MODELS_DIR / "modelo_final_otimizado.joblib"
+    # 2. Carregar o modelo final (definido como campeão em relação ao otimizado)
+    caminho_modelo = MODELS_DIR / "modelo_final.joblib"
     if not caminho_modelo.exists():
-        # Fallback para nome genérico caso não encontre o otimizado
-        caminho_modelo = MODELS_DIR / "modelo_final.joblib"
+        raise FileNotFoundError(f"Modelo não encontrado em: {caminho_modelo}")
         
     pipeline = joblib.load(caminho_modelo)
     print(f"  -> Modelo {type(pipeline).__name__} carregado com sucesso.")
@@ -105,7 +104,7 @@ def executar_analise_shap():
     # 8. Gerar e Salvar Gráfico Beeswarm (Sumário de Impacto e Direção)
     plt.figure(figsize=(10, 8))
     shap.summary_plot(shap_vals, X_test_trans, feature_names=X_test.columns, max_display=20, show=False)
-    plt.title("SHAP Summary Plot (Top 20 Features) - SVM RBF", fontsize=14, pad=15)
+    plt.title("SHAP Summary Plot (Top 20 Features)", fontsize=14, pad=15)
     plt.tight_layout()
     caminho_fig_beeswarm = FIG_DIR / "shap_beeswarm_svm.png"
     plt.savefig(caminho_fig_beeswarm, dpi=300, bbox_inches='tight')
@@ -115,7 +114,7 @@ def executar_analise_shap():
     # 9. Gerar e Salvar Gráfico de Barras (Importância Absoluta Média)
     plt.figure(figsize=(10, 8))
     shap.summary_plot(shap_vals, X_test_trans, feature_names=X_test.columns, plot_type='bar', max_display=20, show=False)
-    plt.title("Feature Importance SHAP (Mean |SHAP Value|) - SVM RBF", fontsize=14, pad=15)
+    plt.title("Feature Importance SHAP (Mean |SHAP Value|)", fontsize=14, pad=15)
     plt.tight_layout()
     caminho_fig_bar = FIG_DIR / "shap_bar_svm.png"
     plt.savefig(caminho_fig_bar, dpi=300, bbox_inches='tight')
