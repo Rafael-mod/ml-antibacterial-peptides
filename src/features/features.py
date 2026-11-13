@@ -3,11 +3,8 @@ src/features/build_features.py
 
 Engenharia de Features para Peptídeos Antimicrobianos:
 1. Extrai propriedades físico-químicas, AAC, Z-scales, PC6 e PseAAC.
-2. Gera One-Hot Encoding posicional com padding.
+2. Gera One-Hot Encoding estrito para terminais N5 e C5.
 3. Salva 'dataset_unificado.csv' e 'dataset_treino.csv' em 'data/processed/'.
-
-Uso:
-    python src/features/build_features.py
 """
 
 from pathlib import Path
@@ -43,6 +40,10 @@ HIDROFOBICOS = set("AILMFVW")
 POLARES = set("STNQ")
 POSITIVOS = set("KRH")
 NEGATIVOS = set("DE")
+
+# Grupos estruturais específicos para hélices
+HELICE_FORMADORES = set("ALMKRQEI")
+HELICE_QUEBRADORES = set("PG")
 
 # Hellberg Z-scales (z1 a z5)
 Z_SCALES = {
@@ -111,13 +112,14 @@ def calcular_propriedades_fisicoquimicas(df: pd.DataFrame, col_seq: str = "seque
             "aromaticidade": pa.aromaticity(),
             "indice_instabilidade": pa.instability_index(),
             "indice_alifatico": pct("A") + 2.9 * pct("V") + 3.9 * (pct("I") + pct("L")),
-            "frac_helice": helice,
-            "frac_volta": volta,
-            "frac_folha": folha,
+            "frac_helice_biopython": helice,
+            "frac_folha_biopython": folha,
             "frac_hidrofobica": frac(HIDROFOBICOS),
             "frac_polar": frac(POLARES),
             "frac_positiva": frac(POSITIVOS),
             "frac_negativa": frac(NEGATIVOS),
+            "propensao_helice_alfa": frac(HELICE_FORMADORES),
+            "quebradores_helice": frac(HELICE_QUEBRADORES),
             "momento_hidrofobico": _momento_hidrofobico(seq),
         })
     return pd.DataFrame(linhas, index=df.index)
@@ -142,35 +144,49 @@ def calcular_zscales_pc6(df: pd.DataFrame, col_seq: str = "sequence") -> pd.Data
     return pd.DataFrame(linhas, index=df.index)
 
 def calcular_pseaac_simplificado(df: pd.DataFrame, col_seq: str = "sequence", max_lambda: int = 4) -> pd.DataFrame:
-    """Calcula componentes de correlação de ordem de sequência (pseudo-components)."""
     linhas = []
     for seq in df[col_seq]:
         seq = _validar(seq)
         L = len(seq)
         features = {}
-        h = np.array([EISENBERG[aa] for aa in seq]) # Usando hidrofobicidade como base
+        h = np.array([EISENBERG[aa] for aa in seq]) 
         
         atual_lambda = min(max_lambda, L - 2) if L > 2 else 0
         for lam in range(1, atual_lambda + 1):
             theta = sum((h[i] - h[i + lam])**2 for i in range(L - lam)) / (L - lam)
             features[f"PseAAC_lambda_{lam}"] = theta
             
-        # Preenche com 0 caso a sequência seja muito curta
         for lam in range(atual_lambda + 1, max_lambda + 1):
             features[f"PseAAC_lambda_{lam}"] = 0.0
             
         linhas.append(features)
     return pd.DataFrame(linhas, index=df.index)
 
-def one_hot_encoding(df: pd.DataFrame, col_seq: str = "sequence", max_len: int = 50) -> pd.DataFrame:
+def one_hot_encoding_terminais(df: pd.DataFrame, col_seq: str = "sequence", k: int = 5) -> pd.DataFrame:
+    """Cria OHE focando estritamente nos K primeiros e K últimos aminoácidos."""
     indice_aa = {aa: i for i, aa in enumerate(AMINOACIDOS)}
     seqs = [_validar(s) for s in df[col_seq]]
-    matriz = np.zeros((len(seqs), max_len, len(AMINOACIDOS)), dtype=np.uint8)
+    
+    matriz_n = np.zeros((len(seqs), k, len(AMINOACIDOS)), dtype=np.uint8)
+    matriz_c = np.zeros((len(seqs), k, len(AMINOACIDOS)), dtype=np.uint8)
+    
     for i, seq in enumerate(seqs):
-        for j, aa in enumerate(seq[:max_len]): # Trunca se for maior
-            matriz[i, j, indice_aa[aa]] = 1
-    colunas = [f"OH_p{p + 1:02d}_{aa}" for p in range(max_len) for aa in AMINOACIDOS]
-    return pd.DataFrame(matriz.reshape(len(seqs), -1), columns=colunas, index=df.index)
+        n_term = seq[:k]
+        c_term = seq[-k:]
+        
+        for j, aa in enumerate(n_term):
+            matriz_n[i, j, indice_aa[aa]] = 1
+            
+        for j, aa in enumerate(c_term):
+            matriz_c[i, j, indice_aa[aa]] = 1
+            
+    colunas_n = [f"OHE_N{p+1}_{aa}" for p in range(k) for aa in AMINOACIDOS]
+    colunas_c = [f"OHE_C{p+1}_{aa}" for p in range(k) for aa in AMINOACIDOS]
+    
+    df_n = pd.DataFrame(matriz_n.reshape(len(seqs), -1), columns=colunas_n, index=df.index)
+    df_c = pd.DataFrame(matriz_c.reshape(len(seqs), -1), columns=colunas_c, index=df.index)
+    
+    return pd.concat([df_n, df_c], axis=1)
 
 # ==========================================
 # Montagem e Execução
@@ -197,10 +213,10 @@ def construir_features(seed: int = 42):
     print("  -> PseAAC (Correlação de Sequência)...")
     df_pseaac = calcular_pseaac_simplificado(unificado)
     
-    print("  -> One-Hot Encoding...")
-    df_ohe = one_hot_encoding(unificado)
+    print("  -> One-Hot Encoding de Terminais (N5 e C5)...")
+    df_ohe = one_hot_encoding_terminais(unificado, k=5)
 
-    # Junta todas as features geradas sem qualquer filtro
+    # Junta todas as features geradas
     X_todas = pd.concat([df_prop, df_aac, df_z_pc6, df_pseaac, df_ohe], axis=1)
 
     treino_final = pd.concat([unificado[["id", "sequence", "label"]], X_todas], axis=1)
