@@ -1,0 +1,4699 @@
+>Cluster 0
+0	24aa, >pgat_pos_3253... at 87.50%
+1	29aa, >pgat_pos_3785... at 93.10%
+2	30aa, >pgat_pos_3837... *
+3	30aa, >pgat_pos_3838... at 93.33%
+4	30aa, >pgat_pos_3839... at 93.33%
+5	30aa, >pgat_pos_3840... at 93.33%
+6	30aa, >pgat_pos_3841... at 93.33%
+7	30aa, >pgat_pos_3842... at 93.33%
+8	30aa, >pgat_pos_3843... at 93.33%
+>Cluster 1
+0	30aa, >pgat_pos_3844... *
+1	30aa, >pgat_pos_3864... at 90.00%
+>Cluster 2
+0	30aa, >pgat_pos_3845... *
+>Cluster 3
+0	15aa, >pgat_pos_1623... at 100.00%
+1	16aa, >pgat_pos_1829... at 87.50%
+2	27aa, >pgat_pos_3672... at 81.48%
+3	29aa, >pgat_pos_3802... at 82.76%
+4	30aa, >pgat_pos_3846... *
+>Cluster 4
+0	13aa, >pgat_pos_1272... at 100.00%
+1	14aa, >pgat_pos_1410... at 92.86%
+2	30aa, >pgat_pos_3847... *
+>Cluster 5
+0	30aa, >pgat_pos_3848... *
+>Cluster 6
+0	30aa, >pgat_pos_3849... *
+>Cluster 7
+0	30aa, >pgat_pos_3850... *
+>Cluster 8
+0	30aa, >pgat_pos_3851... *
+>Cluster 9
+0	30aa, >pgat_pos_3852... *
+>Cluster 10
+0	30aa, >pgat_pos_3853... *
+>Cluster 11
+0	30aa, >pgat_pos_3854... *
+1	30aa, >pgat_pos_3855... at 96.67%
+>Cluster 12
+0	30aa, >pgat_pos_3856... *
+>Cluster 13
+0	13aa, >pgat_pos_1132... at 100.00%
+1	30aa, >pgat_pos_3857... *
+>Cluster 14
+0	30aa, >pgat_pos_3858... *
+>Cluster 15
+0	30aa, >pgat_pos_3859... *
+>Cluster 16
+0	30aa, >pgat_pos_3860... *
+>Cluster 17
+0	30aa, >pgat_pos_3861... *
+>Cluster 18
+0	22aa, >pgat_pos_3128... at 100.00%
+1	30aa, >pgat_pos_3862... *
+>Cluster 19
+0	30aa, >pgat_pos_3863... *
+>Cluster 20
+0	17aa, >pgat_pos_1918... at 94.12%
+1	30aa, >pgat_pos_3865... *
+2	30aa, >pgat_pos_3866... at 90.00%
+>Cluster 21
+0	30aa, >pgat_pos_3867... *
+>Cluster 22
+0	11aa, >pgat_pos_582... at 81.82%
+1	11aa, >pgat_pos_591... at 81.82%
+2	11aa, >pgat_pos_592... at 81.82%
+3	11aa, >pgat_pos_609... at 81.82%
+4	11aa, >pgat_pos_612... at 90.91%
+5	11aa, >pgat_pos_613... at 90.91%
+6	11aa, >pgat_pos_614... at 90.91%
+7	11aa, >pgat_pos_615... at 90.91%
+8	11aa, >pgat_pos_616... at 81.82%
+9	11aa, >pgat_pos_655... at 81.82%
+10	11aa, >pgat_pos_656... at 81.82%
+11	11aa, >pgat_pos_657... at 90.91%
+12	11aa, >pgat_pos_719... at 81.82%
+13	11aa, >pgat_pos_720... at 81.82%
+14	11aa, >pgat_pos_721... at 81.82%
+15	11aa, >pgat_pos_722... at 90.91%
+16	11aa, >pgat_pos_728... at 81.82%
+17	15aa, >pgat_pos_1626... at 100.00%
+18	22aa, >pgat_pos_3070... at 100.00%
+19	26aa, >pgat_pos_3605... at 100.00%
+20	27aa, >pgat_pos_3692... at 96.30%
+21	27aa, >pgat_pos_3720... at 96.30%
+22	30aa, >pgat_pos_3868... *
+23	30aa, >pgat_pos_3869... at 86.67%
+>Cluster 23
+0	11aa, >pgat_pos_611... at 81.82%
+1	26aa, >pgat_pos_3604... at 80.77%
+2	26aa, >pgat_pos_3606... at 80.77%
+3	29aa, >pgat_pos_3811... at 82.76%
+4	30aa, >pgat_pos_3870... *
+>Cluster 24
+0	14aa, >pgat_pos_1414... at 92.86%
+1	15aa, >pgat_pos_1636... at 80.00%
+2	15aa, >pgat_pos_1637... at 86.67%
+3	15aa, >pgat_pos_1638... at 80.00%
+4	15aa, >pgat_pos_1639... at 80.00%
+5	15aa, >pgat_pos_1640... at 86.67%
+6	15aa, >pgat_pos_1641... at 80.00%
+7	15aa, >pgat_pos_1642... at 86.67%
+8	15aa, >pgat_pos_1643... at 80.00%
+9	18aa, >pgat_pos_2285... at 94.44%
+10	20aa, >pgat_pos_2720... at 85.00%
+11	27aa, >pgat_pos_3711... at 100.00%
+12	28aa, >pgat_pos_3767... at 92.86%
+13	30aa, >pgat_pos_3871... *
+>Cluster 25
+0	30aa, >pgat_pos_3872... *
+>Cluster 26
+0	30aa, >pgat_pos_3873... *
+>Cluster 27
+0	12aa, >pgat_pos_885... at 91.67%
+1	12aa, >pgat_pos_886... at 83.33%
+2	15aa, >pgat_pos_1562... at 100.00%
+3	17aa, >pgat_pos_1936... at 88.24%
+4	18aa, >pgat_pos_2170... at 83.33%
+5	18aa, >pgat_pos_2242... at 88.89%
+6	21aa, >pgat_pos_2940... at 100.00%
+7	30aa, >pgat_pos_3874... *
+>Cluster 28
+0	12aa, >pgat_pos_793... at 91.67%
+1	13aa, >pgat_pos_1229... at 100.00%
+2	15aa, >pgat_pos_1621... at 100.00%
+3	15aa, >pgat_pos_1682... at 100.00%
+4	16aa, >pgat_pos_1807... at 93.75%
+5	17aa, >pgat_pos_2006... at 88.24%
+6	18aa, >pgat_pos_2277... at 100.00%
+7	19aa, >pgat_pos_2490... at 100.00%
+8	20aa, >pgat_pos_2646... at 85.00%
+9	20aa, >pgat_pos_2647... at 85.00%
+10	20aa, >pgat_pos_2648... at 95.00%
+11	20aa, >pgat_pos_2649... at 85.00%
+12	21aa, >pgat_pos_2882... at 95.24%
+13	21aa, >pgat_pos_2934... at 100.00%
+14	22aa, >pgat_pos_3115... at 100.00%
+15	30aa, >pgat_pos_3875... *
+>Cluster 29
+0	11aa, >pgat_pos_572... at 81.82%
+1	17aa, >pgat_pos_2089... at 100.00%
+2	18aa, >pgat_pos_2303... at 100.00%
+3	20aa, >pgat_pos_2758... at 90.00%
+4	30aa, >pgat_pos_3876... *
+>Cluster 30
+0	30aa, >pgat_pos_3877... *
+>Cluster 31
+0	30aa, >pgat_pos_3878... *
+>Cluster 32
+0	30aa, >pgat_pos_3879... *
+>Cluster 33
+0	30aa, >pgat_pos_3880... *
+>Cluster 34
+0	30aa, >pgat_pos_3881... *
+>Cluster 35
+0	30aa, >pgat_pos_3882... *
+>Cluster 36
+0	30aa, >pgat_pos_3883... *
+>Cluster 37
+0	30aa, >pgat_pos_3884... *
+1	30aa, >pgat_pos_3885... at 96.67%
+>Cluster 38
+0	30aa, >pgat_pos_3886... *
+>Cluster 39
+0	30aa, >pgat_pos_3887... *
+>Cluster 40
+0	30aa, >pgat_pos_3888... *
+>Cluster 41
+0	30aa, >pgat_pos_3889... *
+1	30aa, >pgat_pos_3890... at 83.33%
+>Cluster 42
+0	30aa, >pgat_pos_3891... *
+>Cluster 43
+0	30aa, >pgat_pos_3892... *
+>Cluster 44
+0	13aa, >pgat_pos_1141... at 92.31%
+1	30aa, >pgat_pos_3893... *
+>Cluster 45
+0	15aa, >pgat_pos_1726... at 100.00%
+1	20aa, >pgat_pos_2766... at 100.00%
+2	25aa, >pgat_pos_3502... at 100.00%
+3	30aa, >pgat_pos_3894... *
+>Cluster 46
+0	24aa, >pgat_pos_3393... at 100.00%
+1	25aa, >pgat_pos_3518... at 100.00%
+2	30aa, >pgat_pos_3895... *
+>Cluster 47
+0	30aa, >pgat_pos_3896... *
+>Cluster 48
+0	30aa, >pgat_pos_3897... *
+1	30aa, >pgat_pos_3898... at 96.67%
+>Cluster 49
+0	15aa, >pgat_pos_1595... at 86.67%
+1	15aa, >pgat_pos_1601... at 100.00%
+2	15aa, >pgat_pos_1602... at 80.00%
+3	19aa, >pgat_pos_2498... at 84.21%
+4	20aa, >pgat_pos_2801... at 90.00%
+5	23aa, >pgat_pos_3241... at 100.00%
+6	23aa, >pgat_pos_3242... at 95.65%
+7	29aa, >pgat_pos_3817... at 89.66%
+8	29aa, >pgat_pos_3818... at 82.76%
+9	30aa, >pgat_pos_3899... *
+>Cluster 50
+0	30aa, >pgat_pos_3900... *
+1	30aa, >pgat_pos_3901... at 90.00%
+2	30aa, >pgat_pos_3902... at 86.67%
+>Cluster 51
+0	12aa, >pgat_pos_738... at 100.00%
+1	13aa, >pgat_pos_1073... at 100.00%
+2	14aa, >pgat_pos_1340... at 100.00%
+3	15aa, >pgat_pos_1530... at 93.33%
+4	15aa, >pgat_pos_1531... at 93.33%
+5	15aa, >pgat_pos_1532... at 93.33%
+6	15aa, >pgat_pos_1536... at 100.00%
+7	15aa, >pgat_pos_1537... at 93.33%
+8	16aa, >pgat_pos_1827... at 93.75%
+9	19aa, >pgat_pos_2399... at 100.00%
+10	29aa, >pgat_pos_3783... *
+>Cluster 52
+0	29aa, >pgat_pos_3784... *
+>Cluster 53
+0	29aa, >pgat_pos_3786... *
+1	29aa, >pgat_pos_3819... at 82.76%
+2	29aa, >pgat_pos_3820... at 82.76%
+>Cluster 54
+0	22aa, >pgat_pos_3113... at 81.82%
+1	23aa, >pgat_pos_3224... at 95.65%
+2	29aa, >pgat_pos_3787... *
+>Cluster 55
+0	29aa, >pgat_pos_3788... *
+>Cluster 56
+0	29aa, >pgat_pos_3789... *
+1	29aa, >pgat_pos_3790... at 86.21%
+>Cluster 57
+0	11aa, >pgat_pos_626... at 100.00%
+1	17aa, >pgat_pos_2039... at 100.00%
+2	18aa, >pgat_pos_2279... at 100.00%
+3	20aa, >pgat_pos_2663... at 100.00%
+4	21aa, >pgat_pos_2898... at 100.00%
+5	23aa, >pgat_pos_3205... at 100.00%
+6	24aa, >pgat_pos_3338... at 100.00%
+7	28aa, >pgat_pos_3742... at 100.00%
+8	29aa, >pgat_pos_3791... *
+>Cluster 58
+0	29aa, >pgat_pos_3792... *
+1	29aa, >pgat_pos_3793... at 96.55%
+>Cluster 59
+0	28aa, >pgat_pos_3748... at 89.29%
+1	29aa, >pgat_pos_3794... *
+>Cluster 60
+0	29aa, >pgat_pos_3795... *
+1	29aa, >pgat_pos_3796... at 96.55%
+>Cluster 61
+0	20aa, >pgat_pos_2637... at 80.00%
+1	29aa, >pgat_pos_3797... *
+>Cluster 62
+0	13aa, >pgat_pos_1072... at 92.31%
+1	29aa, >pgat_pos_3798... *
+2	29aa, >pgat_pos_3799... at 96.55%
+>Cluster 63
+0	29aa, >pgat_pos_3800... *
+1	29aa, >pgat_pos_3801... at 96.55%
+>Cluster 64
+0	29aa, >pgat_pos_3803... *
+1	29aa, >pgat_pos_3804... at 96.55%
+2	29aa, >pgat_pos_3805... at 96.55%
+3	29aa, >pgat_pos_3806... at 93.10%
+4	29aa, >pgat_pos_3807... at 93.10%
+5	29aa, >pgat_pos_3808... at 89.66%
+>Cluster 65
+0	29aa, >pgat_pos_3809... *
+>Cluster 66
+0	29aa, >pgat_pos_3810... *
+>Cluster 67
+0	21aa, >pgat_pos_2907... at 100.00%
+1	22aa, >pgat_pos_3068... at 81.82%
+2	25aa, >pgat_pos_3490... at 100.00%
+3	25aa, >pgat_pos_3492... at 100.00%
+4	26aa, >pgat_pos_3574... at 96.15%
+5	26aa, >pgat_pos_3666... at 96.15%
+6	29aa, >pgat_pos_3812... *
+>Cluster 68
+0	11aa, >pgat_pos_675... at 100.00%
+1	11aa, >pgat_pos_688... at 100.00%
+2	12aa, >pgat_pos_999... at 100.00%
+3	13aa, >pgat_pos_1263... at 100.00%
+4	13aa, >pgat_pos_1279... at 100.00%
+5	16aa, >pgat_pos_1840... at 93.75%
+6	16aa, >pgat_pos_1865... at 93.75%
+7	16aa, >pgat_pos_1866... at 100.00%
+8	18aa, >pgat_pos_2272... at 94.44%
+9	18aa, >pgat_pos_2273... at 88.89%
+10	29aa, >pgat_pos_3813... *
+>Cluster 69
+0	29aa, >pgat_pos_3814... *
+>Cluster 70
+0	29aa, >pgat_pos_3815... *
+>Cluster 71
+0	12aa, >pgat_pos_959... at 91.67%
+1	14aa, >pgat_pos_1442... at 100.00%
+2	14aa, >pgat_pos_1445... at 92.86%
+3	15aa, >pgat_pos_1671... at 100.00%
+4	16aa, >pgat_pos_1890... at 81.25%
+5	28aa, >pgat_pos_3770... at 92.86%
+6	29aa, >pgat_pos_3816... *
+>Cluster 72
+0	18aa, >pgat_pos_2322... at 88.89%
+1	18aa, >pgat_pos_2323... at 100.00%
+2	20aa, >pgat_pos_2737... at 100.00%
+3	21aa, >pgat_pos_2901... at 90.48%
+4	28aa, >pgat_pos_3772... at 96.43%
+5	29aa, >pgat_pos_3821... *
+>Cluster 73
+0	29aa, >pgat_pos_3822... *
+>Cluster 74
+0	29aa, >pgat_pos_3823... *
+>Cluster 75
+0	29aa, >pgat_pos_3824... *
+>Cluster 76
+0	29aa, >pgat_pos_3825... *
+>Cluster 77
+0	29aa, >pgat_pos_3826... *
+>Cluster 78
+0	29aa, >pgat_pos_3827... *
+>Cluster 79
+0	29aa, >pgat_pos_3828... *
+>Cluster 80
+0	26aa, >pgat_pos_3659... at 80.77%
+1	29aa, >pgat_pos_3829... *
+>Cluster 81
+0	29aa, >pgat_pos_3830... *
+>Cluster 82
+0	29aa, >pgat_pos_3831... *
+>Cluster 83
+0	13aa, >pgat_pos_1287... at 92.31%
+1	13aa, >pgat_pos_1300... at 100.00%
+2	14aa, >pgat_pos_1468... at 100.00%
+3	19aa, >pgat_pos_2504... at 100.00%
+4	20aa, >pgat_pos_2774... at 95.00%
+5	20aa, >pgat_pos_2785... at 100.00%
+6	21aa, >pgat_pos_2936... at 95.24%
+7	21aa, >pgat_pos_2979... at 100.00%
+8	21aa, >pgat_pos_2987... at 100.00%
+9	23aa, >pgat_pos_3197... at 100.00%
+10	24aa, >pgat_pos_3326... at 95.83%
+11	29aa, >pgat_pos_3832... *
+>Cluster 84
+0	11aa, >pgat_pos_726... at 81.82%
+1	29aa, >pgat_pos_3833... *
+2	29aa, >pgat_pos_3836... at 93.10%
+>Cluster 85
+0	29aa, >pgat_pos_3834... *
+>Cluster 86
+0	17aa, >pgat_pos_2007... at 94.12%
+1	22aa, >pgat_pos_3132... at 95.45%
+2	22aa, >pgat_pos_3133... at 100.00%
+3	29aa, >pgat_pos_3835... *
+>Cluster 87
+0	28aa, >pgat_pos_3725... *
+>Cluster 88
+0	22aa, >pgat_pos_3107... at 95.45%
+1	22aa, >pgat_pos_3108... at 100.00%
+2	28aa, >pgat_pos_3726... *
+>Cluster 89
+0	14aa, >pgat_pos_1338... at 100.00%
+1	21aa, >pgat_pos_2845... at 100.00%
+2	28aa, >pgat_pos_3727... *
+>Cluster 90
+0	11aa, >pgat_pos_705... at 100.00%
+1	12aa, >pgat_pos_737... at 91.67%
+2	12aa, >pgat_pos_739... at 91.67%
+3	12aa, >pgat_pos_890... at 91.67%
+4	12aa, >pgat_pos_1027... at 100.00%
+5	13aa, >pgat_pos_1074... at 92.31%
+6	13aa, >pgat_pos_1335... at 92.31%
+7	14aa, >pgat_pos_1339... at 92.86%
+8	14aa, >pgat_pos_1389... at 85.71%
+9	14aa, >pgat_pos_1439... at 92.86%
+10	15aa, >pgat_pos_1535... at 93.33%
+11	16aa, >pgat_pos_1754... at 93.75%
+12	16aa, >pgat_pos_1755... at 93.75%
+13	20aa, >pgat_pos_2544... at 95.00%
+14	20aa, >pgat_pos_2711... at 100.00%
+15	24aa, >pgat_pos_3392... at 100.00%
+16	27aa, >pgat_pos_3673... at 92.59%
+17	27aa, >pgat_pos_3674... at 88.89%
+18	28aa, >pgat_pos_3728... *
+19	28aa, >pgat_pos_3729... at 92.86%
+20	28aa, >pgat_pos_3730... at 96.43%
+21	28aa, >pgat_pos_3731... at 92.86%
+22	28aa, >pgat_pos_3732... at 92.86%
+>Cluster 91
+0	28aa, >pgat_pos_3733... *
+>Cluster 92
+0	15aa, >pgat_pos_1551... at 80.00%
+1	15aa, >pgat_pos_1627... at 100.00%
+2	26aa, >pgat_pos_3536... at 80.77%
+3	28aa, >pgat_pos_3734... *
+>Cluster 93
+0	28aa, >pgat_pos_3735... *
+>Cluster 94
+0	28aa, >pgat_pos_3736... *
+>Cluster 95
+0	11aa, >pgat_pos_648... at 100.00%
+1	13aa, >pgat_pos_1069... at 84.62%
+2	13aa, >pgat_pos_1246... at 100.00%
+3	13aa, >pgat_pos_1247... at 92.31%
+4	15aa, >pgat_pos_1524... at 86.67%
+5	15aa, >pgat_pos_1549... at 80.00%
+6	17aa, >pgat_pos_1951... at 88.24%
+7	28aa, >pgat_pos_3737... *
+>Cluster 96
+0	11aa, >pgat_pos_581... at 100.00%
+1	14aa, >pgat_pos_1462... at 100.00%
+2	21aa, >pgat_pos_2851... at 85.71%
+3	26aa, >pgat_pos_3546... at 80.77%
+4	28aa, >pgat_pos_3738... *
+>Cluster 97
+0	25aa, >pgat_pos_3432... at 96.00%
+1	27aa, >pgat_pos_3680... at 96.30%
+2	28aa, >pgat_pos_3739... *
+>Cluster 98
+0	28aa, >pgat_pos_3740... *
+>Cluster 99
+0	28aa, >pgat_pos_3741... *
+>Cluster 100
+0	28aa, >pgat_pos_3743... *
+1	28aa, >pgat_pos_3745... at 82.14%
+>Cluster 101
+0	28aa, >pgat_pos_3744... *
+>Cluster 102
+0	28aa, >pgat_pos_3746... *
+>Cluster 103
+0	27aa, >pgat_pos_3695... at 81.48%
+1	28aa, >pgat_pos_3747... *
+>Cluster 104
+0	28aa, >pgat_pos_3749... *
+>Cluster 105
+0	28aa, >pgat_pos_3750... *
+>Cluster 106
+0	14aa, >pgat_pos_1360... at 100.00%
+1	21aa, >pgat_pos_2878... at 100.00%
+2	28aa, >pgat_pos_3751... *
+>Cluster 107
+0	28aa, >pgat_pos_3752... *
+>Cluster 108
+0	28aa, >pgat_pos_3753... *
+1	28aa, >pgat_pos_3754... at 92.86%
+>Cluster 109
+0	27aa, >pgat_pos_3716... at 100.00%
+1	28aa, >pgat_pos_3755... *
+>Cluster 110
+0	28aa, >pgat_pos_3756... *
+>Cluster 111
+0	28aa, >pgat_pos_3757... *
+>Cluster 112
+0	11aa, >pgat_pos_594... at 100.00%
+1	11aa, >pgat_pos_595... at 90.91%
+2	21aa, >pgat_pos_2899... at 85.71%
+3	28aa, >pgat_pos_3758... *
+>Cluster 113
+0	14aa, >pgat_pos_1393... at 92.86%
+1	15aa, >pgat_pos_1618... at 93.33%
+2	15aa, >pgat_pos_1619... at 86.67%
+3	15aa, >pgat_pos_1620... at 86.67%
+4	17aa, >pgat_pos_2003... at 94.12%
+5	17aa, >pgat_pos_2004... at 88.24%
+6	17aa, >pgat_pos_2005... at 88.24%
+7	19aa, >pgat_pos_2477... at 89.47%
+8	20aa, >pgat_pos_2669... at 85.00%
+9	22aa, >pgat_pos_3063... at 95.45%
+10	22aa, >pgat_pos_3064... at 90.91%
+11	22aa, >pgat_pos_3065... at 90.91%
+12	24aa, >pgat_pos_3343... at 95.83%
+13	24aa, >pgat_pos_3344... at 91.67%
+14	24aa, >pgat_pos_3345... at 91.67%
+15	26aa, >pgat_pos_3595... at 100.00%
+16	26aa, >pgat_pos_3596... at 92.31%
+17	26aa, >pgat_pos_3597... at 92.31%
+18	28aa, >pgat_pos_3759... *
+19	28aa, >pgat_pos_3760... at 92.86%
+20	28aa, >pgat_pos_3761... at 92.86%
+>Cluster 114
+0	28aa, >pgat_pos_3762... *
+>Cluster 115
+0	28aa, >pgat_pos_3763... *
+>Cluster 116
+0	11aa, >pgat_pos_610... at 81.82%
+1	20aa, >pgat_pos_2535... at 80.00%
+2	25aa, >pgat_pos_3491... at 80.00%
+3	28aa, >pgat_pos_3764... *
+>Cluster 117
+0	28aa, >pgat_pos_3765... *
+>Cluster 118
+0	28aa, >pgat_pos_3766... *
+>Cluster 119
+0	12aa, >pgat_pos_829... at 83.33%
+1	28aa, >pgat_pos_3768... *
+>Cluster 120
+0	28aa, >pgat_pos_3769... *
+>Cluster 121
+0	28aa, >pgat_pos_3771... *
+>Cluster 122
+0	14aa, >pgat_pos_1356... at 100.00%
+1	17aa, >pgat_pos_2132... at 100.00%
+2	21aa, >pgat_pos_2946... at 100.00%
+3	21aa, >pgat_pos_2947... at 95.24%
+4	28aa, >pgat_pos_3773... *
+5	28aa, >pgat_pos_3774... at 96.43%
+6	28aa, >pgat_pos_3775... at 92.86%
+7	28aa, >pgat_pos_3776... at 85.71%
+>Cluster 123
+0	11aa, >pgat_pos_641... at 81.82%
+1	14aa, >pgat_pos_1499... at 85.71%
+2	15aa, >pgat_pos_1661... at 80.00%
+3	15aa, >pgat_pos_1720... at 80.00%
+4	15aa, >pgat_pos_1721... at 80.00%
+5	28aa, >pgat_pos_3777... *
+>Cluster 124
+0	28aa, >pgat_pos_3778... *
+>Cluster 125
+0	28aa, >pgat_pos_3779... *
+>Cluster 126
+0	28aa, >pgat_pos_3780... *
+>Cluster 127
+0	28aa, >pgat_pos_3781... *
+>Cluster 128
+0	28aa, >pgat_pos_3782... *
+>Cluster 129
+0	22aa, >pgat_pos_3123... at 81.82%
+1	27aa, >pgat_pos_3675... *
+2	27aa, >pgat_pos_3676... at 85.19%
+>Cluster 130
+0	17aa, >pgat_pos_2066... at 94.12%
+1	17aa, >pgat_pos_2070... at 100.00%
+2	18aa, >pgat_pos_2234... at 83.33%
+3	18aa, >pgat_pos_2248... at 88.89%
+4	18aa, >pgat_pos_2252... at 83.33%
+5	19aa, >pgat_pos_2484... at 100.00%
+6	20aa, >pgat_pos_2721... at 80.00%
+7	22aa, >pgat_pos_2990... at 100.00%
+8	27aa, >pgat_pos_3677... *
+>Cluster 131
+0	27aa, >pgat_pos_3678... *
+1	27aa, >pgat_pos_3693... at 81.48%
+>Cluster 132
+0	27aa, >pgat_pos_3679... *
+>Cluster 133
+0	18aa, >pgat_pos_2232... at 88.89%
+1	27aa, >pgat_pos_3681... *
+2	27aa, >pgat_pos_3682... at 96.30%
+3	27aa, >pgat_pos_3683... at 92.59%
+4	27aa, >pgat_pos_3684... at 85.19%
+5	27aa, >pgat_pos_3685... at 92.59%
+6	27aa, >pgat_pos_3686... at 85.19%
+7	27aa, >pgat_pos_3687... at 92.59%
+8	27aa, >pgat_pos_3688... at 88.89%
+9	27aa, >pgat_pos_3706... at 81.48%
+>Cluster 134
+0	24aa, >pgat_pos_3284... at 87.50%
+1	25aa, >pgat_pos_3429... at 88.00%
+2	27aa, >pgat_pos_3689... *
+3	27aa, >pgat_pos_3690... at 88.89%
+>Cluster 135
+0	27aa, >pgat_pos_3691... *
+>Cluster 136
+0	27aa, >pgat_pos_3694... *
+>Cluster 137
+0	14aa, >pgat_pos_1363... at 100.00%
+1	17aa, >pgat_pos_1919... at 88.24%
+2	21aa, >pgat_pos_2929... at 80.95%
+3	27aa, >pgat_pos_3696... *
+4	27aa, >pgat_pos_3697... at 92.59%
+5	27aa, >pgat_pos_3698... at 92.59%
+>Cluster 138
+0	27aa, >pgat_pos_3699... *
+>Cluster 139
+0	27aa, >pgat_pos_3700... *
+>Cluster 140
+0	27aa, >pgat_pos_3701... *
+>Cluster 141
+0	14aa, >pgat_pos_1448... at 85.71%
+1	15aa, >pgat_pos_1674... at 86.67%
+2	16aa, >pgat_pos_1826... at 81.25%
+3	16aa, >pgat_pos_1868... at 81.25%
+4	17aa, >pgat_pos_2128... at 82.35%
+5	19aa, >pgat_pos_2509... at 100.00%
+6	27aa, >pgat_pos_3702... *
+>Cluster 142
+0	23aa, >pgat_pos_3209... at 100.00%
+1	27aa, >pgat_pos_3703... *
+>Cluster 143
+0	27aa, >pgat_pos_3704... *
+>Cluster 144
+0	27aa, >pgat_pos_3705... *
+>Cluster 145
+0	11aa, >pgat_pos_601... at 81.82%
+1	19aa, >pgat_pos_2479... at 84.21%
+2	20aa, >pgat_pos_2678... at 100.00%
+3	20aa, >pgat_pos_2679... at 95.00%
+4	22aa, >pgat_pos_3066... at 95.45%
+5	23aa, >pgat_pos_3210... at 95.65%
+6	23aa, >pgat_pos_3211... at 95.65%
+7	23aa, >pgat_pos_3212... at 86.96%
+8	27aa, >pgat_pos_3707... *
+9	27aa, >pgat_pos_3708... at 96.30%
+10	27aa, >pgat_pos_3709... at 96.30%
+>Cluster 146
+0	12aa, >pgat_pos_750... at 83.33%
+1	12aa, >pgat_pos_758... at 83.33%
+2	12aa, >pgat_pos_770... at 83.33%
+3	12aa, >pgat_pos_808... at 83.33%
+4	12aa, >pgat_pos_833... at 83.33%
+5	12aa, >pgat_pos_904... at 83.33%
+6	15aa, >pgat_pos_1572... at 80.00%
+7	17aa, >pgat_pos_1976... at 88.24%
+8	17aa, >pgat_pos_1980... at 82.35%
+9	17aa, >pgat_pos_1992... at 82.35%
+10	23aa, >pgat_pos_3140... at 95.65%
+11	23aa, >pgat_pos_3158... at 95.65%
+12	23aa, >pgat_pos_3160... at 95.65%
+13	23aa, >pgat_pos_3161... at 95.65%
+14	23aa, >pgat_pos_3162... at 82.61%
+15	23aa, >pgat_pos_3164... at 91.30%
+16	23aa, >pgat_pos_3165... at 82.61%
+17	23aa, >pgat_pos_3167... at 86.96%
+18	23aa, >pgat_pos_3170... at 95.65%
+19	23aa, >pgat_pos_3171... at 91.30%
+20	23aa, >pgat_pos_3172... at 95.65%
+21	23aa, >pgat_pos_3173... at 95.65%
+22	23aa, >pgat_pos_3174... at 95.65%
+23	23aa, >pgat_pos_3175... at 95.65%
+24	23aa, >pgat_pos_3176... at 95.65%
+25	23aa, >pgat_pos_3177... at 95.65%
+26	23aa, >pgat_pos_3178... at 95.65%
+27	23aa, >pgat_pos_3179... at 95.65%
+28	23aa, >pgat_pos_3181... at 91.30%
+29	23aa, >pgat_pos_3182... at 82.61%
+30	23aa, >pgat_pos_3189... at 86.96%
+31	26aa, >pgat_pos_3570... at 88.46%
+32	26aa, >pgat_pos_3571... at 88.46%
+33	27aa, >pgat_pos_3710... *
+>Cluster 147
+0	27aa, >pgat_pos_3712... *
+>Cluster 148
+0	27aa, >pgat_pos_3713... *
+1	27aa, >pgat_pos_3723... at 81.48%
+2	27aa, >pgat_pos_3724... at 81.48%
+>Cluster 149
+0	27aa, >pgat_pos_3714... *
+>Cluster 150
+0	25aa, >pgat_pos_3497... at 84.00%
+1	27aa, >pgat_pos_3715... *
+>Cluster 151
+0	20aa, >pgat_pos_2712... at 100.00%
+1	27aa, >pgat_pos_3717... *
+>Cluster 152
+0	11aa, >pgat_pos_694... at 81.82%
+1	13aa, >pgat_pos_1285... at 84.62%
+2	20aa, >pgat_pos_2775... at 90.00%
+3	20aa, >pgat_pos_2776... at 95.00%
+4	20aa, >pgat_pos_2777... at 100.00%
+5	25aa, >pgat_pos_3503... at 100.00%
+6	27aa, >pgat_pos_3718... *
+>Cluster 153
+0	25aa, >pgat_pos_3493... at 84.00%
+1	27aa, >pgat_pos_3719... *
+>Cluster 154
+0	11aa, >pgat_pos_668... at 81.82%
+1	11aa, >pgat_pos_669... at 90.91%
+2	12aa, >pgat_pos_956... at 91.67%
+3	12aa, >pgat_pos_957... at 91.67%
+4	12aa, >pgat_pos_958... at 91.67%
+5	13aa, >pgat_pos_1267... at 92.31%
+6	13aa, >pgat_pos_1298... at 100.00%
+7	15aa, >pgat_pos_1670... at 80.00%
+8	27aa, >pgat_pos_3721... *
+>Cluster 155
+0	27aa, >pgat_pos_3722... *
+>Cluster 156
+0	26aa, >pgat_pos_3520... *
+>Cluster 157
+0	26aa, >pgat_pos_3521... *
+1	26aa, >pgat_pos_3523... at 92.31%
+>Cluster 158
+0	26aa, >pgat_pos_3522... *
+1	26aa, >pgat_pos_3524... at 92.31%
+>Cluster 159
+0	26aa, >pgat_pos_3525... *
+1	26aa, >pgat_pos_3526... at 92.31%
+2	26aa, >pgat_pos_3527... at 84.62%
+3	26aa, >pgat_pos_3529... at 84.62%
+4	26aa, >pgat_pos_3531... at 84.62%
+5	26aa, >pgat_pos_3607... at 80.77%
+6	26aa, >pgat_pos_3609... at 80.77%
+>Cluster 160
+0	26aa, >pgat_pos_3528... *
+1	26aa, >pgat_pos_3530... at 84.62%
+2	26aa, >pgat_pos_3532... at 84.62%
+3	26aa, >pgat_pos_3608... at 80.77%
+>Cluster 161
+0	12aa, >pgat_pos_736... at 91.67%
+1	15aa, >pgat_pos_1534... at 93.33%
+2	16aa, >pgat_pos_1753... at 87.50%
+3	20aa, >pgat_pos_2543... at 90.00%
+4	26aa, >pgat_pos_3533... *
+5	26aa, >pgat_pos_3578... at 96.15%
+>Cluster 162
+0	26aa, >pgat_pos_3534... *
+>Cluster 163
+0	26aa, >pgat_pos_3535... *
+>Cluster 164
+0	15aa, >pgat_pos_1540... at 100.00%
+1	26aa, >pgat_pos_3537... *
+>Cluster 165
+0	26aa, >pgat_pos_3538... *
+>Cluster 166
+0	12aa, >pgat_pos_1056... at 91.67%
+1	15aa, >pgat_pos_1689... at 93.33%
+2	16aa, >pgat_pos_1808... at 93.75%
+3	16aa, >pgat_pos_1809... at 87.50%
+4	17aa, >pgat_pos_1922... at 82.35%
+5	17aa, >pgat_pos_1983... at 94.12%
+6	17aa, >pgat_pos_1984... at 94.12%
+7	17aa, >pgat_pos_1985... at 94.12%
+8	17aa, >pgat_pos_1986... at 100.00%
+9	17aa, >pgat_pos_2097... at 100.00%
+10	18aa, >pgat_pos_2203... at 83.33%
+11	18aa, >pgat_pos_2204... at 88.89%
+12	18aa, >pgat_pos_2205... at 94.44%
+13	18aa, >pgat_pos_2206... at 88.89%
+14	18aa, >pgat_pos_2207... at 88.89%
+15	18aa, >pgat_pos_2208... at 94.44%
+16	18aa, >pgat_pos_2209... at 94.44%
+17	18aa, >pgat_pos_2210... at 88.89%
+18	18aa, >pgat_pos_2211... at 94.44%
+19	18aa, >pgat_pos_2274... at 83.33%
+20	18aa, >pgat_pos_2333... at 83.33%
+21	18aa, >pgat_pos_2335... at 83.33%
+22	19aa, >pgat_pos_2464... at 84.21%
+23	21aa, >pgat_pos_2889... at 80.95%
+24	26aa, >pgat_pos_3539... *
+25	26aa, >pgat_pos_3540... at 96.15%
+>Cluster 167
+0	26aa, >pgat_pos_3541... *
+1	26aa, >pgat_pos_3542... at 96.15%
+2	26aa, >pgat_pos_3547... at 80.77%
+>Cluster 168
+0	14aa, >pgat_pos_1435... at 100.00%
+1	26aa, >pgat_pos_3543... *
+2	26aa, >pgat_pos_3545... at 92.31%
+>Cluster 169
+0	19aa, >pgat_pos_2419... at 84.21%
+1	26aa, >pgat_pos_3544... *
+>Cluster 170
+0	26aa, >pgat_pos_3548... *
+>Cluster 171
+0	20aa, >pgat_pos_2560... at 95.00%
+1	20aa, >pgat_pos_2561... at 90.00%
+2	20aa, >pgat_pos_2562... at 85.00%
+3	20aa, >pgat_pos_2563... at 90.00%
+4	26aa, >pgat_pos_3549... *
+>Cluster 172
+0	26aa, >pgat_pos_3550... *
+1	26aa, >pgat_pos_3582... at 80.77%
+2	26aa, >pgat_pos_3583... at 80.77%
+>Cluster 173
+0	24aa, >pgat_pos_3276... at 100.00%
+1	24aa, >pgat_pos_3277... at 95.83%
+2	25aa, >pgat_pos_3426... at 96.00%
+3	25aa, >pgat_pos_3427... at 96.00%
+4	26aa, >pgat_pos_3551... *
+5	26aa, >pgat_pos_3552... at 96.15%
+>Cluster 174
+0	26aa, >pgat_pos_3553... *
+>Cluster 175
+0	26aa, >pgat_pos_3554... *
+>Cluster 176
+0	26aa, >pgat_pos_3555... *
+>Cluster 177
+0	13aa, >pgat_pos_1133... at 100.00%
+1	14aa, >pgat_pos_1361... at 92.86%
+2	14aa, >pgat_pos_1362... at 100.00%
+3	15aa, >pgat_pos_1579... at 93.33%
+4	15aa, >pgat_pos_1580... at 93.33%
+5	15aa, >pgat_pos_1581... at 93.33%
+6	15aa, >pgat_pos_1582... at 93.33%
+7	15aa, >pgat_pos_1583... at 86.67%
+8	15aa, >pgat_pos_1584... at 100.00%
+9	15aa, >pgat_pos_1585... at 93.33%
+10	15aa, >pgat_pos_1586... at 93.33%
+11	15aa, >pgat_pos_1587... at 93.33%
+12	15aa, >pgat_pos_1588... at 93.33%
+13	15aa, >pgat_pos_1591... at 93.33%
+14	15aa, >pgat_pos_1604... at 93.33%
+15	15aa, >pgat_pos_1655... at 93.33%
+16	16aa, >pgat_pos_1806... at 93.75%
+17	19aa, >pgat_pos_2441... at 89.47%
+18	26aa, >pgat_pos_3556... *
+19	26aa, >pgat_pos_3557... at 88.46%
+20	26aa, >pgat_pos_3558... at 88.46%
+21	26aa, >pgat_pos_3559... at 88.46%
+22	26aa, >pgat_pos_3560... at 88.46%
+23	26aa, >pgat_pos_3561... at 88.46%
+24	26aa, >pgat_pos_3563... at 84.62%
+25	26aa, >pgat_pos_3564... at 88.46%
+26	26aa, >pgat_pos_3565... at 88.46%
+27	26aa, >pgat_pos_3566... at 88.46%
+28	26aa, >pgat_pos_3567... at 88.46%
+29	26aa, >pgat_pos_3568... at 88.46%
+30	26aa, >pgat_pos_3569... at 80.77%
+31	26aa, >pgat_pos_3592... at 88.46%
+>Cluster 178
+0	26aa, >pgat_pos_3562... *
+>Cluster 179
+0	26aa, >pgat_pos_3572... *
+>Cluster 180
+0	21aa, >pgat_pos_2906... at 100.00%
+1	23aa, >pgat_pos_3186... at 100.00%
+2	23aa, >pgat_pos_3237... at 95.65%
+3	25aa, >pgat_pos_3489... at 100.00%
+4	26aa, >pgat_pos_3573... *
+5	26aa, >pgat_pos_3665... at 96.15%
+>Cluster 181
+0	23aa, >pgat_pos_3187... at 95.65%
+1	26aa, >pgat_pos_3575... *
+2	26aa, >pgat_pos_3576... at 92.31%
+3	26aa, >pgat_pos_3577... at 92.31%
+>Cluster 182
+0	26aa, >pgat_pos_3579... *
+1	26aa, >pgat_pos_3580... at 96.15%
+2	26aa, >pgat_pos_3581... at 84.62%
+>Cluster 183
+0	26aa, >pgat_pos_3584... *
+>Cluster 184
+0	26aa, >pgat_pos_3585... *
+>Cluster 185
+0	26aa, >pgat_pos_3586... *
+1	26aa, >pgat_pos_3587... at 88.46%
+>Cluster 186
+0	26aa, >pgat_pos_3588... *
+>Cluster 187
+0	26aa, >pgat_pos_3589... *
+>Cluster 188
+0	26aa, >pgat_pos_3590... *
+1	26aa, >pgat_pos_3591... at 92.31%
+>Cluster 189
+0	26aa, >pgat_pos_3593... *
+>Cluster 190
+0	12aa, >pgat_pos_835... at 100.00%
+1	17aa, >pgat_pos_1990... at 82.35%
+2	18aa, >pgat_pos_2222... at 83.33%
+3	24aa, >pgat_pos_3333... at 100.00%
+4	25aa, >pgat_pos_3408... at 84.00%
+5	25aa, >pgat_pos_3409... at 92.00%
+6	25aa, >pgat_pos_3458... at 88.00%
+7	25aa, >pgat_pos_3459... at 92.00%
+8	25aa, >pgat_pos_3460... at 96.00%
+9	25aa, >pgat_pos_3461... at 96.00%
+10	26aa, >pgat_pos_3594... *
+>Cluster 191
+0	26aa, >pgat_pos_3598... *
+1	26aa, >pgat_pos_3599... at 84.62%
+2	26aa, >pgat_pos_3600... at 84.62%
+3	26aa, >pgat_pos_3602... at 84.62%
+>Cluster 192
+0	26aa, >pgat_pos_3601... *
+>Cluster 193
+0	26aa, >pgat_pos_3603... *
+>Cluster 194
+0	26aa, >pgat_pos_3610... *
+1	26aa, >pgat_pos_3612... at 80.77%
+2	26aa, >pgat_pos_3613... at 80.77%
+3	26aa, >pgat_pos_3614... at 84.62%
+4	26aa, >pgat_pos_3617... at 84.62%
+5	26aa, >pgat_pos_3618... at 80.77%
+6	26aa, >pgat_pos_3619... at 84.62%
+7	26aa, >pgat_pos_3620... at 88.46%
+8	26aa, >pgat_pos_3621... at 84.62%
+9	26aa, >pgat_pos_3622... at 84.62%
+10	26aa, >pgat_pos_3623... at 84.62%
+11	26aa, >pgat_pos_3624... at 84.62%
+12	26aa, >pgat_pos_3625... at 84.62%
+13	26aa, >pgat_pos_3626... at 84.62%
+>Cluster 195
+0	26aa, >pgat_pos_3611... *
+>Cluster 196
+0	26aa, >pgat_pos_3615... *
+>Cluster 197
+0	26aa, >pgat_pos_3616... *
+>Cluster 198
+0	26aa, >pgat_pos_3627... *
+1	26aa, >pgat_pos_3628... at 96.15%
+>Cluster 199
+0	26aa, >pgat_pos_3629... *
+1	26aa, >pgat_pos_3630... at 96.15%
+2	26aa, >pgat_pos_3631... at 84.62%
+3	26aa, >pgat_pos_3635... at 80.77%
+4	26aa, >pgat_pos_3636... at 88.46%
+5	26aa, >pgat_pos_3637... at 80.77%
+>Cluster 200
+0	26aa, >pgat_pos_3632... *
+1	26aa, >pgat_pos_3633... at 96.15%
+2	26aa, >pgat_pos_3634... at 92.31%
+>Cluster 201
+0	26aa, >pgat_pos_3638... *
+>Cluster 202
+0	26aa, >pgat_pos_3639... *
+1	26aa, >pgat_pos_3640... at 92.31%
+>Cluster 203
+0	16aa, >pgat_pos_1822... at 93.75%
+1	16aa, >pgat_pos_1837... at 100.00%
+2	16aa, >pgat_pos_1839... at 93.75%
+3	18aa, >pgat_pos_2228... at 100.00%
+4	18aa, >pgat_pos_2229... at 94.44%
+5	20aa, >pgat_pos_2790... at 100.00%
+6	20aa, >pgat_pos_2791... at 95.00%
+7	22aa, >pgat_pos_3056... at 100.00%
+8	22aa, >pgat_pos_3057... at 95.45%
+9	25aa, >pgat_pos_3405... at 100.00%
+10	25aa, >pgat_pos_3406... at 96.00%
+11	26aa, >pgat_pos_3641... *
+12	26aa, >pgat_pos_3642... at 96.15%
+>Cluster 204
+0	26aa, >pgat_pos_3643... *
+>Cluster 205
+0	26aa, >pgat_pos_3644... *
+>Cluster 206
+0	14aa, >pgat_pos_1443... at 100.00%
+1	20aa, >pgat_pos_2760... at 100.00%
+2	26aa, >pgat_pos_3645... *
+>Cluster 207
+0	26aa, >pgat_pos_3646... *
+>Cluster 208
+0	26aa, >pgat_pos_3647... *
+>Cluster 209
+0	17aa, >pgat_pos_2112... at 100.00%
+1	26aa, >pgat_pos_3648... *
+>Cluster 210
+0	26aa, >pgat_pos_3649... *
+1	26aa, >pgat_pos_3650... at 80.77%
+2	26aa, >pgat_pos_3651... at 88.46%
+>Cluster 211
+0	26aa, >pgat_pos_3652... *
+>Cluster 212
+0	15aa, >pgat_pos_1625... at 80.00%
+1	15aa, >pgat_pos_1668... at 80.00%
+2	15aa, >pgat_pos_1692... at 80.00%
+3	15aa, >pgat_pos_1693... at 93.33%
+4	15aa, >pgat_pos_1694... at 86.67%
+5	15aa, >pgat_pos_1695... at 100.00%
+6	15aa, >pgat_pos_1696... at 100.00%
+7	15aa, >pgat_pos_1697... at 93.33%
+8	18aa, >pgat_pos_2340... at 100.00%
+9	22aa, >pgat_pos_3118... at 100.00%
+10	26aa, >pgat_pos_3653... *
+>Cluster 213
+0	12aa, >pgat_pos_732... at 83.33%
+1	15aa, >pgat_pos_1701... at 80.00%
+2	26aa, >pgat_pos_3654... *
+3	26aa, >pgat_pos_3655... at 84.62%
+>Cluster 214
+0	26aa, >pgat_pos_3656... *
+>Cluster 215
+0	26aa, >pgat_pos_3657... *
+1	26aa, >pgat_pos_3658... at 92.31%
+>Cluster 216
+0	26aa, >pgat_pos_3660... *
+1	26aa, >pgat_pos_3661... at 88.46%
+2	26aa, >pgat_pos_3662... at 88.46%
+3	26aa, >pgat_pos_3663... at 88.46%
+4	26aa, >pgat_pos_3664... at 88.46%
+>Cluster 217
+0	11aa, >pgat_pos_625... at 81.82%
+1	12aa, >pgat_pos_845... at 83.33%
+2	12aa, >pgat_pos_862... at 83.33%
+3	26aa, >pgat_pos_3667... *
+>Cluster 218
+0	26aa, >pgat_pos_3668... *
+>Cluster 219
+0	15aa, >pgat_pos_1523... at 93.33%
+1	15aa, >pgat_pos_1614... at 100.00%
+2	15aa, >pgat_pos_1729... at 93.33%
+3	15aa, >pgat_pos_1730... at 93.33%
+4	15aa, >pgat_pos_1731... at 86.67%
+5	15aa, >pgat_pos_1732... at 93.33%
+6	15aa, >pgat_pos_1733... at 93.33%
+7	15aa, >pgat_pos_1734... at 93.33%
+8	15aa, >pgat_pos_1735... at 93.33%
+9	15aa, >pgat_pos_1736... at 93.33%
+10	15aa, >pgat_pos_1737... at 86.67%
+11	15aa, >pgat_pos_1738... at 93.33%
+12	15aa, >pgat_pos_1739... at 93.33%
+13	15aa, >pgat_pos_1740... at 93.33%
+14	15aa, >pgat_pos_1741... at 93.33%
+15	15aa, >pgat_pos_1742... at 100.00%
+16	20aa, >pgat_pos_2665... at 100.00%
+17	26aa, >pgat_pos_3669... *
+>Cluster 220
+0	26aa, >pgat_pos_3670... *
+1	26aa, >pgat_pos_3671... at 96.15%
+>Cluster 221
+0	25aa, >pgat_pos_3403... *
+1	25aa, >pgat_pos_3404... at 92.00%
+2	25aa, >pgat_pos_3415... at 92.00%
+>Cluster 222
+0	24aa, >pgat_pos_3329... at 95.83%
+1	24aa, >pgat_pos_3330... at 95.83%
+2	24aa, >pgat_pos_3331... at 87.50%
+3	25aa, >pgat_pos_3407... *
+4	25aa, >pgat_pos_3428... at 92.00%
+5	25aa, >pgat_pos_3438... at 92.00%
+6	25aa, >pgat_pos_3439... at 92.00%
+7	25aa, >pgat_pos_3440... at 92.00%
+8	25aa, >pgat_pos_3441... at 92.00%
+9	25aa, >pgat_pos_3442... at 92.00%
+10	25aa, >pgat_pos_3443... at 92.00%
+11	25aa, >pgat_pos_3444... at 92.00%
+12	25aa, >pgat_pos_3445... at 92.00%
+13	25aa, >pgat_pos_3446... at 92.00%
+14	25aa, >pgat_pos_3447... at 92.00%
+15	25aa, >pgat_pos_3448... at 92.00%
+16	25aa, >pgat_pos_3449... at 92.00%
+17	25aa, >pgat_pos_3450... at 92.00%
+18	25aa, >pgat_pos_3451... at 92.00%
+19	25aa, >pgat_pos_3452... at 92.00%
+20	25aa, >pgat_pos_3453... at 92.00%
+21	25aa, >pgat_pos_3454... at 92.00%
+>Cluster 223
+0	25aa, >pgat_pos_3410... *
+1	25aa, >pgat_pos_3411... at 92.00%
+2	25aa, >pgat_pos_3412... at 92.00%
+3	25aa, >pgat_pos_3413... at 84.00%
+4	25aa, >pgat_pos_3414... at 84.00%
+5	25aa, >pgat_pos_3416... at 80.00%
+>Cluster 224
+0	25aa, >pgat_pos_3417... *
+>Cluster 225
+0	25aa, >pgat_pos_3418... *
+>Cluster 226
+0	20aa, >pgat_pos_2555... at 95.00%
+1	25aa, >pgat_pos_3419... *
+2	25aa, >pgat_pos_3420... at 92.00%
+3	25aa, >pgat_pos_3421... at 96.00%
+4	25aa, >pgat_pos_3422... at 92.00%
+>Cluster 227
+0	25aa, >pgat_pos_3423... *
+>Cluster 228
+0	25aa, >pgat_pos_3424... *
+>Cluster 229
+0	25aa, >pgat_pos_3425... *
+>Cluster 230
+0	25aa, >pgat_pos_3430... *
+>Cluster 231
+0	25aa, >pgat_pos_3431... *
+>Cluster 232
+0	15aa, >pgat_pos_1684... at 80.00%
+1	17aa, >pgat_pos_2129... at 82.35%
+2	19aa, >pgat_pos_2521... at 84.21%
+3	21aa, >pgat_pos_2856... at 85.71%
+4	21aa, >pgat_pos_2935... at 95.24%
+5	23aa, >pgat_pos_3248... at 86.96%
+6	25aa, >pgat_pos_3433... *
+7	25aa, >pgat_pos_3434... at 88.00%
+>Cluster 233
+0	19aa, >pgat_pos_2530... at 100.00%
+1	25aa, >pgat_pos_3435... *
+>Cluster 234
+0	20aa, >pgat_pos_2767... at 100.00%
+1	25aa, >pgat_pos_3436... *
+>Cluster 235
+0	20aa, >pgat_pos_2680... at 85.00%
+1	25aa, >pgat_pos_3437... *
+>Cluster 236
+0	25aa, >pgat_pos_3455... *
+1	25aa, >pgat_pos_3456... at 80.00%
+2	25aa, >pgat_pos_3457... at 84.00%
+>Cluster 237
+0	25aa, >pgat_pos_3462... *
+1	25aa, >pgat_pos_3463... at 96.00%
+2	25aa, >pgat_pos_3469... at 84.00%
+3	25aa, >pgat_pos_3470... at 88.00%
+4	25aa, >pgat_pos_3471... at 92.00%
+5	25aa, >pgat_pos_3472... at 96.00%
+>Cluster 238
+0	25aa, >pgat_pos_3464... *
+1	25aa, >pgat_pos_3465... at 96.00%
+2	25aa, >pgat_pos_3466... at 92.00%
+3	25aa, >pgat_pos_3467... at 88.00%
+4	25aa, >pgat_pos_3468... at 84.00%
+>Cluster 239
+0	25aa, >pgat_pos_3473... *
+1	25aa, >pgat_pos_3475... at 88.00%
+2	25aa, >pgat_pos_3476... at 88.00%
+3	25aa, >pgat_pos_3477... at 88.00%
+4	25aa, >pgat_pos_3478... at 88.00%
+5	25aa, >pgat_pos_3479... at 88.00%
+6	25aa, >pgat_pos_3480... at 88.00%
+7	25aa, >pgat_pos_3481... at 88.00%
+8	25aa, >pgat_pos_3482... at 88.00%
+9	25aa, >pgat_pos_3483... at 88.00%
+10	25aa, >pgat_pos_3484... at 88.00%
+11	25aa, >pgat_pos_3485... at 88.00%
+12	25aa, >pgat_pos_3486... at 88.00%
+>Cluster 240
+0	17aa, >pgat_pos_2009... at 82.35%
+1	21aa, >pgat_pos_2902... at 85.71%
+2	25aa, >pgat_pos_3474... *
+>Cluster 241
+0	12aa, >pgat_pos_735... at 83.33%
+1	25aa, >pgat_pos_3487... *
+>Cluster 242
+0	17aa, >pgat_pos_2011... at 82.35%
+1	17aa, >pgat_pos_2012... at 88.24%
+2	17aa, >pgat_pos_2013... at 88.24%
+3	17aa, >pgat_pos_2014... at 82.35%
+4	17aa, >pgat_pos_2016... at 82.35%
+5	17aa, >pgat_pos_2020... at 82.35%
+6	25aa, >pgat_pos_3488... *
+>Cluster 243
+0	25aa, >pgat_pos_3494... *
+>Cluster 244
+0	11aa, >pgat_pos_627... at 90.91%
+1	11aa, >pgat_pos_639... at 81.82%
+2	11aa, >pgat_pos_654... at 100.00%
+3	12aa, >pgat_pos_848... at 100.00%
+4	12aa, >pgat_pos_851... at 91.67%
+5	12aa, >pgat_pos_860... at 83.33%
+6	12aa, >pgat_pos_861... at 91.67%
+7	12aa, >pgat_pos_866... at 83.33%
+8	12aa, >pgat_pos_869... at 83.33%
+9	12aa, >pgat_pos_895... at 83.33%
+10	12aa, >pgat_pos_905... at 91.67%
+11	12aa, >pgat_pos_913... at 83.33%
+12	12aa, >pgat_pos_914... at 91.67%
+13	13aa, >pgat_pos_1248... at 100.00%
+14	13aa, >pgat_pos_1249... at 92.31%
+15	13aa, >pgat_pos_1250... at 92.31%
+16	13aa, >pgat_pos_1255... at 92.31%
+17	13aa, >pgat_pos_1257... at 92.31%
+18	13aa, >pgat_pos_1258... at 84.62%
+19	14aa, >pgat_pos_1405... at 92.86%
+20	14aa, >pgat_pos_1412... at 92.86%
+21	14aa, >pgat_pos_1428... at 85.71%
+22	15aa, >pgat_pos_1574... at 80.00%
+23	15aa, >pgat_pos_1575... at 80.00%
+24	15aa, >pgat_pos_1615... at 93.33%
+25	15aa, >pgat_pos_1649... at 93.33%
+26	15aa, >pgat_pos_1651... at 93.33%
+27	15aa, >pgat_pos_1652... at 93.33%
+28	16aa, >pgat_pos_1835... at 81.25%
+29	16aa, >pgat_pos_1836... at 81.25%
+30	16aa, >pgat_pos_1853... at 81.25%
+31	16aa, >pgat_pos_1861... at 93.75%
+32	17aa, >pgat_pos_2026... at 82.35%
+33	17aa, >pgat_pos_2031... at 82.35%
+34	17aa, >pgat_pos_2067... at 100.00%
+35	17aa, >pgat_pos_2068... at 94.12%
+36	17aa, >pgat_pos_2083... at 82.35%
+37	18aa, >pgat_pos_2255... at 83.33%
+38	18aa, >pgat_pos_2267... at 94.44%
+39	18aa, >pgat_pos_2268... at 83.33%
+40	18aa, >pgat_pos_2281... at 100.00%
+41	18aa, >pgat_pos_2282... at 94.44%
+42	18aa, >pgat_pos_2283... at 94.44%
+43	18aa, >pgat_pos_2284... at 94.44%
+44	18aa, >pgat_pos_2385... at 88.89%
+45	20aa, >pgat_pos_2716... at 85.00%
+46	21aa, >pgat_pos_2919... at 100.00%
+47	21aa, >pgat_pos_2920... at 95.24%
+48	25aa, >pgat_pos_3495... *
+49	25aa, >pgat_pos_3496... at 96.00%
+>Cluster 245
+0	19aa, >pgat_pos_2520... at 100.00%
+1	22aa, >pgat_pos_3127... at 100.00%
+2	24aa, >pgat_pos_3390... at 100.00%
+3	25aa, >pgat_pos_3498... *
+>Cluster 246
+0	25aa, >pgat_pos_3499... *
+>Cluster 247
+0	25aa, >pgat_pos_3500... *
+>Cluster 248
+0	25aa, >pgat_pos_3501... *
+>Cluster 249
+0	25aa, >pgat_pos_3504... *
+>Cluster 250
+0	25aa, >pgat_pos_3505... *
+1	25aa, >pgat_pos_3506... at 96.00%
+2	25aa, >pgat_pos_3507... at 96.00%
+3	25aa, >pgat_pos_3508... at 92.00%
+4	25aa, >pgat_pos_3509... at 84.00%
+5	25aa, >pgat_pos_3510... at 92.00%
+6	25aa, >pgat_pos_3511... at 92.00%
+7	25aa, >pgat_pos_3512... at 88.00%
+8	25aa, >pgat_pos_3513... at 92.00%
+9	25aa, >pgat_pos_3514... at 92.00%
+10	25aa, >pgat_pos_3515... at 92.00%
+11	25aa, >pgat_pos_3516... at 84.00%
+12	25aa, >pgat_pos_3517... at 92.00%
+>Cluster 251
+0	24aa, >pgat_pos_3346... at 100.00%
+1	25aa, >pgat_pos_3519... *
+>Cluster 252
+0	19aa, >pgat_pos_2394... at 89.47%
+1	19aa, >pgat_pos_2395... at 84.21%
+2	24aa, >pgat_pos_3250... *
+>Cluster 253
+0	18aa, >pgat_pos_2296... at 88.89%
+1	18aa, >pgat_pos_2297... at 94.44%
+2	18aa, >pgat_pos_2298... at 83.33%
+3	18aa, >pgat_pos_2299... at 88.89%
+4	24aa, >pgat_pos_3251... *
+5	24aa, >pgat_pos_3294... at 83.33%
+6	24aa, >pgat_pos_3297... at 83.33%
+7	24aa, >pgat_pos_3298... at 83.33%
+8	24aa, >pgat_pos_3299... at 87.50%
+9	24aa, >pgat_pos_3300... at 83.33%
+10	24aa, >pgat_pos_3301... at 83.33%
+11	24aa, >pgat_pos_3302... at 83.33%
+12	24aa, >pgat_pos_3303... at 83.33%
+13	24aa, >pgat_pos_3304... at 83.33%
+14	24aa, >pgat_pos_3305... at 83.33%
+15	24aa, >pgat_pos_3306... at 83.33%
+16	24aa, >pgat_pos_3308... at 83.33%
+17	24aa, >pgat_pos_3310... at 83.33%
+18	24aa, >pgat_pos_3312... at 83.33%
+19	24aa, >pgat_pos_3314... at 91.67%
+20	24aa, >pgat_pos_3315... at 87.50%
+21	24aa, >pgat_pos_3395... at 87.50%
+22	24aa, >pgat_pos_3396... at 87.50%
+23	24aa, >pgat_pos_3397... at 83.33%
+24	24aa, >pgat_pos_3398... at 83.33%
+>Cluster 254
+0	24aa, >pgat_pos_3252... *
+>Cluster 255
+0	24aa, >pgat_pos_3254... *
+>Cluster 256
+0	12aa, >pgat_pos_741... at 83.33%
+1	16aa, >pgat_pos_1761... at 100.00%
+2	17aa, >pgat_pos_1933... at 94.12%
+3	20aa, >pgat_pos_2550... at 100.00%
+4	24aa, >pgat_pos_3255... *
+>Cluster 257
+0	12aa, >pgat_pos_734... at 91.67%
+1	24aa, >pgat_pos_3256... *
+>Cluster 258
+0	24aa, >pgat_pos_3257... *
+>Cluster 259
+0	17aa, >pgat_pos_2034... at 88.24%
+1	24aa, >pgat_pos_3258... *
+2	24aa, >pgat_pos_3259... at 91.67%
+3	24aa, >pgat_pos_3279... at 83.33%
+>Cluster 260
+0	24aa, >pgat_pos_3260... *
+>Cluster 261
+0	24aa, >pgat_pos_3261... *
+1	24aa, >pgat_pos_3262... at 95.83%
+>Cluster 262
+0	24aa, >pgat_pos_3263... *
+>Cluster 263
+0	11aa, >pgat_pos_585... at 90.91%
+1	11aa, >pgat_pos_586... at 90.91%
+2	13aa, >pgat_pos_1099... at 84.62%
+3	13aa, >pgat_pos_1100... at 92.31%
+4	13aa, >pgat_pos_1253... at 100.00%
+5	24aa, >pgat_pos_3264... *
+>Cluster 264
+0	24aa, >pgat_pos_3265... *
+>Cluster 265
+0	24aa, >pgat_pos_3266... *
+>Cluster 266
+0	13aa, >pgat_pos_1105... at 100.00%
+1	13aa, >pgat_pos_1106... at 84.62%
+2	24aa, >pgat_pos_3267... *
+>Cluster 267
+0	24aa, >pgat_pos_3268... *
+>Cluster 268
+0	24aa, >pgat_pos_3269... *
+>Cluster 269
+0	24aa, >pgat_pos_3270... *
+>Cluster 270
+0	23aa, >pgat_pos_3218... at 82.61%
+1	23aa, >pgat_pos_3219... at 91.30%
+2	24aa, >pgat_pos_3271... *
+>Cluster 271
+0	24aa, >pgat_pos_3272... *
+>Cluster 272
+0	24aa, >pgat_pos_3273... *
+>Cluster 273
+0	24aa, >pgat_pos_3274... *
+>Cluster 274
+0	24aa, >pgat_pos_3275... *
+>Cluster 275
+0	24aa, >pgat_pos_3278... *
+>Cluster 276
+0	24aa, >pgat_pos_3280... *
+>Cluster 277
+0	24aa, >pgat_pos_3281... *
+1	24aa, >pgat_pos_3288... at 91.67%
+>Cluster 278
+0	24aa, >pgat_pos_3282... *
+>Cluster 279
+0	22aa, >pgat_pos_3043... at 81.82%
+1	24aa, >pgat_pos_3283... *
+>Cluster 280
+0	24aa, >pgat_pos_3285... *
+1	24aa, >pgat_pos_3286... at 95.83%
+>Cluster 281
+0	24aa, >pgat_pos_3287... *
+>Cluster 282
+0	24aa, >pgat_pos_3289... *
+1	24aa, >pgat_pos_3290... at 83.33%
+>Cluster 283
+0	24aa, >pgat_pos_3291... *
+1	24aa, >pgat_pos_3292... at 95.83%
+2	24aa, >pgat_pos_3293... at 91.67%
+3	24aa, >pgat_pos_3295... at 87.50%
+>Cluster 284
+0	24aa, >pgat_pos_3296... *
+>Cluster 285
+0	24aa, >pgat_pos_3307... *
+1	24aa, >pgat_pos_3309... at 91.67%
+2	24aa, >pgat_pos_3311... at 91.67%
+3	24aa, >pgat_pos_3313... at 95.83%
+>Cluster 286
+0	20aa, >pgat_pos_2652... at 100.00%
+1	21aa, >pgat_pos_2884... at 95.24%
+2	21aa, >pgat_pos_2885... at 80.95%
+3	21aa, >pgat_pos_2886... at 80.95%
+4	22aa, >pgat_pos_3049... at 81.82%
+5	24aa, >pgat_pos_3316... *
+6	24aa, >pgat_pos_3317... at 91.67%
+7	24aa, >pgat_pos_3318... at 95.83%
+8	24aa, >pgat_pos_3319... at 91.67%
+>Cluster 287
+0	12aa, >pgat_pos_804... at 100.00%
+1	12aa, >pgat_pos_992... at 91.67%
+2	15aa, >pgat_pos_1713... at 93.33%
+3	16aa, >pgat_pos_1870... at 87.50%
+4	16aa, >pgat_pos_1871... at 87.50%
+5	16aa, >pgat_pos_1872... at 87.50%
+6	16aa, >pgat_pos_1873... at 93.75%
+7	16aa, >pgat_pos_1874... at 93.75%
+8	16aa, >pgat_pos_1875... at 93.75%
+9	16aa, >pgat_pos_1876... at 100.00%
+10	16aa, >pgat_pos_1877... at 93.75%
+11	16aa, >pgat_pos_1878... at 87.50%
+12	16aa, >pgat_pos_1879... at 87.50%
+13	16aa, >pgat_pos_1880... at 87.50%
+14	16aa, >pgat_pos_1881... at 87.50%
+15	16aa, >pgat_pos_1883... at 87.50%
+16	18aa, >pgat_pos_2330... at 94.44%
+17	21aa, >pgat_pos_2942... at 95.24%
+18	24aa, >pgat_pos_3320... *
+19	24aa, >pgat_pos_3321... at 95.83%
+20	24aa, >pgat_pos_3322... at 95.83%
+21	24aa, >pgat_pos_3323... at 95.83%
+22	24aa, >pgat_pos_3327... at 83.33%
+>Cluster 288
+0	24aa, >pgat_pos_3324... *
+>Cluster 289
+0	11aa, >pgat_pos_727... at 90.91%
+1	13aa, >pgat_pos_1136... at 84.62%
+2	24aa, >pgat_pos_3325... *
+>Cluster 290
+0	24aa, >pgat_pos_3328... *
+>Cluster 291
+0	24aa, >pgat_pos_3332... *
+>Cluster 292
+0	24aa, >pgat_pos_3334... *
+>Cluster 293
+0	24aa, >pgat_pos_3335... *
+>Cluster 294
+0	24aa, >pgat_pos_3336... *
+>Cluster 295
+0	17aa, >pgat_pos_1996... at 82.35%
+1	18aa, >pgat_pos_2241... at 83.33%
+2	24aa, >pgat_pos_3337... *
+>Cluster 296
+0	24aa, >pgat_pos_3339... *
+>Cluster 297
+0	24aa, >pgat_pos_3340... *
+>Cluster 298
+0	24aa, >pgat_pos_3341... *
+>Cluster 299
+0	12aa, >pgat_pos_831... at 100.00%
+1	24aa, >pgat_pos_3342... *
+>Cluster 300
+0	14aa, >pgat_pos_1409... at 85.71%
+1	16aa, >pgat_pos_1907... at 81.25%
+2	20aa, >pgat_pos_2668... at 95.00%
+3	24aa, >pgat_pos_3347... *
+>Cluster 301
+0	11aa, >pgat_pos_640... at 90.91%
+1	15aa, >pgat_pos_1550... at 100.00%
+2	24aa, >pgat_pos_3348... *
+>Cluster 302
+0	24aa, >pgat_pos_3349... *
+1	24aa, >pgat_pos_3350... at 95.83%
+>Cluster 303
+0	24aa, >pgat_pos_3351... *
+>Cluster 304
+0	11aa, >pgat_pos_577... at 100.00%
+1	11aa, >pgat_pos_652... at 100.00%
+2	12aa, >pgat_pos_898... at 83.33%
+3	12aa, >pgat_pos_900... at 83.33%
+4	12aa, >pgat_pos_901... at 100.00%
+5	12aa, >pgat_pos_902... at 83.33%
+6	12aa, >pgat_pos_953... at 83.33%
+7	12aa, >pgat_pos_963... at 83.33%
+8	13aa, >pgat_pos_1079... at 84.62%
+9	14aa, >pgat_pos_1417... at 85.71%
+10	15aa, >pgat_pos_1676... at 100.00%
+11	16aa, >pgat_pos_1884... at 93.75%
+12	16aa, >pgat_pos_1885... at 93.75%
+13	16aa, >pgat_pos_1886... at 93.75%
+14	16aa, >pgat_pos_1887... at 93.75%
+15	16aa, >pgat_pos_1888... at 100.00%
+16	17aa, >pgat_pos_2106... at 82.35%
+17	18aa, >pgat_pos_2316... at 83.33%
+18	24aa, >pgat_pos_3352... *
+>Cluster 305
+0	24aa, >pgat_pos_3353... *
+>Cluster 306
+0	24aa, >pgat_pos_3354... *
+>Cluster 307
+0	24aa, >pgat_pos_3355... *
+>Cluster 308
+0	24aa, >pgat_pos_3356... *
+>Cluster 309
+0	24aa, >pgat_pos_3357... *
+1	24aa, >pgat_pos_3358... at 83.33%
+2	24aa, >pgat_pos_3365... at 83.33%
+>Cluster 310
+0	24aa, >pgat_pos_3359... *
+1	24aa, >pgat_pos_3364... at 83.33%
+>Cluster 311
+0	24aa, >pgat_pos_3360... *
+>Cluster 312
+0	24aa, >pgat_pos_3361... *
+1	24aa, >pgat_pos_3368... at 87.50%
+>Cluster 313
+0	24aa, >pgat_pos_3362... *
+>Cluster 314
+0	24aa, >pgat_pos_3363... *
+1	24aa, >pgat_pos_3366... at 87.50%
+>Cluster 315
+0	24aa, >pgat_pos_3367... *
+1	24aa, >pgat_pos_3372... at 83.33%
+>Cluster 316
+0	24aa, >pgat_pos_3369... *
+>Cluster 317
+0	24aa, >pgat_pos_3370... *
+>Cluster 318
+0	24aa, >pgat_pos_3371... *
+>Cluster 319
+0	24aa, >pgat_pos_3373... *
+>Cluster 320
+0	24aa, >pgat_pos_3374... *
+>Cluster 321
+0	24aa, >pgat_pos_3375... *
+>Cluster 322
+0	24aa, >pgat_pos_3376... *
+>Cluster 323
+0	24aa, >pgat_pos_3377... *
+>Cluster 324
+0	24aa, >pgat_pos_3378... *
+>Cluster 325
+0	24aa, >pgat_pos_3379... *
+>Cluster 326
+0	24aa, >pgat_pos_3380... *
+>Cluster 327
+0	24aa, >pgat_pos_3381... *
+>Cluster 328
+0	16aa, >pgat_pos_1867... at 100.00%
+1	20aa, >pgat_pos_2759... at 100.00%
+2	24aa, >pgat_pos_3382... *
+>Cluster 329
+0	24aa, >pgat_pos_3383... *
+>Cluster 330
+0	24aa, >pgat_pos_3384... *
+>Cluster 331
+0	24aa, >pgat_pos_3385... *
+>Cluster 332
+0	11aa, >pgat_pos_685... at 81.82%
+1	13aa, >pgat_pos_1280... at 100.00%
+2	14aa, >pgat_pos_1455... at 92.86%
+3	16aa, >pgat_pos_1896... at 93.75%
+4	16aa, >pgat_pos_1897... at 100.00%
+5	16aa, >pgat_pos_1898... at 87.50%
+6	17aa, >pgat_pos_2113... at 94.12%
+7	17aa, >pgat_pos_2114... at 100.00%
+8	18aa, >pgat_pos_2311... at 100.00%
+9	18aa, >pgat_pos_2339... at 100.00%
+10	19aa, >pgat_pos_2496... at 100.00%
+11	20aa, >pgat_pos_2761... at 100.00%
+12	21aa, >pgat_pos_2900... at 95.24%
+13	22aa, >pgat_pos_3117... at 81.82%
+14	23aa, >pgat_pos_3213... at 86.96%
+15	23aa, >pgat_pos_3234... at 100.00%
+16	23aa, >pgat_pos_3235... at 95.65%
+17	24aa, >pgat_pos_3386... *
+>Cluster 333
+0	12aa, >pgat_pos_1013... at 100.00%
+1	12aa, >pgat_pos_1014... at 91.67%
+2	24aa, >pgat_pos_3387... *
+>Cluster 334
+0	24aa, >pgat_pos_3388... *
+>Cluster 335
+0	24aa, >pgat_pos_3389... *
+>Cluster 336
+0	24aa, >pgat_pos_3391... *
+>Cluster 337
+0	24aa, >pgat_pos_3394... *
+>Cluster 338
+0	12aa, >pgat_pos_1053... at 83.33%
+1	12aa, >pgat_pos_1054... at 100.00%
+2	18aa, >pgat_pos_2380... at 83.33%
+3	18aa, >pgat_pos_2381... at 100.00%
+4	24aa, >pgat_pos_3399... *
+>Cluster 339
+0	24aa, >pgat_pos_3400... *
+>Cluster 340
+0	24aa, >pgat_pos_3401... *
+>Cluster 341
+0	24aa, >pgat_pos_3402... *
+>Cluster 342
+0	23aa, >pgat_pos_3141... *
+1	23aa, >pgat_pos_3142... at 95.65%
+2	23aa, >pgat_pos_3143... at 91.30%
+3	23aa, >pgat_pos_3144... at 95.65%
+4	23aa, >pgat_pos_3225... at 91.30%
+5	23aa, >pgat_pos_3226... at 95.65%
+6	23aa, >pgat_pos_3227... at 86.96%
+7	23aa, >pgat_pos_3228... at 91.30%
+8	23aa, >pgat_pos_3229... at 86.96%
+>Cluster 343
+0	23aa, >pgat_pos_3145... *
+>Cluster 344
+0	23aa, >pgat_pos_3146... *
+>Cluster 345
+0	15aa, >pgat_pos_1545... at 80.00%
+1	15aa, >pgat_pos_1576... at 80.00%
+2	17aa, >pgat_pos_1944... at 82.35%
+3	22aa, >pgat_pos_3006... at 86.36%
+4	23aa, >pgat_pos_3147... *
+>Cluster 346
+0	23aa, >pgat_pos_3148... *
+>Cluster 347
+0	23aa, >pgat_pos_3149... *
+>Cluster 348
+0	19aa, >pgat_pos_2511... at 84.21%
+1	23aa, >pgat_pos_3150... *
+>Cluster 349
+0	23aa, >pgat_pos_3151... *
+1	23aa, >pgat_pos_3152... at 91.30%
+2	23aa, >pgat_pos_3154... at 91.30%
+>Cluster 350
+0	12aa, >pgat_pos_947... at 100.00%
+1	23aa, >pgat_pos_3153... *
+>Cluster 351
+0	23aa, >pgat_pos_3155... *
+>Cluster 352
+0	21aa, >pgat_pos_2860... at 80.95%
+1	23aa, >pgat_pos_3156... *
+>Cluster 353
+0	23aa, >pgat_pos_3157... *
+>Cluster 354
+0	23aa, >pgat_pos_3159... *
+1	23aa, >pgat_pos_3168... at 82.61%
+2	23aa, >pgat_pos_3169... at 95.65%
+>Cluster 355
+0	23aa, >pgat_pos_3163... *
+1	23aa, >pgat_pos_3166... at 86.96%
+>Cluster 356
+0	23aa, >pgat_pos_3180... *
+>Cluster 357
+0	23aa, >pgat_pos_3183... *
+>Cluster 358
+0	23aa, >pgat_pos_3184... *
+>Cluster 359
+0	23aa, >pgat_pos_3185... *
+>Cluster 360
+0	23aa, >pgat_pos_3188... *
+>Cluster 361
+0	23aa, >pgat_pos_3190... *
+>Cluster 362
+0	23aa, >pgat_pos_3191... *
+1	23aa, >pgat_pos_3192... at 95.65%
+2	23aa, >pgat_pos_3193... at 91.30%
+3	23aa, >pgat_pos_3194... at 91.30%
+>Cluster 363
+0	23aa, >pgat_pos_3195... *
+>Cluster 364
+0	23aa, >pgat_pos_3196... *
+>Cluster 365
+0	19aa, >pgat_pos_2469... at 100.00%
+1	20aa, >pgat_pos_2655... at 100.00%
+2	20aa, >pgat_pos_2656... at 95.00%
+3	21aa, >pgat_pos_2890... at 90.48%
+4	21aa, >pgat_pos_2891... at 95.24%
+5	21aa, >pgat_pos_2892... at 95.24%
+6	21aa, >pgat_pos_2893... at 95.24%
+7	21aa, >pgat_pos_2894... at 90.48%
+8	21aa, >pgat_pos_2895... at 90.48%
+9	21aa, >pgat_pos_2896... at 95.24%
+10	22aa, >pgat_pos_3052... at 100.00%
+11	23aa, >pgat_pos_3198... *
+>Cluster 366
+0	23aa, >pgat_pos_3199... *
+>Cluster 367
+0	23aa, >pgat_pos_3200... *
+1	23aa, >pgat_pos_3201... at 95.65%
+>Cluster 368
+0	23aa, >pgat_pos_3202... *
+>Cluster 369
+0	23aa, >pgat_pos_3203... *
+>Cluster 370
+0	23aa, >pgat_pos_3204... *
+>Cluster 371
+0	23aa, >pgat_pos_3206... *
+>Cluster 372
+0	23aa, >pgat_pos_3207... *
+>Cluster 373
+0	23aa, >pgat_pos_3208... *
+>Cluster 374
+0	23aa, >pgat_pos_3214... *
+>Cluster 375
+0	23aa, >pgat_pos_3215... *
+>Cluster 376
+0	23aa, >pgat_pos_3216... *
+1	23aa, >pgat_pos_3217... at 95.65%
+>Cluster 377
+0	23aa, >pgat_pos_3220... *
+>Cluster 378
+0	15aa, >pgat_pos_1667... at 93.33%
+1	23aa, >pgat_pos_3221... *
+>Cluster 379
+0	23aa, >pgat_pos_3222... *
+>Cluster 380
+0	23aa, >pgat_pos_3223... *
+>Cluster 381
+0	23aa, >pgat_pos_3230... *
+1	23aa, >pgat_pos_3231... at 91.30%
+>Cluster 382
+0	23aa, >pgat_pos_3232... *
+>Cluster 383
+0	13aa, >pgat_pos_1265... at 84.62%
+1	16aa, >pgat_pos_1760... at 87.50%
+2	23aa, >pgat_pos_3233... *
+>Cluster 384
+0	19aa, >pgat_pos_2492... at 84.21%
+1	22aa, >pgat_pos_3137... at 86.36%
+2	23aa, >pgat_pos_3236... *
+>Cluster 385
+0	23aa, >pgat_pos_3238... *
+>Cluster 386
+0	14aa, >pgat_pos_1469... at 100.00%
+1	15aa, >pgat_pos_1673... at 100.00%
+2	17aa, >pgat_pos_1987... at 100.00%
+3	19aa, >pgat_pos_2518... at 100.00%
+4	20aa, >pgat_pos_2787... at 100.00%
+5	21aa, >pgat_pos_2989... at 100.00%
+6	23aa, >pgat_pos_3239... *
+>Cluster 387
+0	23aa, >pgat_pos_3240... *
+>Cluster 388
+0	23aa, >pgat_pos_3243... *
+>Cluster 389
+0	20aa, >pgat_pos_2806... at 80.00%
+1	23aa, >pgat_pos_3244... *
+>Cluster 390
+0	23aa, >pgat_pos_3245... *
+>Cluster 391
+0	20aa, >pgat_pos_2731... at 90.00%
+1	20aa, >pgat_pos_2732... at 80.00%
+2	23aa, >pgat_pos_3246... *
+3	23aa, >pgat_pos_3247... at 91.30%
+>Cluster 392
+0	12aa, >pgat_pos_1066... at 100.00%
+1	14aa, >pgat_pos_1519... at 100.00%
+2	17aa, >pgat_pos_2140... at 100.00%
+3	20aa, >pgat_pos_2839... at 100.00%
+4	23aa, >pgat_pos_3249... *
+>Cluster 393
+0	22aa, >pgat_pos_2991... *
+1	22aa, >pgat_pos_2992... at 86.36%
+2	22aa, >pgat_pos_3005... at 86.36%
+3	22aa, >pgat_pos_3016... at 81.82%
+4	22aa, >pgat_pos_3030... at 81.82%
+5	22aa, >pgat_pos_3031... at 86.36%
+6	22aa, >pgat_pos_3032... at 81.82%
+>Cluster 394
+0	22aa, >pgat_pos_2993... *
+>Cluster 395
+0	22aa, >pgat_pos_2994... *
+1	22aa, >pgat_pos_2995... at 90.91%
+2	22aa, >pgat_pos_2996... at 86.36%
+3	22aa, >pgat_pos_2997... at 81.82%
+4	22aa, >pgat_pos_2998... at 81.82%
+5	22aa, >pgat_pos_2999... at 81.82%
+6	22aa, >pgat_pos_3000... at 81.82%
+>Cluster 396
+0	22aa, >pgat_pos_3001... *
+>Cluster 397
+0	17aa, >pgat_pos_2105... at 100.00%
+1	18aa, >pgat_pos_2227... at 100.00%
+2	19aa, >pgat_pos_2476... at 100.00%
+3	20aa, >pgat_pos_2677... at 100.00%
+4	22aa, >pgat_pos_3002... *
+5	22aa, >pgat_pos_3059... at 90.91%
+6	22aa, >pgat_pos_3078... at 90.91%
+7	22aa, >pgat_pos_3079... at 90.91%
+8	22aa, >pgat_pos_3080... at 90.91%
+9	22aa, >pgat_pos_3081... at 90.91%
+10	22aa, >pgat_pos_3082... at 90.91%
+11	22aa, >pgat_pos_3083... at 90.91%
+12	22aa, >pgat_pos_3084... at 90.91%
+13	22aa, >pgat_pos_3085... at 90.91%
+14	22aa, >pgat_pos_3086... at 90.91%
+15	22aa, >pgat_pos_3087... at 90.91%
+16	22aa, >pgat_pos_3088... at 90.91%
+17	22aa, >pgat_pos_3089... at 90.91%
+18	22aa, >pgat_pos_3090... at 90.91%
+19	22aa, >pgat_pos_3091... at 90.91%
+20	22aa, >pgat_pos_3092... at 90.91%
+21	22aa, >pgat_pos_3093... at 90.91%
+22	22aa, >pgat_pos_3094... at 90.91%
+23	22aa, >pgat_pos_3095... at 90.91%
+24	22aa, >pgat_pos_3096... at 90.91%
+25	22aa, >pgat_pos_3097... at 90.91%
+26	22aa, >pgat_pos_3098... at 90.91%
+27	22aa, >pgat_pos_3099... at 90.91%
+28	22aa, >pgat_pos_3100... at 90.91%
+29	22aa, >pgat_pos_3101... at 90.91%
+30	22aa, >pgat_pos_3102... at 90.91%
+31	22aa, >pgat_pos_3103... at 90.91%
+32	22aa, >pgat_pos_3104... at 95.45%
+>Cluster 398
+0	15aa, >pgat_pos_1548... at 86.67%
+1	17aa, >pgat_pos_1937... at 82.35%
+2	22aa, >pgat_pos_3003... *
+>Cluster 399
+0	22aa, >pgat_pos_3004... *
+>Cluster 400
+0	22aa, >pgat_pos_3007... *
+1	22aa, >pgat_pos_3008... at 95.45%
+>Cluster 401
+0	22aa, >pgat_pos_3009... *
+1	22aa, >pgat_pos_3010... at 95.45%
+>Cluster 402
+0	22aa, >pgat_pos_3011... *
+>Cluster 403
+0	22aa, >pgat_pos_3012... *
+1	22aa, >pgat_pos_3013... at 90.91%
+2	22aa, >pgat_pos_3014... at 90.91%
+3	22aa, >pgat_pos_3015... at 86.36%
+4	22aa, >pgat_pos_3017... at 86.36%
+5	22aa, >pgat_pos_3018... at 90.91%
+6	22aa, >pgat_pos_3019... at 90.91%
+7	22aa, >pgat_pos_3020... at 90.91%
+8	22aa, >pgat_pos_3021... at 90.91%
+9	22aa, >pgat_pos_3022... at 90.91%
+10	22aa, >pgat_pos_3023... at 86.36%
+11	22aa, >pgat_pos_3024... at 90.91%
+12	22aa, >pgat_pos_3025... at 90.91%
+13	22aa, >pgat_pos_3026... at 90.91%
+14	22aa, >pgat_pos_3027... at 90.91%
+15	22aa, >pgat_pos_3028... at 90.91%
+16	22aa, >pgat_pos_3029... at 90.91%
+17	22aa, >pgat_pos_3033... at 86.36%
+18	22aa, >pgat_pos_3034... at 90.91%
+19	22aa, >pgat_pos_3035... at 90.91%
+20	22aa, >pgat_pos_3036... at 95.45%
+21	22aa, >pgat_pos_3037... at 86.36%
+22	22aa, >pgat_pos_3038... at 90.91%
+23	22aa, >pgat_pos_3042... at 90.91%
+24	22aa, >pgat_pos_3060... at 86.36%
+25	22aa, >pgat_pos_3061... at 90.91%
+26	22aa, >pgat_pos_3138... at 90.91%
+>Cluster 404
+0	22aa, >pgat_pos_3039... *
+>Cluster 405
+0	22aa, >pgat_pos_3040... *
+>Cluster 406
+0	22aa, >pgat_pos_3041... *
+>Cluster 407
+0	22aa, >pgat_pos_3044... *
+>Cluster 408
+0	12aa, >pgat_pos_733... at 83.33%
+1	12aa, >pgat_pos_830... at 91.67%
+2	12aa, >pgat_pos_837... at 91.67%
+3	17aa, >pgat_pos_1955... at 82.35%
+4	17aa, >pgat_pos_1997... at 88.24%
+5	21aa, >pgat_pos_2870... at 80.95%
+6	22aa, >pgat_pos_3045... *
+>Cluster 409
+0	22aa, >pgat_pos_3046... *
+>Cluster 410
+0	22aa, >pgat_pos_3047... *
+>Cluster 411
+0	22aa, >pgat_pos_3048... *
+>Cluster 412
+0	22aa, >pgat_pos_3050... *
+>Cluster 413
+0	22aa, >pgat_pos_3051... *
+>Cluster 414
+0	22aa, >pgat_pos_3053... *
+>Cluster 415
+0	22aa, >pgat_pos_3054... *
+>Cluster 416
+0	21aa, >pgat_pos_2897... at 100.00%
+1	22aa, >pgat_pos_3055... *
+>Cluster 417
+0	22aa, >pgat_pos_3058... *
+>Cluster 418
+0	19aa, >pgat_pos_2475... at 89.47%
+1	22aa, >pgat_pos_3062... *
+>Cluster 419
+0	22aa, >pgat_pos_3067... *
+>Cluster 420
+0	18aa, >pgat_pos_2253... at 100.00%
+1	22aa, >pgat_pos_3069... *
+>Cluster 421
+0	22aa, >pgat_pos_3071... *
+1	22aa, >pgat_pos_3072... at 95.45%
+2	22aa, >pgat_pos_3073... at 95.45%
+3	22aa, >pgat_pos_3074... at 95.45%
+>Cluster 422
+0	18aa, >pgat_pos_2256... at 100.00%
+1	21aa, >pgat_pos_2909... at 100.00%
+2	22aa, >pgat_pos_3075... *
+>Cluster 423
+0	22aa, >pgat_pos_3076... *
+1	22aa, >pgat_pos_3077... at 86.36%
+>Cluster 424
+0	22aa, >pgat_pos_3105... *
+>Cluster 425
+0	22aa, >pgat_pos_3106... *
+>Cluster 426
+0	22aa, >pgat_pos_3109... *
+>Cluster 427
+0	14aa, >pgat_pos_1415... at 85.71%
+1	17aa, >pgat_pos_2069... at 82.35%
+2	18aa, >pgat_pos_2346... at 83.33%
+3	20aa, >pgat_pos_2715... at 80.00%
+4	20aa, >pgat_pos_2717... at 80.00%
+5	20aa, >pgat_pos_2718... at 80.00%
+6	20aa, >pgat_pos_2719... at 85.00%
+7	20aa, >pgat_pos_2722... at 80.00%
+8	20aa, >pgat_pos_2723... at 85.00%
+9	22aa, >pgat_pos_3110... *
+>Cluster 428
+0	18aa, >pgat_pos_2270... at 100.00%
+1	22aa, >pgat_pos_3111... *
+>Cluster 429
+0	22aa, >pgat_pos_3112... *
+>Cluster 430
+0	22aa, >pgat_pos_3114... *
+>Cluster 431
+0	22aa, >pgat_pos_3116... *
+>Cluster 432
+0	22aa, >pgat_pos_3119... *
+1	22aa, >pgat_pos_3120... at 95.45%
+2	22aa, >pgat_pos_3121... at 95.45%
+>Cluster 433
+0	22aa, >pgat_pos_3122... *
+>Cluster 434
+0	22aa, >pgat_pos_3124... *
+>Cluster 435
+0	22aa, >pgat_pos_3125... *
+>Cluster 436
+0	12aa, >pgat_pos_747... at 100.00%
+1	13aa, >pgat_pos_1078... at 84.62%
+2	17aa, >pgat_pos_1940... at 88.24%
+3	17aa, >pgat_pos_1941... at 100.00%
+4	17aa, >pgat_pos_1950... at 82.35%
+5	19aa, >pgat_pos_2497... at 94.74%
+6	22aa, >pgat_pos_3126... *
+7	22aa, >pgat_pos_3129... at 95.45%
+8	22aa, >pgat_pos_3130... at 90.91%
+>Cluster 437
+0	22aa, >pgat_pos_3131... *
+>Cluster 438
+0	22aa, >pgat_pos_3134... *
+>Cluster 439
+0	22aa, >pgat_pos_3135... *
+>Cluster 440
+0	22aa, >pgat_pos_3136... *
+>Cluster 441
+0	11aa, >pgat_pos_569... at 81.82%
+1	14aa, >pgat_pos_1507... at 100.00%
+2	18aa, >pgat_pos_2375... at 100.00%
+3	22aa, >pgat_pos_3139... *
+>Cluster 442
+0	15aa, >pgat_pos_1611... at 86.67%
+1	21aa, >pgat_pos_2840... *
+2	21aa, >pgat_pos_2841... at 90.48%
+3	21aa, >pgat_pos_2842... at 85.71%
+>Cluster 443
+0	21aa, >pgat_pos_2843... *
+>Cluster 444
+0	21aa, >pgat_pos_2844... *
+>Cluster 445
+0	21aa, >pgat_pos_2846... *
+1	21aa, >pgat_pos_2854... at 90.48%
+2	21aa, >pgat_pos_2976... at 95.24%
+3	21aa, >pgat_pos_2983... at 85.71%
+>Cluster 446
+0	19aa, >pgat_pos_2415... at 84.21%
+1	19aa, >pgat_pos_2416... at 84.21%
+2	19aa, >pgat_pos_2417... at 84.21%
+3	21aa, >pgat_pos_2847... *
+4	21aa, >pgat_pos_2848... at 85.71%
+5	21aa, >pgat_pos_2849... at 85.71%
+>Cluster 447
+0	11aa, >pgat_pos_600... at 100.00%
+1	15aa, >pgat_pos_1571... at 93.33%
+2	15aa, >pgat_pos_1610... at 100.00%
+3	16aa, >pgat_pos_1766... at 100.00%
+4	20aa, >pgat_pos_2554... at 85.00%
+5	21aa, >pgat_pos_2850... *
+>Cluster 448
+0	21aa, >pgat_pos_2852... *
+>Cluster 449
+0	21aa, >pgat_pos_2853... *
+>Cluster 450
+0	20aa, >pgat_pos_2631... at 80.00%
+1	21aa, >pgat_pos_2855... *
+>Cluster 451
+0	21aa, >pgat_pos_2857... *
+>Cluster 452
+0	21aa, >pgat_pos_2858... *
+>Cluster 453
+0	19aa, >pgat_pos_2432... at 100.00%
+1	19aa, >pgat_pos_2445... at 89.47%
+2	19aa, >pgat_pos_2446... at 89.47%
+3	20aa, >pgat_pos_2638... at 85.00%
+4	21aa, >pgat_pos_2859... *
+>Cluster 454
+0	21aa, >pgat_pos_2861... *
+1	21aa, >pgat_pos_2862... at 90.48%
+>Cluster 455
+0	21aa, >pgat_pos_2863... *
+1	21aa, >pgat_pos_2864... at 95.24%
+2	21aa, >pgat_pos_2865... at 85.71%
+3	21aa, >pgat_pos_2866... at 95.24%
+4	21aa, >pgat_pos_2867... at 90.48%
+>Cluster 456
+0	21aa, >pgat_pos_2868... *
+>Cluster 457
+0	21aa, >pgat_pos_2869... *
+>Cluster 458
+0	21aa, >pgat_pos_2871... *
+1	21aa, >pgat_pos_2872... at 90.48%
+2	21aa, >pgat_pos_2873... at 85.71%
+3	21aa, >pgat_pos_2874... at 95.24%
+4	21aa, >pgat_pos_2875... at 90.48%
+>Cluster 459
+0	21aa, >pgat_pos_2876... *
+>Cluster 460
+0	21aa, >pgat_pos_2877... *
+>Cluster 461
+0	21aa, >pgat_pos_2879... *
+1	21aa, >pgat_pos_2880... at 95.24%
+>Cluster 462
+0	21aa, >pgat_pos_2881... *
+>Cluster 463
+0	21aa, >pgat_pos_2883... *
+>Cluster 464
+0	21aa, >pgat_pos_2887... *
+>Cluster 465
+0	21aa, >pgat_pos_2888... *
+>Cluster 466
+0	21aa, >pgat_pos_2903... *
+1	21aa, >pgat_pos_2904... at 95.24%
+>Cluster 467
+0	21aa, >pgat_pos_2905... *
+1	21aa, >pgat_pos_2911... at 95.24%
+>Cluster 468
+0	21aa, >pgat_pos_2908... *
+>Cluster 469
+0	21aa, >pgat_pos_2910... *
+>Cluster 470
+0	21aa, >pgat_pos_2912... *
+>Cluster 471
+0	21aa, >pgat_pos_2913... *
+>Cluster 472
+0	21aa, >pgat_pos_2914... *
+>Cluster 473
+0	12aa, >pgat_pos_824... at 83.33%
+1	13aa, >pgat_pos_1225... at 84.62%
+2	21aa, >pgat_pos_2915... *
+>Cluster 474
+0	21aa, >pgat_pos_2916... *
+>Cluster 475
+0	21aa, >pgat_pos_2917... *
+>Cluster 476
+0	21aa, >pgat_pos_2918... *
+1	21aa, >pgat_pos_2922... at 90.48%
+2	21aa, >pgat_pos_2923... at 90.48%
+3	21aa, >pgat_pos_2924... at 85.71%
+4	21aa, >pgat_pos_2925... at 90.48%
+5	21aa, >pgat_pos_2926... at 95.24%
+>Cluster 477
+0	21aa, >pgat_pos_2921... *
+>Cluster 478
+0	21aa, >pgat_pos_2927... *
+>Cluster 479
+0	21aa, >pgat_pos_2928... *
+>Cluster 480
+0	11aa, >pgat_pos_660... at 100.00%
+1	21aa, >pgat_pos_2930... *
+>Cluster 481
+0	15aa, >pgat_pos_1628... at 80.00%
+1	16aa, >pgat_pos_1832... at 81.25%
+2	21aa, >pgat_pos_2931... *
+3	21aa, >pgat_pos_2932... at 85.71%
+4	21aa, >pgat_pos_2933... at 90.48%
+>Cluster 482
+0	21aa, >pgat_pos_2937... *
+>Cluster 483
+0	17aa, >pgat_pos_2119... at 88.24%
+1	17aa, >pgat_pos_2121... at 88.24%
+2	17aa, >pgat_pos_2122... at 88.24%
+3	17aa, >pgat_pos_2123... at 88.24%
+4	17aa, >pgat_pos_2124... at 94.12%
+5	19aa, >pgat_pos_2409... at 100.00%
+6	21aa, >pgat_pos_2938... *
+7	21aa, >pgat_pos_2941... at 95.24%
+8	21aa, >pgat_pos_2944... at 95.24%
+9	21aa, >pgat_pos_2948... at 90.48%
+10	21aa, >pgat_pos_2949... at 90.48%
+11	21aa, >pgat_pos_2950... at 90.48%
+12	21aa, >pgat_pos_2951... at 90.48%
+13	21aa, >pgat_pos_2952... at 90.48%
+14	21aa, >pgat_pos_2953... at 90.48%
+15	21aa, >pgat_pos_2954... at 90.48%
+16	21aa, >pgat_pos_2955... at 90.48%
+17	21aa, >pgat_pos_2956... at 90.48%
+18	21aa, >pgat_pos_2957... at 90.48%
+19	21aa, >pgat_pos_2958... at 90.48%
+20	21aa, >pgat_pos_2959... at 90.48%
+21	21aa, >pgat_pos_2960... at 90.48%
+22	21aa, >pgat_pos_2961... at 90.48%
+23	21aa, >pgat_pos_2962... at 90.48%
+24	21aa, >pgat_pos_2963... at 90.48%
+25	21aa, >pgat_pos_2964... at 90.48%
+26	21aa, >pgat_pos_2965... at 90.48%
+27	21aa, >pgat_pos_2966... at 90.48%
+28	21aa, >pgat_pos_2967... at 90.48%
+29	21aa, >pgat_pos_2968... at 90.48%
+30	21aa, >pgat_pos_2969... at 90.48%
+31	21aa, >pgat_pos_2970... at 90.48%
+32	21aa, >pgat_pos_2971... at 90.48%
+33	21aa, >pgat_pos_2972... at 90.48%
+34	21aa, >pgat_pos_2975... at 85.71%
+>Cluster 484
+0	21aa, >pgat_pos_2939... *
+>Cluster 485
+0	14aa, >pgat_pos_1408... at 100.00%
+1	21aa, >pgat_pos_2943... *
+>Cluster 486
+0	21aa, >pgat_pos_2945... *
+>Cluster 487
+0	21aa, >pgat_pos_2973... *
+1	21aa, >pgat_pos_2974... at 80.95%
+>Cluster 488
+0	16aa, >pgat_pos_1903... at 100.00%
+1	21aa, >pgat_pos_2977... *
+>Cluster 489
+0	14aa, >pgat_pos_1347... at 85.71%
+1	21aa, >pgat_pos_2978... *
+>Cluster 490
+0	21aa, >pgat_pos_2980... *
+>Cluster 491
+0	15aa, >pgat_pos_1700... at 80.00%
+1	20aa, >pgat_pos_2788... at 95.00%
+2	21aa, >pgat_pos_2981... *
+3	21aa, >pgat_pos_2982... at 90.48%
+>Cluster 492
+0	21aa, >pgat_pos_2984... *
+>Cluster 493
+0	11aa, >pgat_pos_670... at 90.91%
+1	12aa, >pgat_pos_751... at 83.33%
+2	13aa, >pgat_pos_1270... at 84.62%
+3	14aa, >pgat_pos_1434... at 85.71%
+4	15aa, >pgat_pos_1589... at 86.67%
+5	16aa, >pgat_pos_1752... at 87.50%
+6	17aa, >pgat_pos_2103... at 88.24%
+7	17aa, >pgat_pos_2104... at 88.24%
+8	17aa, >pgat_pos_2108... at 82.35%
+9	21aa, >pgat_pos_2985... *
+10	21aa, >pgat_pos_2986... at 95.24%
+>Cluster 494
+0	21aa, >pgat_pos_2988... *
+>Cluster 495
+0	20aa, >pgat_pos_2531... *
+>Cluster 496
+0	20aa, >pgat_pos_2532... *
+1	20aa, >pgat_pos_2822... at 90.00%
+2	20aa, >pgat_pos_2823... at 90.00%
+3	20aa, >pgat_pos_2824... at 90.00%
+4	20aa, >pgat_pos_2825... at 90.00%
+5	20aa, >pgat_pos_2826... at 90.00%
+6	20aa, >pgat_pos_2827... at 90.00%
+7	20aa, >pgat_pos_2828... at 90.00%
+8	20aa, >pgat_pos_2829... at 90.00%
+9	20aa, >pgat_pos_2830... at 90.00%
+10	20aa, >pgat_pos_2831... at 90.00%
+11	20aa, >pgat_pos_2832... at 90.00%
+12	20aa, >pgat_pos_2833... at 90.00%
+13	20aa, >pgat_pos_2834... at 90.00%
+14	20aa, >pgat_pos_2835... at 95.00%
+>Cluster 497
+0	20aa, >pgat_pos_2533... *
+>Cluster 498
+0	20aa, >pgat_pos_2534... *
+1	20aa, >pgat_pos_2536... at 90.00%
+2	20aa, >pgat_pos_2537... at 85.00%
+3	20aa, >pgat_pos_2538... at 85.00%
+4	20aa, >pgat_pos_2548... at 80.00%
+>Cluster 499
+0	20aa, >pgat_pos_2539... *
+>Cluster 500
+0	20aa, >pgat_pos_2540... *
+>Cluster 501
+0	20aa, >pgat_pos_2541... *
+>Cluster 502
+0	20aa, >pgat_pos_2542... *
+>Cluster 503
+0	20aa, >pgat_pos_2545... *
+>Cluster 504
+0	20aa, >pgat_pos_2546... *
+>Cluster 505
+0	20aa, >pgat_pos_2547... *
+>Cluster 506
+0	20aa, >pgat_pos_2549... *
+>Cluster 507
+0	17aa, >pgat_pos_1995... at 88.24%
+1	20aa, >pgat_pos_2551... *
+2	20aa, >pgat_pos_2632... at 90.00%
+3	20aa, >pgat_pos_2810... at 90.00%
+>Cluster 508
+0	20aa, >pgat_pos_2552... *
+>Cluster 509
+0	20aa, >pgat_pos_2553... *
+>Cluster 510
+0	20aa, >pgat_pos_2556... *
+>Cluster 511
+0	20aa, >pgat_pos_2557... *
+>Cluster 512
+0	20aa, >pgat_pos_2558... *
+>Cluster 513
+0	20aa, >pgat_pos_2559... *
+>Cluster 514
+0	20aa, >pgat_pos_2564... *
+1	20aa, >pgat_pos_2565... at 90.00%
+2	20aa, >pgat_pos_2566... at 95.00%
+3	20aa, >pgat_pos_2567... at 90.00%
+4	20aa, >pgat_pos_2568... at 90.00%
+5	20aa, >pgat_pos_2569... at 90.00%
+6	20aa, >pgat_pos_2570... at 90.00%
+7	20aa, >pgat_pos_2571... at 90.00%
+8	20aa, >pgat_pos_2572... at 85.00%
+9	20aa, >pgat_pos_2573... at 85.00%
+10	20aa, >pgat_pos_2574... at 85.00%
+11	20aa, >pgat_pos_2575... at 85.00%
+12	20aa, >pgat_pos_2576... at 85.00%
+13	20aa, >pgat_pos_2577... at 85.00%
+14	20aa, >pgat_pos_2578... at 90.00%
+15	20aa, >pgat_pos_2579... at 85.00%
+16	20aa, >pgat_pos_2580... at 85.00%
+17	20aa, >pgat_pos_2581... at 90.00%
+18	20aa, >pgat_pos_2582... at 85.00%
+19	20aa, >pgat_pos_2583... at 90.00%
+20	20aa, >pgat_pos_2584... at 90.00%
+21	20aa, >pgat_pos_2585... at 95.00%
+22	20aa, >pgat_pos_2586... at 90.00%
+23	20aa, >pgat_pos_2587... at 85.00%
+24	20aa, >pgat_pos_2588... at 85.00%
+25	20aa, >pgat_pos_2589... at 90.00%
+26	20aa, >pgat_pos_2590... at 85.00%
+27	20aa, >pgat_pos_2591... at 85.00%
+28	20aa, >pgat_pos_2592... at 85.00%
+29	20aa, >pgat_pos_2593... at 80.00%
+30	20aa, >pgat_pos_2594... at 80.00%
+31	20aa, >pgat_pos_2595... at 85.00%
+32	20aa, >pgat_pos_2596... at 85.00%
+33	20aa, >pgat_pos_2597... at 85.00%
+34	20aa, >pgat_pos_2598... at 85.00%
+35	20aa, >pgat_pos_2599... at 85.00%
+36	20aa, >pgat_pos_2600... at 85.00%
+37	20aa, >pgat_pos_2601... at 90.00%
+38	20aa, >pgat_pos_2602... at 85.00%
+39	20aa, >pgat_pos_2603... at 85.00%
+40	20aa, >pgat_pos_2604... at 85.00%
+41	20aa, >pgat_pos_2605... at 80.00%
+42	20aa, >pgat_pos_2606... at 85.00%
+>Cluster 515
+0	20aa, >pgat_pos_2607... *
+>Cluster 516
+0	20aa, >pgat_pos_2608... *
+1	20aa, >pgat_pos_2609... at 90.00%
+>Cluster 517
+0	20aa, >pgat_pos_2610... *
+>Cluster 518
+0	20aa, >pgat_pos_2611... *
+>Cluster 519
+0	20aa, >pgat_pos_2612... *
+>Cluster 520
+0	20aa, >pgat_pos_2613... *
+>Cluster 521
+0	20aa, >pgat_pos_2614... *
+>Cluster 522
+0	20aa, >pgat_pos_2615... *
+>Cluster 523
+0	20aa, >pgat_pos_2616... *
+>Cluster 524
+0	20aa, >pgat_pos_2617... *
+>Cluster 525
+0	20aa, >pgat_pos_2618... *
+>Cluster 526
+0	20aa, >pgat_pos_2619... *
+>Cluster 527
+0	20aa, >pgat_pos_2620... *
+>Cluster 528
+0	20aa, >pgat_pos_2621... *
+>Cluster 529
+0	20aa, >pgat_pos_2622... *
+>Cluster 530
+0	20aa, >pgat_pos_2623... *
+>Cluster 531
+0	20aa, >pgat_pos_2624... *
+>Cluster 532
+0	20aa, >pgat_pos_2625... *
+>Cluster 533
+0	20aa, >pgat_pos_2626... *
+>Cluster 534
+0	20aa, >pgat_pos_2627... *
+>Cluster 535
+0	14aa, >pgat_pos_1346... at 100.00%
+1	17aa, >pgat_pos_1932... at 94.12%
+2	18aa, >pgat_pos_2148... at 88.89%
+3	18aa, >pgat_pos_2162... at 88.89%
+4	18aa, >pgat_pos_2163... at 88.89%
+5	18aa, >pgat_pos_2165... at 88.89%
+6	18aa, >pgat_pos_2166... at 94.44%
+7	18aa, >pgat_pos_2167... at 88.89%
+8	18aa, >pgat_pos_2168... at 88.89%
+9	18aa, >pgat_pos_2239... at 83.33%
+10	18aa, >pgat_pos_2366... at 88.89%
+11	20aa, >pgat_pos_2628... *
+>Cluster 536
+0	20aa, >pgat_pos_2629... *
+>Cluster 537
+0	20aa, >pgat_pos_2630... *
+>Cluster 538
+0	20aa, >pgat_pos_2633... *
+>Cluster 539
+0	20aa, >pgat_pos_2634... *
+>Cluster 540
+0	20aa, >pgat_pos_2635... *
+>Cluster 541
+0	20aa, >pgat_pos_2636... *
+>Cluster 542
+0	16aa, >pgat_pos_1811... at 81.25%
+1	20aa, >pgat_pos_2639... *
+2	20aa, >pgat_pos_2640... at 90.00%
+3	20aa, >pgat_pos_2641... at 85.00%
+>Cluster 543
+0	20aa, >pgat_pos_2642... *
+>Cluster 544
+0	20aa, >pgat_pos_2643... *
+>Cluster 545
+0	20aa, >pgat_pos_2644... *
+>Cluster 546
+0	20aa, >pgat_pos_2645... *
+>Cluster 547
+0	20aa, >pgat_pos_2650... *
+>Cluster 548
+0	20aa, >pgat_pos_2651... *
+>Cluster 549
+0	20aa, >pgat_pos_2653... *
+>Cluster 550
+0	20aa, >pgat_pos_2654... *
+>Cluster 551
+0	20aa, >pgat_pos_2657... *
+>Cluster 552
+0	20aa, >pgat_pos_2658... *
+>Cluster 553
+0	20aa, >pgat_pos_2659... *
+>Cluster 554
+0	20aa, >pgat_pos_2660... *
+>Cluster 555
+0	20aa, >pgat_pos_2661... *
+>Cluster 556
+0	20aa, >pgat_pos_2662... *
+>Cluster 557
+0	20aa, >pgat_pos_2664... *
+>Cluster 558
+0	20aa, >pgat_pos_2666... *
+1	20aa, >pgat_pos_2667... at 90.00%
+2	20aa, >pgat_pos_2707... at 80.00%
+3	20aa, >pgat_pos_2729... at 80.00%
+>Cluster 559
+0	20aa, >pgat_pos_2670... *
+1	20aa, >pgat_pos_2671... at 95.00%
+2	20aa, >pgat_pos_2672... at 95.00%
+3	20aa, >pgat_pos_2673... at 90.00%
+>Cluster 560
+0	17aa, >pgat_pos_2030... at 82.35%
+1	20aa, >pgat_pos_2674... *
+>Cluster 561
+0	20aa, >pgat_pos_2675... *
+>Cluster 562
+0	20aa, >pgat_pos_2676... *
+>Cluster 563
+0	20aa, >pgat_pos_2681... *
+>Cluster 564
+0	20aa, >pgat_pos_2682... *
+1	20aa, >pgat_pos_2683... at 95.00%
+2	20aa, >pgat_pos_2684... at 95.00%
+3	20aa, >pgat_pos_2685... at 95.00%
+>Cluster 565
+0	12aa, >pgat_pos_849... at 83.33%
+1	12aa, >pgat_pos_864... at 100.00%
+2	12aa, >pgat_pos_865... at 100.00%
+3	12aa, >pgat_pos_867... at 91.67%
+4	12aa, >pgat_pos_868... at 91.67%
+5	12aa, >pgat_pos_870... at 83.33%
+6	20aa, >pgat_pos_2686... *
+>Cluster 566
+0	20aa, >pgat_pos_2687... *
+>Cluster 567
+0	20aa, >pgat_pos_2688... *
+>Cluster 568
+0	20aa, >pgat_pos_2689... *
+>Cluster 569
+0	20aa, >pgat_pos_2690... *
+1	20aa, >pgat_pos_2691... at 95.00%
+2	20aa, >pgat_pos_2694... at 90.00%
+3	20aa, >pgat_pos_2695... at 85.00%
+>Cluster 570
+0	20aa, >pgat_pos_2692... *
+1	20aa, >pgat_pos_2693... at 80.00%
+2	20aa, >pgat_pos_2696... at 80.00%
+>Cluster 571
+0	20aa, >pgat_pos_2697... *
+1	20aa, >pgat_pos_2698... at 90.00%
+>Cluster 572
+0	20aa, >pgat_pos_2699... *
+>Cluster 573
+0	20aa, >pgat_pos_2700... *
+1	20aa, >pgat_pos_2701... at 95.00%
+2	20aa, >pgat_pos_2703... at 90.00%
+3	20aa, >pgat_pos_2704... at 85.00%
+>Cluster 574
+0	20aa, >pgat_pos_2702... *
+>Cluster 575
+0	20aa, >pgat_pos_2705... *
+>Cluster 576
+0	20aa, >pgat_pos_2706... *
+>Cluster 577
+0	20aa, >pgat_pos_2708... *
+>Cluster 578
+0	20aa, >pgat_pos_2709... *
+>Cluster 579
+0	20aa, >pgat_pos_2710... *
+>Cluster 580
+0	20aa, >pgat_pos_2713... *
+>Cluster 581
+0	20aa, >pgat_pos_2714... *
+>Cluster 582
+0	20aa, >pgat_pos_2724... *
+>Cluster 583
+0	20aa, >pgat_pos_2725... *
+1	20aa, >pgat_pos_2726... at 85.00%
+2	20aa, >pgat_pos_2727... at 90.00%
+3	20aa, >pgat_pos_2728... at 95.00%
+>Cluster 584
+0	16aa, >pgat_pos_1843... at 87.50%
+1	17aa, >pgat_pos_1928... at 88.24%
+2	17aa, >pgat_pos_1929... at 88.24%
+3	17aa, >pgat_pos_1930... at 88.24%
+4	17aa, >pgat_pos_1931... at 94.12%
+5	17aa, >pgat_pos_1994... at 88.24%
+6	17aa, >pgat_pos_2042... at 82.35%
+7	17aa, >pgat_pos_2043... at 82.35%
+8	17aa, >pgat_pos_2045... at 88.24%
+9	17aa, >pgat_pos_2046... at 88.24%
+10	17aa, >pgat_pos_2047... at 88.24%
+11	17aa, >pgat_pos_2048... at 82.35%
+12	17aa, >pgat_pos_2049... at 82.35%
+13	17aa, >pgat_pos_2050... at 82.35%
+14	17aa, >pgat_pos_2051... at 88.24%
+15	17aa, >pgat_pos_2052... at 88.24%
+16	17aa, >pgat_pos_2053... at 82.35%
+17	17aa, >pgat_pos_2054... at 88.24%
+18	17aa, >pgat_pos_2055... at 88.24%
+19	17aa, >pgat_pos_2056... at 88.24%
+20	17aa, >pgat_pos_2057... at 88.24%
+21	17aa, >pgat_pos_2058... at 88.24%
+22	17aa, >pgat_pos_2059... at 88.24%
+23	17aa, >pgat_pos_2060... at 88.24%
+24	17aa, >pgat_pos_2061... at 88.24%
+25	17aa, >pgat_pos_2062... at 82.35%
+26	17aa, >pgat_pos_2063... at 88.24%
+27	17aa, >pgat_pos_2065... at 88.24%
+28	17aa, >pgat_pos_2071... at 82.35%
+29	17aa, >pgat_pos_2118... at 94.12%
+30	20aa, >pgat_pos_2730... *
+>Cluster 585
+0	20aa, >pgat_pos_2733... *
+>Cluster 586
+0	20aa, >pgat_pos_2734... *
+>Cluster 587
+0	20aa, >pgat_pos_2735... *
+>Cluster 588
+0	20aa, >pgat_pos_2736... *
+>Cluster 589
+0	20aa, >pgat_pos_2738... *
+>Cluster 590
+0	20aa, >pgat_pos_2739... *
+>Cluster 591
+0	20aa, >pgat_pos_2740... *
+>Cluster 592
+0	20aa, >pgat_pos_2741... *
+>Cluster 593
+0	20aa, >pgat_pos_2742... *
+>Cluster 594
+0	20aa, >pgat_pos_2743... *
+>Cluster 595
+0	20aa, >pgat_pos_2744... *
+>Cluster 596
+0	20aa, >pgat_pos_2745... *
+>Cluster 597
+0	20aa, >pgat_pos_2746... *
+>Cluster 598
+0	20aa, >pgat_pos_2747... *
+>Cluster 599
+0	20aa, >pgat_pos_2748... *
+>Cluster 600
+0	20aa, >pgat_pos_2749... *
+>Cluster 601
+0	20aa, >pgat_pos_2750... *
+>Cluster 602
+0	20aa, >pgat_pos_2751... *
+1	20aa, >pgat_pos_2752... at 90.00%
+2	20aa, >pgat_pos_2753... at 95.00%
+>Cluster 603
+0	20aa, >pgat_pos_2754... *
+>Cluster 604
+0	20aa, >pgat_pos_2755... *
+>Cluster 605
+0	20aa, >pgat_pos_2756... *
+>Cluster 606
+0	20aa, >pgat_pos_2757... *
+>Cluster 607
+0	20aa, >pgat_pos_2762... *
+>Cluster 608
+0	20aa, >pgat_pos_2763... *
+>Cluster 609
+0	20aa, >pgat_pos_2764... *
+>Cluster 610
+0	20aa, >pgat_pos_2765... *
+>Cluster 611
+0	20aa, >pgat_pos_2768... *
+>Cluster 612
+0	20aa, >pgat_pos_2769... *
+>Cluster 613
+0	12aa, >pgat_pos_916... at 100.00%
+1	15aa, >pgat_pos_1546... at 80.00%
+2	16aa, >pgat_pos_1863... at 100.00%
+3	16aa, >pgat_pos_1899... at 87.50%
+4	20aa, >pgat_pos_2770... *
+>Cluster 614
+0	20aa, >pgat_pos_2771... *
+>Cluster 615
+0	20aa, >pgat_pos_2772... *
+>Cluster 616
+0	20aa, >pgat_pos_2773... *
+>Cluster 617
+0	20aa, >pgat_pos_2778... *
+>Cluster 618
+0	20aa, >pgat_pos_2779... *
+>Cluster 619
+0	20aa, >pgat_pos_2780... *
+>Cluster 620
+0	20aa, >pgat_pos_2781... *
+>Cluster 621
+0	20aa, >pgat_pos_2782... *
+>Cluster 622
+0	20aa, >pgat_pos_2783... *
+>Cluster 623
+0	20aa, >pgat_pos_2784... *
+>Cluster 624
+0	20aa, >pgat_pos_2786... *
+>Cluster 625
+0	20aa, >pgat_pos_2789... *
+>Cluster 626
+0	20aa, >pgat_pos_2792... *
+>Cluster 627
+0	20aa, >pgat_pos_2793... *
+>Cluster 628
+0	20aa, >pgat_pos_2794... *
+>Cluster 629
+0	20aa, >pgat_pos_2795... *
+>Cluster 630
+0	20aa, >pgat_pos_2796... *
+>Cluster 631
+0	20aa, >pgat_pos_2797... *
+>Cluster 632
+0	20aa, >pgat_pos_2798... *
+>Cluster 633
+0	20aa, >pgat_pos_2799... *
+>Cluster 634
+0	20aa, >pgat_pos_2800... *
+>Cluster 635
+0	20aa, >pgat_pos_2802... *
+>Cluster 636
+0	18aa, >pgat_pos_2361... at 94.44%
+1	19aa, >pgat_pos_2523... at 84.21%
+2	19aa, >pgat_pos_2524... at 89.47%
+3	19aa, >pgat_pos_2525... at 89.47%
+4	19aa, >pgat_pos_2526... at 94.74%
+5	19aa, >pgat_pos_2527... at 89.47%
+6	20aa, >pgat_pos_2803... *
+7	20aa, >pgat_pos_2804... at 95.00%
+8	20aa, >pgat_pos_2805... at 95.00%
+9	20aa, >pgat_pos_2807... at 95.00%
+>Cluster 637
+0	20aa, >pgat_pos_2808... *
+>Cluster 638
+0	20aa, >pgat_pos_2809... *
+>Cluster 639
+0	20aa, >pgat_pos_2811... *
+>Cluster 640
+0	20aa, >pgat_pos_2812... *
+>Cluster 641
+0	20aa, >pgat_pos_2813... *
+>Cluster 642
+0	20aa, >pgat_pos_2814... *
+>Cluster 643
+0	20aa, >pgat_pos_2815... *
+>Cluster 644
+0	20aa, >pgat_pos_2816... *
+>Cluster 645
+0	20aa, >pgat_pos_2817... *
+>Cluster 646
+0	20aa, >pgat_pos_2818... *
+>Cluster 647
+0	20aa, >pgat_pos_2819... *
+>Cluster 648
+0	20aa, >pgat_pos_2820... *
+>Cluster 649
+0	20aa, >pgat_pos_2821... *
+>Cluster 650
+0	11aa, >pgat_pos_683... at 81.82%
+1	11aa, >pgat_pos_696... at 90.91%
+2	12aa, >pgat_pos_1004... at 83.33%
+3	12aa, >pgat_pos_1015... at 83.33%
+4	20aa, >pgat_pos_2836... *
+>Cluster 651
+0	20aa, >pgat_pos_2837... *
+>Cluster 652
+0	11aa, >pgat_pos_703... at 90.91%
+1	12aa, >pgat_pos_1016... at 83.33%
+2	14aa, >pgat_pos_1466... at 85.71%
+3	16aa, >pgat_pos_1900... at 81.25%
+4	20aa, >pgat_pos_2838... *
+>Cluster 653
+0	15aa, >pgat_pos_1647... at 100.00%
+1	16aa, >pgat_pos_1846... at 100.00%
+2	17aa, >pgat_pos_2078... at 100.00%
+3	17aa, >pgat_pos_2079... at 94.12%
+4	17aa, >pgat_pos_2080... at 94.12%
+5	18aa, >pgat_pos_2141... at 94.44%
+6	19aa, >pgat_pos_2393... *
+>Cluster 654
+0	19aa, >pgat_pos_2396... *
+>Cluster 655
+0	14aa, >pgat_pos_1392... at 92.86%
+1	15aa, >pgat_pos_1616... at 93.33%
+2	17aa, >pgat_pos_2002... at 94.12%
+3	18aa, >pgat_pos_2212... at 100.00%
+4	18aa, >pgat_pos_2276... at 94.44%
+5	19aa, >pgat_pos_2397... *
+6	19aa, >pgat_pos_2410... at 94.74%
+7	19aa, >pgat_pos_2500... at 94.74%
+8	19aa, >pgat_pos_2517... at 94.74%
+>Cluster 656
+0	15aa, >pgat_pos_1525... at 86.67%
+1	15aa, >pgat_pos_1529... at 80.00%
+2	15aa, >pgat_pos_1553... at 80.00%
+3	15aa, >pgat_pos_1554... at 86.67%
+4	15aa, >pgat_pos_1555... at 80.00%
+5	15aa, >pgat_pos_1556... at 93.33%
+6	15aa, >pgat_pos_1557... at 80.00%
+7	15aa, >pgat_pos_1558... at 86.67%
+8	15aa, >pgat_pos_1559... at 93.33%
+9	17aa, >pgat_pos_1920... at 88.24%
+10	17aa, >pgat_pos_2040... at 82.35%
+11	19aa, >pgat_pos_2398... *
+12	19aa, >pgat_pos_2529... at 89.47%
+>Cluster 657
+0	19aa, >pgat_pos_2400... *
+>Cluster 658
+0	19aa, >pgat_pos_2401... *
+>Cluster 659
+0	17aa, >pgat_pos_2101... at 100.00%
+1	19aa, >pgat_pos_2402... *
+>Cluster 660
+0	13aa, >pgat_pos_1295... at 92.31%
+1	15aa, >pgat_pos_1541... at 93.33%
+2	19aa, >pgat_pos_2403... *
+3	19aa, >pgat_pos_2404... at 89.47%
+4	19aa, >pgat_pos_2405... at 89.47%
+5	19aa, >pgat_pos_2515... at 89.47%
+>Cluster 661
+0	19aa, >pgat_pos_2406... *
+>Cluster 662
+0	19aa, >pgat_pos_2407... *
+>Cluster 663
+0	19aa, >pgat_pos_2408... *
+>Cluster 664
+0	19aa, >pgat_pos_2411... *
+>Cluster 665
+0	17aa, >pgat_pos_1938... at 100.00%
+1	17aa, >pgat_pos_1939... at 100.00%
+2	19aa, >pgat_pos_2412... *
+>Cluster 666
+0	19aa, >pgat_pos_2413... *
+>Cluster 667
+0	19aa, >pgat_pos_2414... *
+>Cluster 668
+0	19aa, >pgat_pos_2418... *
+1	19aa, >pgat_pos_2420... at 94.74%
+>Cluster 669
+0	19aa, >pgat_pos_2421... *
+>Cluster 670
+0	18aa, >pgat_pos_2155... at 83.33%
+1	18aa, >pgat_pos_2156... at 83.33%
+2	19aa, >pgat_pos_2422... *
+3	19aa, >pgat_pos_2423... at 94.74%
+>Cluster 671
+0	19aa, >pgat_pos_2424... *
+1	19aa, >pgat_pos_2425... at 94.74%
+2	19aa, >pgat_pos_2429... at 94.74%
+3	19aa, >pgat_pos_2430... at 89.47%
+4	19aa, >pgat_pos_2431... at 89.47%
+>Cluster 672
+0	19aa, >pgat_pos_2426... *
+1	19aa, >pgat_pos_2427... at 84.21%
+>Cluster 673
+0	19aa, >pgat_pos_2428... *
+>Cluster 674
+0	18aa, >pgat_pos_2224... at 83.33%
+1	19aa, >pgat_pos_2433... *
+2	19aa, >pgat_pos_2434... at 89.47%
+3	19aa, >pgat_pos_2435... at 89.47%
+4	19aa, >pgat_pos_2436... at 89.47%
+5	19aa, >pgat_pos_2437... at 89.47%
+6	19aa, >pgat_pos_2438... at 89.47%
+7	19aa, >pgat_pos_2439... at 89.47%
+8	19aa, >pgat_pos_2440... at 89.47%
+9	19aa, >pgat_pos_2443... at 89.47%
+10	19aa, >pgat_pos_2444... at 84.21%
+>Cluster 675
+0	19aa, >pgat_pos_2442... *
+>Cluster 676
+0	19aa, >pgat_pos_2447... *
+1	19aa, >pgat_pos_2449... at 84.21%
+2	19aa, >pgat_pos_2455... at 84.21%
+>Cluster 677
+0	16aa, >pgat_pos_1793... at 81.25%
+1	18aa, >pgat_pos_2190... at 94.44%
+2	19aa, >pgat_pos_2448... *
+3	19aa, >pgat_pos_2451... at 89.47%
+4	19aa, >pgat_pos_2452... at 89.47%
+5	19aa, >pgat_pos_2453... at 89.47%
+6	19aa, >pgat_pos_2454... at 89.47%
+>Cluster 678
+0	19aa, >pgat_pos_2450... *
+>Cluster 679
+0	19aa, >pgat_pos_2456... *
+>Cluster 680
+0	19aa, >pgat_pos_2457... *
+1	19aa, >pgat_pos_2458... at 89.47%
+2	19aa, >pgat_pos_2459... at 94.74%
+>Cluster 681
+0	19aa, >pgat_pos_2460... *
+>Cluster 682
+0	19aa, >pgat_pos_2461... *
+>Cluster 683
+0	19aa, >pgat_pos_2462... *
+>Cluster 684
+0	19aa, >pgat_pos_2463... *
+>Cluster 685
+0	15aa, >pgat_pos_1597... at 100.00%
+1	15aa, >pgat_pos_1598... at 86.67%
+2	19aa, >pgat_pos_2465... *
+3	19aa, >pgat_pos_2466... at 94.74%
+>Cluster 686
+0	19aa, >pgat_pos_2467... *
+>Cluster 687
+0	19aa, >pgat_pos_2468... *
+>Cluster 688
+0	19aa, >pgat_pos_2470... *
+1	19aa, >pgat_pos_2471... at 94.74%
+2	19aa, >pgat_pos_2473... at 94.74%
+>Cluster 689
+0	19aa, >pgat_pos_2472... *
+>Cluster 690
+0	19aa, >pgat_pos_2474... *
+>Cluster 691
+0	19aa, >pgat_pos_2478... *
+>Cluster 692
+0	19aa, >pgat_pos_2480... *
+>Cluster 693
+0	19aa, >pgat_pos_2481... *
+>Cluster 694
+0	19aa, >pgat_pos_2482... *
+>Cluster 695
+0	19aa, >pgat_pos_2483... *
+>Cluster 696
+0	18aa, >pgat_pos_2376... at 88.89%
+1	19aa, >pgat_pos_2485... *
+2	19aa, >pgat_pos_2486... at 89.47%
+>Cluster 697
+0	19aa, >pgat_pos_2487... *
+>Cluster 698
+0	19aa, >pgat_pos_2488... *
+>Cluster 699
+0	17aa, >pgat_pos_2037... at 88.24%
+1	19aa, >pgat_pos_2489... *
+>Cluster 700
+0	19aa, >pgat_pos_2491... *
+>Cluster 701
+0	19aa, >pgat_pos_2493... *
+>Cluster 702
+0	17aa, >pgat_pos_2094... at 100.00%
+1	18aa, >pgat_pos_2308... at 100.00%
+2	19aa, >pgat_pos_2494... *
+>Cluster 703
+0	19aa, >pgat_pos_2495... *
+>Cluster 704
+0	14aa, >pgat_pos_1348... at 85.71%
+1	14aa, >pgat_pos_1449... at 85.71%
+2	14aa, >pgat_pos_1488... at 85.71%
+3	18aa, >pgat_pos_2318... at 83.33%
+4	18aa, >pgat_pos_2319... at 83.33%
+5	18aa, >pgat_pos_2320... at 88.89%
+6	19aa, >pgat_pos_2499... *
+>Cluster 705
+0	19aa, >pgat_pos_2501... *
+>Cluster 706
+0	16aa, >pgat_pos_1891... at 100.00%
+1	19aa, >pgat_pos_2502... *
+>Cluster 707
+0	19aa, >pgat_pos_2503... *
+>Cluster 708
+0	17aa, >pgat_pos_2117... at 82.35%
+1	19aa, >pgat_pos_2505... *
+2	19aa, >pgat_pos_2506... at 84.21%
+>Cluster 709
+0	18aa, >pgat_pos_2343... at 83.33%
+1	18aa, >pgat_pos_2344... at 83.33%
+2	19aa, >pgat_pos_2507... *
+>Cluster 710
+0	19aa, >pgat_pos_2508... *
+>Cluster 711
+0	17aa, >pgat_pos_2125... at 82.35%
+1	19aa, >pgat_pos_2510... *
+2	19aa, >pgat_pos_2512... at 84.21%
+>Cluster 712
+0	19aa, >pgat_pos_2513... *
+1	19aa, >pgat_pos_2514... at 89.47%
+>Cluster 713
+0	19aa, >pgat_pos_2516... *
+>Cluster 714
+0	16aa, >pgat_pos_1821... at 100.00%
+1	18aa, >pgat_pos_2360... at 100.00%
+2	19aa, >pgat_pos_2519... *
+>Cluster 715
+0	14aa, >pgat_pos_1402... at 92.86%
+1	17aa, >pgat_pos_1934... at 82.35%
+2	17aa, >pgat_pos_1943... at 94.12%
+3	17aa, >pgat_pos_2130... at 82.35%
+4	19aa, >pgat_pos_2522... *
+>Cluster 716
+0	13aa, >pgat_pos_1301... at 100.00%
+1	14aa, >pgat_pos_1500... at 100.00%
+2	15aa, >pgat_pos_1714... at 100.00%
+3	16aa, >pgat_pos_1901... at 100.00%
+4	17aa, >pgat_pos_1993... at 100.00%
+5	18aa, >pgat_pos_2362... at 100.00%
+6	19aa, >pgat_pos_2528... *
+>Cluster 717
+0	12aa, >pgat_pos_912... at 83.33%
+1	18aa, >pgat_pos_2142... *
+>Cluster 718
+0	18aa, >pgat_pos_2143... *
+>Cluster 719
+0	13aa, >pgat_pos_1268... at 92.31%
+1	18aa, >pgat_pos_2144... *
+2	18aa, >pgat_pos_2145... at 83.33%
+>Cluster 720
+0	18aa, >pgat_pos_2146... *
+>Cluster 721
+0	18aa, >pgat_pos_2147... *
+>Cluster 722
+0	18aa, >pgat_pos_2149... *
+>Cluster 723
+0	18aa, >pgat_pos_2150... *
+>Cluster 724
+0	18aa, >pgat_pos_2151... *
+>Cluster 725
+0	18aa, >pgat_pos_2152... *
+>Cluster 726
+0	18aa, >pgat_pos_2153... *
+>Cluster 727
+0	18aa, >pgat_pos_2154... *
+>Cluster 728
+0	18aa, >pgat_pos_2157... *
+>Cluster 729
+0	18aa, >pgat_pos_2158... *
+>Cluster 730
+0	18aa, >pgat_pos_2159... *
+>Cluster 731
+0	18aa, >pgat_pos_2160... *
+>Cluster 732
+0	18aa, >pgat_pos_2161... *
+>Cluster 733
+0	18aa, >pgat_pos_2164... *
+>Cluster 734
+0	18aa, >pgat_pos_2169... *
+>Cluster 735
+0	17aa, >pgat_pos_1963... at 82.35%
+1	17aa, >pgat_pos_1966... at 82.35%
+2	17aa, >pgat_pos_1967... at 82.35%
+3	17aa, >pgat_pos_1971... at 82.35%
+4	18aa, >pgat_pos_2171... *
+>Cluster 736
+0	18aa, >pgat_pos_2172... *
+1	18aa, >pgat_pos_2173... at 88.89%
+2	18aa, >pgat_pos_2174... at 88.89%
+3	18aa, >pgat_pos_2175... at 94.44%
+4	18aa, >pgat_pos_2187... at 88.89%
+>Cluster 737
+0	17aa, >pgat_pos_1970... at 100.00%
+1	18aa, >pgat_pos_2176... *
+2	18aa, >pgat_pos_2177... at 94.44%
+3	18aa, >pgat_pos_2178... at 94.44%
+>Cluster 738
+0	18aa, >pgat_pos_2179... *
+1	18aa, >pgat_pos_2180... at 94.44%
+2	18aa, >pgat_pos_2181... at 94.44%
+3	18aa, >pgat_pos_2182... at 88.89%
+4	18aa, >pgat_pos_2325... at 83.33%
+>Cluster 739
+0	18aa, >pgat_pos_2183... *
+>Cluster 740
+0	12aa, >pgat_pos_811... at 100.00%
+1	12aa, >pgat_pos_843... at 83.33%
+2	14aa, >pgat_pos_1358... at 100.00%
+3	18aa, >pgat_pos_2184... *
+>Cluster 741
+0	18aa, >pgat_pos_2185... *
+1	18aa, >pgat_pos_2186... at 94.44%
+>Cluster 742
+0	18aa, >pgat_pos_2188... *
+1	18aa, >pgat_pos_2189... at 94.44%
+2	18aa, >pgat_pos_2192... at 83.33%
+3	18aa, >pgat_pos_2193... at 83.33%
+4	18aa, >pgat_pos_2194... at 88.89%
+5	18aa, >pgat_pos_2195... at 83.33%
+6	18aa, >pgat_pos_2196... at 94.44%
+7	18aa, >pgat_pos_2197... at 83.33%
+8	18aa, >pgat_pos_2266... at 83.33%
+>Cluster 743
+0	18aa, >pgat_pos_2191... *
+>Cluster 744
+0	18aa, >pgat_pos_2198... *
+>Cluster 745
+0	18aa, >pgat_pos_2199... *
+1	18aa, >pgat_pos_2200... at 88.89%
+2	18aa, >pgat_pos_2201... at 88.89%
+3	18aa, >pgat_pos_2202... at 88.89%
+>Cluster 746
+0	18aa, >pgat_pos_2213... *
+>Cluster 747
+0	18aa, >pgat_pos_2214... *
+>Cluster 748
+0	18aa, >pgat_pos_2215... *
+>Cluster 749
+0	18aa, >pgat_pos_2216... *
+>Cluster 750
+0	18aa, >pgat_pos_2217... *
+1	18aa, >pgat_pos_2219... at 88.89%
+>Cluster 751
+0	17aa, >pgat_pos_1975... at 88.24%
+1	18aa, >pgat_pos_2218... *
+>Cluster 752
+0	18aa, >pgat_pos_2220... *
+>Cluster 753
+0	14aa, >pgat_pos_1367... at 100.00%
+1	16aa, >pgat_pos_1812... at 81.25%
+2	16aa, >pgat_pos_1813... at 87.50%
+3	16aa, >pgat_pos_1814... at 93.75%
+4	16aa, >pgat_pos_1815... at 93.75%
+5	16aa, >pgat_pos_1816... at 100.00%
+6	16aa, >pgat_pos_1817... at 93.75%
+7	16aa, >pgat_pos_1818... at 81.25%
+8	16aa, >pgat_pos_1819... at 87.50%
+9	16aa, >pgat_pos_1820... at 81.25%
+10	18aa, >pgat_pos_2221... *
+>Cluster 754
+0	18aa, >pgat_pos_2223... *
+>Cluster 755
+0	18aa, >pgat_pos_2225... *
+>Cluster 756
+0	18aa, >pgat_pos_2226... *
+>Cluster 757
+0	18aa, >pgat_pos_2230... *
+>Cluster 758
+0	18aa, >pgat_pos_2231... *
+>Cluster 759
+0	18aa, >pgat_pos_2233... *
+>Cluster 760
+0	18aa, >pgat_pos_2235... *
+>Cluster 761
+0	18aa, >pgat_pos_2236... *
+>Cluster 762
+0	18aa, >pgat_pos_2237... *
+>Cluster 763
+0	14aa, >pgat_pos_1413... at 85.71%
+1	16aa, >pgat_pos_1757... at 81.25%
+2	16aa, >pgat_pos_1758... at 81.25%
+3	16aa, >pgat_pos_1845... at 81.25%
+4	18aa, >pgat_pos_2238... *
+>Cluster 764
+0	18aa, >pgat_pos_2240... *
+>Cluster 765
+0	18aa, >pgat_pos_2243... *
+>Cluster 766
+0	18aa, >pgat_pos_2244... *
+1	18aa, >pgat_pos_2251... at 94.44%
+>Cluster 767
+0	18aa, >pgat_pos_2245... *
+>Cluster 768
+0	18aa, >pgat_pos_2246... *
+>Cluster 769
+0	18aa, >pgat_pos_2247... *
+>Cluster 770
+0	18aa, >pgat_pos_2249... *
+1	18aa, >pgat_pos_2262... at 83.33%
+>Cluster 771
+0	18aa, >pgat_pos_2250... *
+>Cluster 772
+0	18aa, >pgat_pos_2254... *
+>Cluster 773
+0	18aa, >pgat_pos_2257... *
+>Cluster 774
+0	18aa, >pgat_pos_2258... *
+1	18aa, >pgat_pos_2259... at 88.89%
+>Cluster 775
+0	18aa, >pgat_pos_2260... *
+1	18aa, >pgat_pos_2261... at 94.44%
+>Cluster 776
+0	12aa, >pgat_pos_882... at 83.33%
+1	12aa, >pgat_pos_884... at 83.33%
+2	18aa, >pgat_pos_2263... *
+>Cluster 777
+0	15aa, >pgat_pos_1633... at 86.67%
+1	18aa, >pgat_pos_2264... *
+>Cluster 778
+0	18aa, >pgat_pos_2265... *
+>Cluster 779
+0	12aa, >pgat_pos_872... at 83.33%
+1	18aa, >pgat_pos_2269... *
+>Cluster 780
+0	18aa, >pgat_pos_2271... *
+>Cluster 781
+0	18aa, >pgat_pos_2275... *
+>Cluster 782
+0	12aa, >pgat_pos_891... at 100.00%
+1	14aa, >pgat_pos_1446... at 100.00%
+2	18aa, >pgat_pos_2278... *
+>Cluster 783
+0	18aa, >pgat_pos_2280... *
+>Cluster 784
+0	11aa, >pgat_pos_606... at 81.82%
+1	18aa, >pgat_pos_2286... *
+>Cluster 785
+0	12aa, >pgat_pos_850... at 83.33%
+1	12aa, >pgat_pos_852... at 91.67%
+2	12aa, >pgat_pos_857... at 91.67%
+3	16aa, >pgat_pos_1849... at 81.25%
+4	16aa, >pgat_pos_1857... at 81.25%
+5	18aa, >pgat_pos_2287... *
+>Cluster 786
+0	16aa, >pgat_pos_1856... at 81.25%
+1	16aa, >pgat_pos_1858... at 93.75%
+2	16aa, >pgat_pos_1860... at 81.25%
+3	18aa, >pgat_pos_2288... *
+>Cluster 787
+0	16aa, >pgat_pos_1847... at 81.25%
+1	18aa, >pgat_pos_2289... *
+>Cluster 788
+0	18aa, >pgat_pos_2290... *
+>Cluster 789
+0	18aa, >pgat_pos_2291... *
+1	18aa, >pgat_pos_2292... at 83.33%
+2	18aa, >pgat_pos_2293... at 83.33%
+>Cluster 790
+0	18aa, >pgat_pos_2294... *
+>Cluster 791
+0	11aa, >pgat_pos_571... at 81.82%
+1	18aa, >pgat_pos_2295... *
+>Cluster 792
+0	18aa, >pgat_pos_2300... *
+>Cluster 793
+0	18aa, >pgat_pos_2301... *
+>Cluster 794
+0	18aa, >pgat_pos_2302... *
+>Cluster 795
+0	15aa, >pgat_pos_1724... at 80.00%
+1	16aa, >pgat_pos_1838... at 93.75%
+2	16aa, >pgat_pos_1864... at 100.00%
+3	17aa, >pgat_pos_2090... at 100.00%
+4	18aa, >pgat_pos_2304... *
+5	18aa, >pgat_pos_2363... at 94.44%
+>Cluster 796
+0	14aa, >pgat_pos_1438... at 100.00%
+1	15aa, >pgat_pos_1662... at 100.00%
+2	18aa, >pgat_pos_2305... *
+>Cluster 797
+0	17aa, >pgat_pos_2100... at 100.00%
+1	18aa, >pgat_pos_2306... *
+>Cluster 798
+0	12aa, >pgat_pos_897... at 83.33%
+1	17aa, >pgat_pos_2093... at 100.00%
+2	17aa, >pgat_pos_2095... at 94.12%
+3	18aa, >pgat_pos_2307... *
+>Cluster 799
+0	18aa, >pgat_pos_2309... *
+>Cluster 800
+0	18aa, >pgat_pos_2310... *
+>Cluster 801
+0	15aa, >pgat_pos_1686... at 100.00%
+1	18aa, >pgat_pos_2312... *
+>Cluster 802
+0	18aa, >pgat_pos_2313... *
+>Cluster 803
+0	18aa, >pgat_pos_2314... *
+>Cluster 804
+0	18aa, >pgat_pos_2315... *
+>Cluster 805
+0	18aa, >pgat_pos_2317... *
+>Cluster 806
+0	18aa, >pgat_pos_2321... *
+>Cluster 807
+0	18aa, >pgat_pos_2324... *
+1	18aa, >pgat_pos_2334... at 88.89%
+2	18aa, >pgat_pos_2337... at 94.44%
+3	18aa, >pgat_pos_2345... at 88.89%
+4	18aa, >pgat_pos_2365... at 83.33%
+>Cluster 808
+0	18aa, >pgat_pos_2326... *
+>Cluster 809
+0	18aa, >pgat_pos_2327... *
+1	18aa, >pgat_pos_2329... at 83.33%
+>Cluster 810
+0	18aa, >pgat_pos_2328... *
+>Cluster 811
+0	18aa, >pgat_pos_2331... *
+>Cluster 812
+0	18aa, >pgat_pos_2332... *
+>Cluster 813
+0	13aa, >pgat_pos_1276... at 100.00%
+1	18aa, >pgat_pos_2336... *
+>Cluster 814
+0	18aa, >pgat_pos_2338... *
+>Cluster 815
+0	12aa, >pgat_pos_1005... at 83.33%
+1	14aa, >pgat_pos_1457... at 100.00%
+2	18aa, >pgat_pos_2341... *
+>Cluster 816
+0	11aa, >pgat_pos_725... at 100.00%
+1	12aa, >pgat_pos_1007... at 91.67%
+2	12aa, >pgat_pos_1055... at 91.67%
+3	18aa, >pgat_pos_2342... *
+>Cluster 817
+0	17aa, >pgat_pos_1924... at 94.12%
+1	18aa, >pgat_pos_2347... *
+2	18aa, >pgat_pos_2348... at 94.44%
+3	18aa, >pgat_pos_2349... at 88.89%
+4	18aa, >pgat_pos_2350... at 83.33%
+>Cluster 818
+0	11aa, >pgat_pos_682... at 81.82%
+1	11aa, >pgat_pos_704... at 81.82%
+2	11aa, >pgat_pos_713... at 81.82%
+3	11aa, >pgat_pos_714... at 81.82%
+4	11aa, >pgat_pos_715... at 90.91%
+5	15aa, >pgat_pos_1706... at 93.33%
+6	18aa, >pgat_pos_2351... *
+>Cluster 819
+0	18aa, >pgat_pos_2352... *
+>Cluster 820
+0	18aa, >pgat_pos_2353... *
+1	18aa, >pgat_pos_2354... at 94.44%
+2	18aa, >pgat_pos_2355... at 88.89%
+3	18aa, >pgat_pos_2356... at 83.33%
+>Cluster 821
+0	13aa, >pgat_pos_1297... at 100.00%
+1	18aa, >pgat_pos_2357... *
+2	18aa, >pgat_pos_2358... at 88.89%
+>Cluster 822
+0	17aa, >pgat_pos_1981... at 94.12%
+1	18aa, >pgat_pos_2359... *
+>Cluster 823
+0	18aa, >pgat_pos_2364... *
+>Cluster 824
+0	18aa, >pgat_pos_2367... *
+1	18aa, >pgat_pos_2368... at 88.89%
+2	18aa, >pgat_pos_2371... at 88.89%
+3	18aa, >pgat_pos_2377... at 83.33%
+>Cluster 825
+0	18aa, >pgat_pos_2369... *
+1	18aa, >pgat_pos_2370... at 88.89%
+>Cluster 826
+0	17aa, >pgat_pos_2135... at 82.35%
+1	17aa, >pgat_pos_2136... at 88.24%
+2	17aa, >pgat_pos_2138... at 88.24%
+3	18aa, >pgat_pos_2372... *
+4	18aa, >pgat_pos_2373... at 94.44%
+>Cluster 827
+0	12aa, >pgat_pos_1049... at 91.67%
+1	14aa, >pgat_pos_1506... at 100.00%
+2	16aa, >pgat_pos_1844... at 100.00%
+3	16aa, >pgat_pos_1910... at 81.25%
+4	18aa, >pgat_pos_2374... *
+>Cluster 828
+0	18aa, >pgat_pos_2378... *
+>Cluster 829
+0	18aa, >pgat_pos_2379... *
+>Cluster 830
+0	14aa, >pgat_pos_1515... at 100.00%
+1	15aa, >pgat_pos_1520... at 80.00%
+2	16aa, >pgat_pos_1902... at 100.00%
+3	18aa, >pgat_pos_2382... *
+>Cluster 831
+0	18aa, >pgat_pos_2383... *
+1	18aa, >pgat_pos_2384... at 83.33%
+>Cluster 832
+0	12aa, >pgat_pos_915... at 100.00%
+1	14aa, >pgat_pos_1407... at 100.00%
+2	16aa, >pgat_pos_1862... at 100.00%
+3	18aa, >pgat_pos_2386... *
+4	18aa, >pgat_pos_2387... at 94.44%
+5	18aa, >pgat_pos_2388... at 94.44%
+6	18aa, >pgat_pos_2389... at 94.44%
+7	18aa, >pgat_pos_2390... at 88.89%
+8	18aa, >pgat_pos_2391... at 88.89%
+>Cluster 833
+0	18aa, >pgat_pos_2392... *
+>Cluster 834
+0	17aa, >pgat_pos_1912... *
+>Cluster 835
+0	17aa, >pgat_pos_1913... *
+1	17aa, >pgat_pos_1914... at 82.35%
+>Cluster 836
+0	11aa, >pgat_pos_566... at 90.91%
+1	17aa, >pgat_pos_1915... *
+2	17aa, >pgat_pos_1916... at 88.24%
+3	17aa, >pgat_pos_1925... at 82.35%
+4	17aa, >pgat_pos_1926... at 82.35%
+5	17aa, >pgat_pos_1927... at 88.24%
+>Cluster 837
+0	11aa, >pgat_pos_699... at 100.00%
+1	17aa, >pgat_pos_1917... *
+>Cluster 838
+0	16aa, >pgat_pos_1756... at 100.00%
+1	17aa, >pgat_pos_1921... *
+>Cluster 839
+0	17aa, >pgat_pos_1923... *
+>Cluster 840
+0	13aa, >pgat_pos_1134... at 92.31%
+1	15aa, >pgat_pos_1593... at 100.00%
+2	15aa, >pgat_pos_1594... at 93.33%
+3	17aa, >pgat_pos_1935... *
+>Cluster 841
+0	13aa, >pgat_pos_1332... at 84.62%
+1	13aa, >pgat_pos_1333... at 92.31%
+2	13aa, >pgat_pos_1334... at 84.62%
+3	17aa, >pgat_pos_1942... *
+>Cluster 842
+0	17aa, >pgat_pos_1945... *
+1	17aa, >pgat_pos_1946... at 94.12%
+>Cluster 843
+0	17aa, >pgat_pos_1947... *
+1	17aa, >pgat_pos_1948... at 94.12%
+2	17aa, >pgat_pos_1949... at 94.12%
+>Cluster 844
+0	17aa, >pgat_pos_1952... *
+>Cluster 845
+0	11aa, >pgat_pos_671... at 90.91%
+1	12aa, >pgat_pos_931... at 83.33%
+2	13aa, >pgat_pos_1096... at 84.62%
+3	14aa, >pgat_pos_1351... at 100.00%
+4	15aa, >pgat_pos_1560... at 100.00%
+5	16aa, >pgat_pos_1769... at 100.00%
+6	17aa, >pgat_pos_1953... *
+>Cluster 846
+0	17aa, >pgat_pos_1954... *
+>Cluster 847
+0	17aa, >pgat_pos_1956... *
+>Cluster 848
+0	17aa, >pgat_pos_1957... *
+>Cluster 849
+0	17aa, >pgat_pos_1958... *
+>Cluster 850
+0	14aa, >pgat_pos_1355... at 100.00%
+1	17aa, >pgat_pos_1959... *
+>Cluster 851
+0	17aa, >pgat_pos_1960... *
+>Cluster 852
+0	17aa, >pgat_pos_1961... *
+1	17aa, >pgat_pos_1962... at 94.12%
+>Cluster 853
+0	17aa, >pgat_pos_1964... *
+1	17aa, >pgat_pos_1965... at 88.24%
+2	17aa, >pgat_pos_1968... at 88.24%
+3	17aa, >pgat_pos_1969... at 82.35%
+>Cluster 854
+0	17aa, >pgat_pos_1972... *
+>Cluster 855
+0	17aa, >pgat_pos_1973... *
+>Cluster 856
+0	17aa, >pgat_pos_1974... *
+>Cluster 857
+0	17aa, >pgat_pos_1977... *
+>Cluster 858
+0	17aa, >pgat_pos_1978... *
+>Cluster 859
+0	17aa, >pgat_pos_1979... *
+>Cluster 860
+0	12aa, >pgat_pos_812... at 83.33%
+1	17aa, >pgat_pos_1982... *
+>Cluster 861
+0	17aa, >pgat_pos_1988... *
+1	17aa, >pgat_pos_1989... at 88.24%
+>Cluster 862
+0	17aa, >pgat_pos_1991... *
+>Cluster 863
+0	13aa, >pgat_pos_1259... at 92.31%
+1	13aa, >pgat_pos_1262... at 84.62%
+2	17aa, >pgat_pos_1998... *
+3	17aa, >pgat_pos_1999... at 94.12%
+4	17aa, >pgat_pos_2000... at 88.24%
+5	17aa, >pgat_pos_2075... at 88.24%
+6	17aa, >pgat_pos_2133... at 82.35%
+7	17aa, >pgat_pos_2134... at 82.35%
+>Cluster 864
+0	17aa, >pgat_pos_2001... *
+>Cluster 865
+0	17aa, >pgat_pos_2008... *
+>Cluster 866
+0	17aa, >pgat_pos_2010... *
+1	17aa, >pgat_pos_2023... at 82.35%
+>Cluster 867
+0	17aa, >pgat_pos_2015... *
+1	17aa, >pgat_pos_2018... at 82.35%
+2	17aa, >pgat_pos_2021... at 88.24%
+>Cluster 868
+0	17aa, >pgat_pos_2017... *
+1	17aa, >pgat_pos_2022... at 94.12%
+>Cluster 869
+0	17aa, >pgat_pos_2019... *
+>Cluster 870
+0	17aa, >pgat_pos_2024... *
+>Cluster 871
+0	17aa, >pgat_pos_2025... *
+>Cluster 872
+0	16aa, >pgat_pos_1830... at 81.25%
+1	16aa, >pgat_pos_1831... at 100.00%
+2	16aa, >pgat_pos_1851... at 93.75%
+3	16aa, >pgat_pos_1854... at 87.50%
+4	17aa, >pgat_pos_2027... *
+>Cluster 873
+0	11aa, >pgat_pos_661... at 90.91%
+1	17aa, >pgat_pos_2028... *
+>Cluster 874
+0	12aa, >pgat_pos_853... at 100.00%
+1	14aa, >pgat_pos_1400... at 85.71%
+2	15aa, >pgat_pos_1630... at 100.00%
+3	17aa, >pgat_pos_2029... *
+>Cluster 875
+0	12aa, >pgat_pos_871... at 83.33%
+1	15aa, >pgat_pos_1646... at 80.00%
+2	17aa, >pgat_pos_2032... *
+>Cluster 876
+0	17aa, >pgat_pos_2033... *
+>Cluster 877
+0	17aa, >pgat_pos_2035... *
+1	17aa, >pgat_pos_2036... at 88.24%
+>Cluster 878
+0	17aa, >pgat_pos_2038... *
+>Cluster 879
+0	17aa, >pgat_pos_2041... *
+>Cluster 880
+0	17aa, >pgat_pos_2044... *
+>Cluster 881
+0	17aa, >pgat_pos_2064... *
+>Cluster 882
+0	17aa, >pgat_pos_2072... *
+>Cluster 883
+0	12aa, >pgat_pos_908... at 83.33%
+1	17aa, >pgat_pos_2073... *
+>Cluster 884
+0	17aa, >pgat_pos_2074... *
+>Cluster 885
+0	17aa, >pgat_pos_2076... *
+>Cluster 886
+0	17aa, >pgat_pos_2077... *
+>Cluster 887
+0	12aa, >pgat_pos_832... at 100.00%
+1	12aa, >pgat_pos_840... at 100.00%
+2	17aa, >pgat_pos_2081... *
+>Cluster 888
+0	15aa, >pgat_pos_1648... at 100.00%
+1	16aa, >pgat_pos_1855... at 100.00%
+2	17aa, >pgat_pos_2082... *
+>Cluster 889
+0	15aa, >pgat_pos_1653... at 86.67%
+1	17aa, >pgat_pos_2084... *
+>Cluster 890
+0	17aa, >pgat_pos_2085... *
+>Cluster 891
+0	17aa, >pgat_pos_2086... *
+1	17aa, >pgat_pos_2087... at 88.24%
+2	17aa, >pgat_pos_2088... at 88.24%
+>Cluster 892
+0	17aa, >pgat_pos_2091... *
+>Cluster 893
+0	17aa, >pgat_pos_2092... *
+>Cluster 894
+0	17aa, >pgat_pos_2096... *
+>Cluster 895
+0	17aa, >pgat_pos_2098... *
+1	17aa, >pgat_pos_2099... at 94.12%
+>Cluster 896
+0	17aa, >pgat_pos_2102... *
+>Cluster 897
+0	11aa, >pgat_pos_676... at 100.00%
+1	12aa, >pgat_pos_965... at 100.00%
+2	13aa, >pgat_pos_1271... at 100.00%
+3	14aa, >pgat_pos_1451... at 100.00%
+4	15aa, >pgat_pos_1680... at 100.00%
+5	16aa, >pgat_pos_1889... at 100.00%
+6	17aa, >pgat_pos_2107... *
+>Cluster 898
+0	17aa, >pgat_pos_2109... *
+>Cluster 899
+0	17aa, >pgat_pos_2110... *
+>Cluster 900
+0	17aa, >pgat_pos_2111... *
+>Cluster 901
+0	17aa, >pgat_pos_2115... *
+1	17aa, >pgat_pos_2116... at 82.35%
+>Cluster 902
+0	17aa, >pgat_pos_2120... *
+>Cluster 903
+0	17aa, >pgat_pos_2126... *
+>Cluster 904
+0	17aa, >pgat_pos_2127... *
+>Cluster 905
+0	16aa, >pgat_pos_1908... at 100.00%
+1	17aa, >pgat_pos_2131... *
+>Cluster 906
+0	17aa, >pgat_pos_2137... *
+>Cluster 907
+0	17aa, >pgat_pos_2139... *
+>Cluster 908
+0	16aa, >pgat_pos_1750... *
+>Cluster 909
+0	12aa, >pgat_pos_766... at 83.33%
+1	13aa, >pgat_pos_1321... at 84.62%
+2	13aa, >pgat_pos_1324... at 100.00%
+3	16aa, >pgat_pos_1751... *
+>Cluster 910
+0	16aa, >pgat_pos_1759... *
+>Cluster 911
+0	16aa, >pgat_pos_1762... *
+>Cluster 912
+0	16aa, >pgat_pos_1763... *
+>Cluster 913
+0	12aa, >pgat_pos_746... at 100.00%
+1	16aa, >pgat_pos_1764... *
+>Cluster 914
+0	16aa, >pgat_pos_1765... *
+>Cluster 915
+0	16aa, >pgat_pos_1767... *
+>Cluster 916
+0	16aa, >pgat_pos_1768... *
+>Cluster 917
+0	16aa, >pgat_pos_1770... *
+>Cluster 918
+0	16aa, >pgat_pos_1771... *
+>Cluster 919
+0	12aa, >pgat_pos_819... at 83.33%
+1	16aa, >pgat_pos_1772... *
+2	16aa, >pgat_pos_1773... at 87.50%
+3	16aa, >pgat_pos_1774... at 93.75%
+4	16aa, >pgat_pos_1775... at 87.50%
+5	16aa, >pgat_pos_1776... at 87.50%
+6	16aa, >pgat_pos_1777... at 87.50%
+7	16aa, >pgat_pos_1778... at 81.25%
+8	16aa, >pgat_pos_1779... at 81.25%
+9	16aa, >pgat_pos_1780... at 87.50%
+10	16aa, >pgat_pos_1791... at 87.50%
+11	16aa, >pgat_pos_1792... at 81.25%
+12	16aa, >pgat_pos_1828... at 87.50%
+>Cluster 920
+0	16aa, >pgat_pos_1781... *
+1	16aa, >pgat_pos_1782... at 87.50%
+2	16aa, >pgat_pos_1783... at 87.50%
+3	16aa, >pgat_pos_1784... at 87.50%
+4	16aa, >pgat_pos_1785... at 81.25%
+5	16aa, >pgat_pos_1787... at 87.50%
+6	16aa, >pgat_pos_1788... at 81.25%
+>Cluster 921
+0	16aa, >pgat_pos_1786... *
+1	16aa, >pgat_pos_1789... at 87.50%
+2	16aa, >pgat_pos_1790... at 93.75%
+>Cluster 922
+0	16aa, >pgat_pos_1794... *
+1	16aa, >pgat_pos_1795... at 87.50%
+2	16aa, >pgat_pos_1796... at 93.75%
+3	16aa, >pgat_pos_1797... at 87.50%
+4	16aa, >pgat_pos_1803... at 87.50%
+5	16aa, >pgat_pos_1833... at 81.25%
+6	16aa, >pgat_pos_1834... at 81.25%
+>Cluster 923
+0	16aa, >pgat_pos_1798... *
+1	16aa, >pgat_pos_1799... at 93.75%
+2	16aa, >pgat_pos_1802... at 93.75%
+>Cluster 924
+0	16aa, >pgat_pos_1800... *
+1	16aa, >pgat_pos_1801... at 87.50%
+2	16aa, >pgat_pos_1804... at 81.25%
+>Cluster 925
+0	16aa, >pgat_pos_1805... *
+>Cluster 926
+0	16aa, >pgat_pos_1810... *
+>Cluster 927
+0	16aa, >pgat_pos_1823... *
+>Cluster 928
+0	16aa, >pgat_pos_1824... *
+1	16aa, >pgat_pos_1825... at 87.50%
+>Cluster 929
+0	16aa, >pgat_pos_1841... *
+>Cluster 930
+0	16aa, >pgat_pos_1842... *
+>Cluster 931
+0	16aa, >pgat_pos_1848... *
+>Cluster 932
+0	16aa, >pgat_pos_1850... *
+>Cluster 933
+0	16aa, >pgat_pos_1852... *
+>Cluster 934
+0	13aa, >pgat_pos_1260... at 84.62%
+1	16aa, >pgat_pos_1859... *
+>Cluster 935
+0	16aa, >pgat_pos_1869... *
+>Cluster 936
+0	16aa, >pgat_pos_1882... *
+>Cluster 937
+0	16aa, >pgat_pos_1892... *
+1	16aa, >pgat_pos_1893... at 87.50%
+2	16aa, >pgat_pos_1894... at 93.75%
+>Cluster 938
+0	16aa, >pgat_pos_1895... *
+>Cluster 939
+0	16aa, >pgat_pos_1904... *
+>Cluster 940
+0	16aa, >pgat_pos_1905... *
+>Cluster 941
+0	11aa, >pgat_pos_707... at 81.82%
+1	11aa, >pgat_pos_708... at 81.82%
+2	11aa, >pgat_pos_709... at 90.91%
+3	12aa, >pgat_pos_1032... at 83.33%
+4	12aa, >pgat_pos_1058... at 83.33%
+5	13aa, >pgat_pos_1308... at 84.62%
+6	14aa, >pgat_pos_1491... at 85.71%
+7	14aa, >pgat_pos_1492... at 92.86%
+8	14aa, >pgat_pos_1493... at 92.86%
+9	14aa, >pgat_pos_1494... at 85.71%
+10	14aa, >pgat_pos_1495... at 100.00%
+11	14aa, >pgat_pos_1496... at 92.86%
+12	14aa, >pgat_pos_1497... at 92.86%
+13	14aa, >pgat_pos_1498... at 92.86%
+14	14aa, >pgat_pos_1518... at 85.71%
+15	15aa, >pgat_pos_1717... at 100.00%
+16	15aa, >pgat_pos_1718... at 100.00%
+17	15aa, >pgat_pos_1719... at 100.00%
+18	16aa, >pgat_pos_1906... *
+>Cluster 942
+0	16aa, >pgat_pos_1909... *
+>Cluster 943
+0	12aa, >pgat_pos_1057... at 100.00%
+1	16aa, >pgat_pos_1911... *
+>Cluster 944
+0	13aa, >pgat_pos_1081... at 84.62%
+1	13aa, >pgat_pos_1082... at 100.00%
+2	15aa, >pgat_pos_1521... *
+>Cluster 945
+0	15aa, >pgat_pos_1522... *
+>Cluster 946
+0	15aa, >pgat_pos_1526... *
+1	15aa, >pgat_pos_1527... at 93.33%
+2	15aa, >pgat_pos_1528... at 93.33%
+>Cluster 947
+0	15aa, >pgat_pos_1533... *
+>Cluster 948
+0	15aa, >pgat_pos_1538... *
+1	15aa, >pgat_pos_1544... at 93.33%
+2	15aa, >pgat_pos_1672... at 93.33%
+3	15aa, >pgat_pos_1679... at 86.67%
+>Cluster 949
+0	15aa, >pgat_pos_1539... *
+>Cluster 950
+0	15aa, >pgat_pos_1542... *
+1	15aa, >pgat_pos_1658... at 86.67%
+2	15aa, >pgat_pos_1663... at 93.33%
+3	15aa, >pgat_pos_1675... at 93.33%
+>Cluster 951
+0	15aa, >pgat_pos_1543... *
+>Cluster 952
+0	15aa, >pgat_pos_1547... *
+>Cluster 953
+0	15aa, >pgat_pos_1552... *
+>Cluster 954
+0	15aa, >pgat_pos_1561... *
+>Cluster 955
+0	15aa, >pgat_pos_1563... *
+1	15aa, >pgat_pos_1564... at 93.33%
+2	15aa, >pgat_pos_1565... at 93.33%
+3	15aa, >pgat_pos_1566... at 86.67%
+4	15aa, >pgat_pos_1567... at 80.00%
+5	15aa, >pgat_pos_1568... at 93.33%
+6	15aa, >pgat_pos_1569... at 86.67%
+>Cluster 956
+0	15aa, >pgat_pos_1570... *
+>Cluster 957
+0	15aa, >pgat_pos_1573... *
+>Cluster 958
+0	15aa, >pgat_pos_1577... *
+>Cluster 959
+0	15aa, >pgat_pos_1578... *
+>Cluster 960
+0	15aa, >pgat_pos_1590... *
+>Cluster 961
+0	15aa, >pgat_pos_1592... *
+>Cluster 962
+0	13aa, >pgat_pos_1273... at 100.00%
+1	15aa, >pgat_pos_1596... *
+>Cluster 963
+0	12aa, >pgat_pos_1001... at 100.00%
+1	13aa, >pgat_pos_1137... at 100.00%
+2	13aa, >pgat_pos_1281... at 100.00%
+3	14aa, >pgat_pos_1365... at 100.00%
+4	14aa, >pgat_pos_1456... at 100.00%
+5	15aa, >pgat_pos_1599... *
+>Cluster 964
+0	12aa, >pgat_pos_1002... at 100.00%
+1	13aa, >pgat_pos_1138... at 100.00%
+2	13aa, >pgat_pos_1282... at 100.00%
+3	14aa, >pgat_pos_1366... at 100.00%
+4	15aa, >pgat_pos_1600... *
+>Cluster 965
+0	15aa, >pgat_pos_1603... *
+>Cluster 966
+0	11aa, >pgat_pos_687... at 90.91%
+1	13aa, >pgat_pos_1314... at 92.31%
+2	13aa, >pgat_pos_1316... at 92.31%
+3	13aa, >pgat_pos_1318... at 84.62%
+4	15aa, >pgat_pos_1605... *
+>Cluster 967
+0	15aa, >pgat_pos_1606... *
+>Cluster 968
+0	13aa, >pgat_pos_1142... at 100.00%
+1	14aa, >pgat_pos_1374... at 92.86%
+2	14aa, >pgat_pos_1375... at 92.86%
+3	14aa, >pgat_pos_1376... at 92.86%
+4	14aa, >pgat_pos_1377... at 92.86%
+5	14aa, >pgat_pos_1378... at 92.86%
+6	14aa, >pgat_pos_1379... at 92.86%
+7	14aa, >pgat_pos_1380... at 92.86%
+8	14aa, >pgat_pos_1381... at 92.86%
+9	14aa, >pgat_pos_1382... at 92.86%
+10	14aa, >pgat_pos_1383... at 92.86%
+11	14aa, >pgat_pos_1391... at 92.86%
+12	15aa, >pgat_pos_1607... *
+>Cluster 969
+0	15aa, >pgat_pos_1608... *
+>Cluster 970
+0	15aa, >pgat_pos_1609... *
+>Cluster 971
+0	15aa, >pgat_pos_1612... *
+>Cluster 972
+0	15aa, >pgat_pos_1613... *
+>Cluster 973
+0	15aa, >pgat_pos_1617... *
+>Cluster 974
+0	14aa, >pgat_pos_1396... at 100.00%
+1	15aa, >pgat_pos_1622... *
+>Cluster 975
+0	12aa, >pgat_pos_896... at 83.33%
+1	15aa, >pgat_pos_1624... *
+>Cluster 976
+0	15aa, >pgat_pos_1629... *
+>Cluster 977
+0	13aa, >pgat_pos_1237... at 100.00%
+1	15aa, >pgat_pos_1631... *
+>Cluster 978
+0	15aa, >pgat_pos_1632... *
+>Cluster 979
+0	15aa, >pgat_pos_1634... *
+>Cluster 980
+0	15aa, >pgat_pos_1635... *
+>Cluster 981
+0	15aa, >pgat_pos_1644... *
+>Cluster 982
+0	15aa, >pgat_pos_1645... *
+>Cluster 983
+0	11aa, >pgat_pos_570... at 90.91%
+1	15aa, >pgat_pos_1650... *
+>Cluster 984
+0	15aa, >pgat_pos_1654... *
+>Cluster 985
+0	15aa, >pgat_pos_1656... *
+>Cluster 986
+0	15aa, >pgat_pos_1657... *
+>Cluster 987
+0	15aa, >pgat_pos_1659... *
+>Cluster 988
+0	15aa, >pgat_pos_1660... *
+>Cluster 989
+0	15aa, >pgat_pos_1664... *
+>Cluster 990
+0	15aa, >pgat_pos_1665... *
+>Cluster 991
+0	15aa, >pgat_pos_1666... *
+>Cluster 992
+0	15aa, >pgat_pos_1669... *
+>Cluster 993
+0	15aa, >pgat_pos_1677... *
+1	15aa, >pgat_pos_1702... at 93.33%
+2	15aa, >pgat_pos_1703... at 86.67%
+3	15aa, >pgat_pos_1704... at 86.67%
+4	15aa, >pgat_pos_1705... at 80.00%
+>Cluster 994
+0	15aa, >pgat_pos_1678... *
+>Cluster 995
+0	15aa, >pgat_pos_1681... *
+>Cluster 996
+0	15aa, >pgat_pos_1683... *
+>Cluster 997
+0	15aa, >pgat_pos_1685... *
+>Cluster 998
+0	15aa, >pgat_pos_1687... *
+>Cluster 999
+0	15aa, >pgat_pos_1688... *
+>Cluster 1000
+0	15aa, >pgat_pos_1690... *
+1	15aa, >pgat_pos_1691... at 93.33%
+>Cluster 1001
+0	15aa, >pgat_pos_1698... *
+>Cluster 1002
+0	15aa, >pgat_pos_1699... *
+>Cluster 1003
+0	15aa, >pgat_pos_1707... *
+>Cluster 1004
+0	15aa, >pgat_pos_1708... *
+>Cluster 1005
+0	15aa, >pgat_pos_1709... *
+>Cluster 1006
+0	15aa, >pgat_pos_1710... *
+>Cluster 1007
+0	15aa, >pgat_pos_1711... *
+>Cluster 1008
+0	15aa, >pgat_pos_1712... *
+>Cluster 1009
+0	15aa, >pgat_pos_1715... *
+1	15aa, >pgat_pos_1716... at 80.00%
+>Cluster 1010
+0	15aa, >pgat_pos_1722... *
+>Cluster 1011
+0	15aa, >pgat_pos_1723... *
+>Cluster 1012
+0	15aa, >pgat_pos_1725... *
+>Cluster 1013
+0	15aa, >pgat_pos_1727... *
+>Cluster 1014
+0	15aa, >pgat_pos_1728... *
+>Cluster 1015
+0	14aa, >pgat_pos_1464... at 85.71%
+1	15aa, >pgat_pos_1743... *
+>Cluster 1016
+0	15aa, >pgat_pos_1744... *
+>Cluster 1017
+0	15aa, >pgat_pos_1745... *
+>Cluster 1018
+0	15aa, >pgat_pos_1746... *
+>Cluster 1019
+0	15aa, >pgat_pos_1747... *
+>Cluster 1020
+0	15aa, >pgat_pos_1748... *
+>Cluster 1021
+0	15aa, >pgat_pos_1749... *
+>Cluster 1022
+0	14aa, >pgat_pos_1336... *
+>Cluster 1023
+0	14aa, >pgat_pos_1337... *
+>Cluster 1024
+0	14aa, >pgat_pos_1341... *
+>Cluster 1025
+0	12aa, >pgat_pos_1028... at 91.67%
+1	14aa, >pgat_pos_1342... *
+2	14aa, >pgat_pos_1470... at 85.71%
+3	14aa, >pgat_pos_1471... at 85.71%
+4	14aa, >pgat_pos_1472... at 85.71%
+5	14aa, >pgat_pos_1474... at 85.71%
+6	14aa, >pgat_pos_1475... at 85.71%
+7	14aa, >pgat_pos_1476... at 85.71%
+8	14aa, >pgat_pos_1477... at 85.71%
+9	14aa, >pgat_pos_1478... at 85.71%
+10	14aa, >pgat_pos_1479... at 85.71%
+11	14aa, >pgat_pos_1480... at 85.71%
+12	14aa, >pgat_pos_1481... at 85.71%
+13	14aa, >pgat_pos_1482... at 85.71%
+14	14aa, >pgat_pos_1483... at 85.71%
+15	14aa, >pgat_pos_1484... at 85.71%
+16	14aa, >pgat_pos_1485... at 85.71%
+17	14aa, >pgat_pos_1486... at 85.71%
+18	14aa, >pgat_pos_1487... at 85.71%
+>Cluster 1026
+0	14aa, >pgat_pos_1343... *
+>Cluster 1027
+0	14aa, >pgat_pos_1344... *
+>Cluster 1028
+0	14aa, >pgat_pos_1345... *
+1	14aa, >pgat_pos_1440... at 85.71%
+>Cluster 1029
+0	12aa, >pgat_pos_818... at 83.33%
+1	14aa, >pgat_pos_1349... *
+2	14aa, >pgat_pos_1359... at 92.86%
+3	14aa, >pgat_pos_1395... at 92.86%
+4	14aa, >pgat_pos_1419... at 92.86%
+5	14aa, >pgat_pos_1467... at 92.86%
+>Cluster 1030
+0	14aa, >pgat_pos_1350... *
+>Cluster 1031
+0	14aa, >pgat_pos_1352... *
+>Cluster 1032
+0	14aa, >pgat_pos_1353... *
+>Cluster 1033
+0	12aa, >pgat_pos_755... at 91.67%
+1	14aa, >pgat_pos_1354... *
+>Cluster 1034
+0	14aa, >pgat_pos_1357... *
+>Cluster 1035
+0	14aa, >pgat_pos_1364... *
+>Cluster 1036
+0	13aa, >pgat_pos_1322... at 100.00%
+1	13aa, >pgat_pos_1323... at 92.31%
+2	14aa, >pgat_pos_1368... *
+3	14aa, >pgat_pos_1369... at 92.86%
+>Cluster 1037
+0	14aa, >pgat_pos_1370... *
+1	14aa, >pgat_pos_1371... at 92.86%
+2	14aa, >pgat_pos_1372... at 85.71%
+>Cluster 1038
+0	14aa, >pgat_pos_1373... *
+>Cluster 1039
+0	12aa, >pgat_pos_810... at 100.00%
+1	14aa, >pgat_pos_1384... *
+2	14aa, >pgat_pos_1385... at 92.86%
+>Cluster 1040
+0	14aa, >pgat_pos_1386... *
+>Cluster 1041
+0	14aa, >pgat_pos_1387... *
+>Cluster 1042
+0	14aa, >pgat_pos_1388... *
+>Cluster 1043
+0	14aa, >pgat_pos_1390... *
+>Cluster 1044
+0	14aa, >pgat_pos_1394... *
+>Cluster 1045
+0	14aa, >pgat_pos_1397... *
+>Cluster 1046
+0	11aa, >pgat_pos_605... at 100.00%
+1	12aa, >pgat_pos_844... at 100.00%
+2	13aa, >pgat_pos_1232... at 100.00%
+3	14aa, >pgat_pos_1398... *
+>Cluster 1047
+0	14aa, >pgat_pos_1399... *
+>Cluster 1048
+0	14aa, >pgat_pos_1401... *
+>Cluster 1049
+0	14aa, >pgat_pos_1403... *
+1	14aa, >pgat_pos_1420... at 85.71%
+2	14aa, >pgat_pos_1452... at 85.71%
+>Cluster 1050
+0	14aa, >pgat_pos_1404... *
+>Cluster 1051
+0	14aa, >pgat_pos_1406... *
+>Cluster 1052
+0	14aa, >pgat_pos_1411... *
+1	14aa, >pgat_pos_1453... at 85.71%
+>Cluster 1053
+0	14aa, >pgat_pos_1416... *
+>Cluster 1054
+0	14aa, >pgat_pos_1418... *
+>Cluster 1055
+0	13aa, >pgat_pos_1256... at 92.31%
+1	14aa, >pgat_pos_1421... *
+2	14aa, >pgat_pos_1422... at 85.71%
+3	14aa, >pgat_pos_1426... at 85.71%
+4	14aa, >pgat_pos_1427... at 85.71%
+>Cluster 1056
+0	14aa, >pgat_pos_1423... *
+>Cluster 1057
+0	14aa, >pgat_pos_1424... *
+1	14aa, >pgat_pos_1425... at 85.71%
+>Cluster 1058
+0	14aa, >pgat_pos_1429... *
+>Cluster 1059
+0	14aa, >pgat_pos_1430... *
+>Cluster 1060
+0	14aa, >pgat_pos_1431... *
+>Cluster 1061
+0	14aa, >pgat_pos_1432... *
+1	14aa, >pgat_pos_1433... at 85.71%
+>Cluster 1062
+0	12aa, >pgat_pos_899... at 83.33%
+1	12aa, >pgat_pos_934... at 83.33%
+2	12aa, >pgat_pos_949... at 100.00%
+3	12aa, >pgat_pos_950... at 83.33%
+4	14aa, >pgat_pos_1436... *
+>Cluster 1063
+0	14aa, >pgat_pos_1437... *
+>Cluster 1064
+0	14aa, >pgat_pos_1441... *
+>Cluster 1065
+0	14aa, >pgat_pos_1444... *
+>Cluster 1066
+0	14aa, >pgat_pos_1447... *
+>Cluster 1067
+0	11aa, >pgat_pos_684... at 100.00%
+1	14aa, >pgat_pos_1450... *
+>Cluster 1068
+0	14aa, >pgat_pos_1454... *
+>Cluster 1069
+0	13aa, >pgat_pos_1286... at 100.00%
+1	14aa, >pgat_pos_1458... *
+>Cluster 1070
+0	14aa, >pgat_pos_1459... *
+>Cluster 1071
+0	14aa, >pgat_pos_1460... *
+>Cluster 1072
+0	14aa, >pgat_pos_1461... *
+>Cluster 1073
+0	14aa, >pgat_pos_1463... *
+>Cluster 1074
+0	14aa, >pgat_pos_1465... *
+>Cluster 1075
+0	14aa, >pgat_pos_1473... *
+>Cluster 1076
+0	14aa, >pgat_pos_1489... *
+>Cluster 1077
+0	14aa, >pgat_pos_1490... *
+>Cluster 1078
+0	14aa, >pgat_pos_1501... *
+>Cluster 1079
+0	14aa, >pgat_pos_1502... *
+>Cluster 1080
+0	14aa, >pgat_pos_1503... *
+>Cluster 1081
+0	11aa, >pgat_pos_635... at 81.82%
+1	11aa, >pgat_pos_637... at 81.82%
+2	14aa, >pgat_pos_1504... *
+>Cluster 1082
+0	14aa, >pgat_pos_1505... *
+>Cluster 1083
+0	11aa, >pgat_pos_723... at 100.00%
+1	14aa, >pgat_pos_1508... *
+>Cluster 1084
+0	14aa, >pgat_pos_1509... *
+>Cluster 1085
+0	14aa, >pgat_pos_1510... *
+>Cluster 1086
+0	14aa, >pgat_pos_1511... *
+>Cluster 1087
+0	14aa, >pgat_pos_1512... *
+1	14aa, >pgat_pos_1513... at 92.86%
+>Cluster 1088
+0	14aa, >pgat_pos_1514... *
+>Cluster 1089
+0	14aa, >pgat_pos_1516... *
+>Cluster 1090
+0	14aa, >pgat_pos_1517... *
+>Cluster 1091
+0	13aa, >pgat_pos_1067... *
+1	13aa, >pgat_pos_1068... at 92.31%
+2	13aa, >pgat_pos_1124... at 84.62%
+3	13aa, >pgat_pos_1125... at 84.62%
+4	13aa, >pgat_pos_1252... at 92.31%
+>Cluster 1092
+0	13aa, >pgat_pos_1070... *
+1	13aa, >pgat_pos_1075... at 84.62%
+>Cluster 1093
+0	13aa, >pgat_pos_1071... *
+1	13aa, >pgat_pos_1143... at 84.62%
+2	13aa, >pgat_pos_1160... at 84.62%
+3	13aa, >pgat_pos_1168... at 84.62%
+4	13aa, >pgat_pos_1179... at 84.62%
+5	13aa, >pgat_pos_1183... at 84.62%
+6	13aa, >pgat_pos_1188... at 84.62%
+7	13aa, >pgat_pos_1190... at 84.62%
+8	13aa, >pgat_pos_1193... at 84.62%
+9	13aa, >pgat_pos_1195... at 84.62%
+10	13aa, >pgat_pos_1199... at 84.62%
+11	13aa, >pgat_pos_1201... at 84.62%
+12	13aa, >pgat_pos_1203... at 84.62%
+13	13aa, >pgat_pos_1207... at 84.62%
+14	13aa, >pgat_pos_1209... at 84.62%
+15	13aa, >pgat_pos_1210... at 84.62%
+16	13aa, >pgat_pos_1211... at 84.62%
+17	13aa, >pgat_pos_1212... at 84.62%
+18	13aa, >pgat_pos_1216... at 84.62%
+19	13aa, >pgat_pos_1261... at 84.62%
+>Cluster 1094
+0	13aa, >pgat_pos_1076... *
+>Cluster 1095
+0	13aa, >pgat_pos_1077... *
+>Cluster 1096
+0	13aa, >pgat_pos_1080... *
+1	13aa, >pgat_pos_1126... at 84.62%
+2	13aa, >pgat_pos_1254... at 84.62%
+3	13aa, >pgat_pos_1293... at 84.62%
+4	13aa, >pgat_pos_1302... at 84.62%
+>Cluster 1097
+0	13aa, >pgat_pos_1083... *
+1	13aa, >pgat_pos_1086... at 84.62%
+2	13aa, >pgat_pos_1087... at 84.62%
+3	13aa, >pgat_pos_1088... at 84.62%
+4	13aa, >pgat_pos_1091... at 84.62%
+5	13aa, >pgat_pos_1092... at 92.31%
+6	13aa, >pgat_pos_1093... at 92.31%
+7	13aa, >pgat_pos_1107... at 84.62%
+8	13aa, >pgat_pos_1144... at 84.62%
+>Cluster 1098
+0	13aa, >pgat_pos_1084... *
+1	13aa, >pgat_pos_1089... at 84.62%
+2	13aa, >pgat_pos_1090... at 92.31%
+3	13aa, >pgat_pos_1109... at 84.62%
+>Cluster 1099
+0	13aa, >pgat_pos_1085... *
+1	13aa, >pgat_pos_1110... at 84.62%
+>Cluster 1100
+0	13aa, >pgat_pos_1094... *
+>Cluster 1101
+0	13aa, >pgat_pos_1095... *
+>Cluster 1102
+0	13aa, >pgat_pos_1097... *
+1	13aa, >pgat_pos_1098... at 92.31%
+>Cluster 1103
+0	13aa, >pgat_pos_1101... *
+1	13aa, >pgat_pos_1102... at 92.31%
+2	13aa, >pgat_pos_1103... at 84.62%
+>Cluster 1104
+0	12aa, >pgat_pos_906... at 100.00%
+1	13aa, >pgat_pos_1104... *
+>Cluster 1105
+0	13aa, >pgat_pos_1108... *
+1	13aa, >pgat_pos_1111... at 84.62%
+2	13aa, >pgat_pos_1112... at 84.62%
+3	13aa, >pgat_pos_1311... at 84.62%
+>Cluster 1106
+0	13aa, >pgat_pos_1113... *
+1	13aa, >pgat_pos_1312... at 84.62%
+2	13aa, >pgat_pos_1313... at 92.31%
+>Cluster 1107
+0	13aa, >pgat_pos_1114... *
+>Cluster 1108
+0	13aa, >pgat_pos_1115... *
+>Cluster 1109
+0	13aa, >pgat_pos_1116... *
+>Cluster 1110
+0	12aa, >pgat_pos_749... at 83.33%
+1	12aa, >pgat_pos_754... at 83.33%
+2	13aa, >pgat_pos_1117... *
+3	13aa, >pgat_pos_1118... at 92.31%
+4	13aa, >pgat_pos_1120... at 84.62%
+>Cluster 1111
+0	13aa, >pgat_pos_1119... *
+>Cluster 1112
+0	13aa, >pgat_pos_1121... *
+1	13aa, >pgat_pos_1122... at 84.62%
+>Cluster 1113
+0	13aa, >pgat_pos_1123... *
+>Cluster 1114
+0	13aa, >pgat_pos_1127... *
+>Cluster 1115
+0	13aa, >pgat_pos_1128... *
+1	13aa, >pgat_pos_1129... at 92.31%
+2	13aa, >pgat_pos_1130... at 84.62%
+>Cluster 1116
+0	13aa, >pgat_pos_1131... *
+>Cluster 1117
+0	13aa, >pgat_pos_1135... *
+>Cluster 1118
+0	11aa, >pgat_pos_718... at 100.00%
+1	13aa, >pgat_pos_1139... *
+>Cluster 1119
+0	13aa, >pgat_pos_1140... *
+>Cluster 1120
+0	13aa, >pgat_pos_1145... *
+>Cluster 1121
+0	12aa, >pgat_pos_813... at 91.67%
+1	12aa, >pgat_pos_814... at 83.33%
+2	13aa, >pgat_pos_1146... *
+3	13aa, >pgat_pos_1147... at 92.31%
+4	13aa, >pgat_pos_1148... at 92.31%
+5	13aa, >pgat_pos_1149... at 84.62%
+6	13aa, >pgat_pos_1150... at 92.31%
+7	13aa, >pgat_pos_1151... at 84.62%
+8	13aa, >pgat_pos_1152... at 92.31%
+9	13aa, >pgat_pos_1153... at 84.62%
+10	13aa, >pgat_pos_1154... at 84.62%
+11	13aa, >pgat_pos_1156... at 92.31%
+12	13aa, >pgat_pos_1157... at 84.62%
+13	13aa, >pgat_pos_1327... at 92.31%
+14	13aa, >pgat_pos_1328... at 84.62%
+>Cluster 1122
+0	13aa, >pgat_pos_1155... *
+>Cluster 1123
+0	13aa, >pgat_pos_1158... *
+1	13aa, >pgat_pos_1159... at 84.62%
+2	13aa, >pgat_pos_1189... at 84.62%
+>Cluster 1124
+0	13aa, >pgat_pos_1161... *
+>Cluster 1125
+0	13aa, >pgat_pos_1162... *
+>Cluster 1126
+0	13aa, >pgat_pos_1163... *
+>Cluster 1127
+0	13aa, >pgat_pos_1164... *
+1	13aa, >pgat_pos_1165... at 92.31%
+2	13aa, >pgat_pos_1166... at 92.31%
+3	13aa, >pgat_pos_1192... at 92.31%
+4	13aa, >pgat_pos_1215... at 84.62%
+>Cluster 1128
+0	13aa, >pgat_pos_1167... *
+1	13aa, >pgat_pos_1182... at 92.31%
+2	13aa, >pgat_pos_1194... at 84.62%
+>Cluster 1129
+0	13aa, >pgat_pos_1169... *
+>Cluster 1130
+0	13aa, >pgat_pos_1170... *
+>Cluster 1131
+0	13aa, >pgat_pos_1171... *
+>Cluster 1132
+0	13aa, >pgat_pos_1172... *
+1	13aa, >pgat_pos_1184... at 92.31%
+2	13aa, >pgat_pos_1185... at 84.62%
+>Cluster 1133
+0	13aa, >pgat_pos_1173... *
+1	13aa, >pgat_pos_1178... at 84.62%
+>Cluster 1134
+0	13aa, >pgat_pos_1174... *
+1	13aa, >pgat_pos_1186... at 84.62%
+2	13aa, >pgat_pos_1197... at 84.62%
+3	13aa, >pgat_pos_1198... at 92.31%
+4	13aa, >pgat_pos_1200... at 84.62%
+5	13aa, >pgat_pos_1214... at 84.62%
+>Cluster 1135
+0	13aa, >pgat_pos_1175... *
+1	13aa, >pgat_pos_1176... at 92.31%
+2	13aa, >pgat_pos_1177... at 92.31%
+3	13aa, >pgat_pos_1187... at 92.31%
+>Cluster 1136
+0	13aa, >pgat_pos_1180... *
+>Cluster 1137
+0	13aa, >pgat_pos_1181... *
+>Cluster 1138
+0	13aa, >pgat_pos_1191... *
+1	13aa, >pgat_pos_1196... at 92.31%
+>Cluster 1139
+0	13aa, >pgat_pos_1202... *
+1	13aa, >pgat_pos_1204... at 84.62%
+2	13aa, >pgat_pos_1205... at 84.62%
+3	13aa, >pgat_pos_1208... at 84.62%
+>Cluster 1140
+0	13aa, >pgat_pos_1206... *
+1	13aa, >pgat_pos_1213... at 92.31%
+>Cluster 1141
+0	13aa, >pgat_pos_1217... *
+>Cluster 1142
+0	13aa, >pgat_pos_1218... *
+>Cluster 1143
+0	13aa, >pgat_pos_1219... *
+1	13aa, >pgat_pos_1220... at 84.62%
+2	13aa, >pgat_pos_1221... at 84.62%
+>Cluster 1144
+0	13aa, >pgat_pos_1222... *
+>Cluster 1145
+0	13aa, >pgat_pos_1223... *
+>Cluster 1146
+0	11aa, >pgat_pos_653... at 90.91%
+1	13aa, >pgat_pos_1224... *
+>Cluster 1147
+0	13aa, >pgat_pos_1226... *
+>Cluster 1148
+0	13aa, >pgat_pos_1227... *
+>Cluster 1149
+0	13aa, >pgat_pos_1228... *
+>Cluster 1150
+0	13aa, >pgat_pos_1230... *
+>Cluster 1151
+0	11aa, >pgat_pos_602... at 100.00%
+1	13aa, >pgat_pos_1231... *
+>Cluster 1152
+0	11aa, >pgat_pos_607... at 100.00%
+1	11aa, >pgat_pos_621... at 100.00%
+2	11aa, >pgat_pos_649... at 100.00%
+3	12aa, >pgat_pos_846... at 100.00%
+4	12aa, >pgat_pos_854... at 100.00%
+5	13aa, >pgat_pos_1233... *
+>Cluster 1153
+0	13aa, >pgat_pos_1234... *
+>Cluster 1154
+0	13aa, >pgat_pos_1235... *
+>Cluster 1155
+0	13aa, >pgat_pos_1236... *
+>Cluster 1156
+0	13aa, >pgat_pos_1238... *
+1	13aa, >pgat_pos_1239... at 92.31%
+>Cluster 1157
+0	13aa, >pgat_pos_1240... *
+>Cluster 1158
+0	13aa, >pgat_pos_1241... *
+>Cluster 1159
+0	13aa, >pgat_pos_1242... *
+>Cluster 1160
+0	11aa, >pgat_pos_643... at 100.00%
+1	12aa, >pgat_pos_888... at 100.00%
+2	12aa, >pgat_pos_988... at 91.67%
+3	13aa, >pgat_pos_1243... *
+4	13aa, >pgat_pos_1244... at 84.62%
+5	13aa, >pgat_pos_1245... at 84.62%
+>Cluster 1161
+0	13aa, >pgat_pos_1251... *
+>Cluster 1162
+0	13aa, >pgat_pos_1264... *
+>Cluster 1163
+0	13aa, >pgat_pos_1266... *
+>Cluster 1164
+0	13aa, >pgat_pos_1269... *
+>Cluster 1165
+0	13aa, >pgat_pos_1274... *
+>Cluster 1166
+0	13aa, >pgat_pos_1275... *
+1	13aa, >pgat_pos_1283... at 84.62%
+>Cluster 1167
+0	13aa, >pgat_pos_1277... *
+>Cluster 1168
+0	12aa, >pgat_pos_998... at 100.00%
+1	13aa, >pgat_pos_1278... *
+>Cluster 1169
+0	13aa, >pgat_pos_1284... *
+>Cluster 1170
+0	13aa, >pgat_pos_1288... *
+>Cluster 1171
+0	13aa, >pgat_pos_1289... *
+1	13aa, >pgat_pos_1290... at 84.62%
+2	13aa, >pgat_pos_1291... at 84.62%
+>Cluster 1172
+0	12aa, >pgat_pos_889... at 83.33%
+1	13aa, >pgat_pos_1292... *
+>Cluster 1173
+0	13aa, >pgat_pos_1294... *
+>Cluster 1174
+0	13aa, >pgat_pos_1296... *
+>Cluster 1175
+0	13aa, >pgat_pos_1299... *
+>Cluster 1176
+0	13aa, >pgat_pos_1303... *
+1	13aa, >pgat_pos_1304... at 92.31%
+2	13aa, >pgat_pos_1305... at 92.31%
+3	13aa, >pgat_pos_1306... at 84.62%
+>Cluster 1177
+0	13aa, >pgat_pos_1307... *
+1	13aa, >pgat_pos_1309... at 92.31%
+>Cluster 1178
+0	13aa, >pgat_pos_1310... *
+>Cluster 1179
+0	13aa, >pgat_pos_1315... *
+>Cluster 1180
+0	13aa, >pgat_pos_1317... *
+>Cluster 1181
+0	11aa, >pgat_pos_580... at 100.00%
+1	12aa, >pgat_pos_748... at 100.00%
+2	13aa, >pgat_pos_1319... *
+>Cluster 1182
+0	12aa, >pgat_pos_759... at 91.67%
+1	12aa, >pgat_pos_760... at 83.33%
+2	12aa, >pgat_pos_761... at 83.33%
+3	12aa, >pgat_pos_762... at 91.67%
+4	12aa, >pgat_pos_763... at 91.67%
+5	12aa, >pgat_pos_764... at 100.00%
+6	13aa, >pgat_pos_1320... *
+>Cluster 1183
+0	13aa, >pgat_pos_1325... *
+>Cluster 1184
+0	13aa, >pgat_pos_1326... *
+>Cluster 1185
+0	13aa, >pgat_pos_1329... *
+1	13aa, >pgat_pos_1330... at 92.31%
+2	13aa, >pgat_pos_1331... at 92.31%
+>Cluster 1186
+0	12aa, >pgat_pos_729... *
+>Cluster 1187
+0	12aa, >pgat_pos_730... *
+>Cluster 1188
+0	12aa, >pgat_pos_731... *
+>Cluster 1189
+0	12aa, >pgat_pos_740... *
+1	12aa, >pgat_pos_1017... at 83.33%
+2	12aa, >pgat_pos_1019... at 83.33%
+3	12aa, >pgat_pos_1020... at 83.33%
+4	12aa, >pgat_pos_1021... at 83.33%
+5	12aa, >pgat_pos_1022... at 83.33%
+6	12aa, >pgat_pos_1023... at 83.33%
+7	12aa, >pgat_pos_1024... at 83.33%
+8	12aa, >pgat_pos_1025... at 83.33%
+9	12aa, >pgat_pos_1026... at 91.67%
+>Cluster 1190
+0	11aa, >pgat_pos_716... at 100.00%
+1	12aa, >pgat_pos_742... *
+>Cluster 1191
+0	11aa, >pgat_pos_573... at 90.91%
+1	11aa, >pgat_pos_574... at 100.00%
+2	11aa, >pgat_pos_575... at 100.00%
+3	12aa, >pgat_pos_743... *
+>Cluster 1192
+0	11aa, >pgat_pos_576... at 100.00%
+1	12aa, >pgat_pos_744... *
+>Cluster 1193
+0	12aa, >pgat_pos_745... *
+>Cluster 1194
+0	12aa, >pgat_pos_752... *
+1	12aa, >pgat_pos_1059... at 83.33%
+>Cluster 1195
+0	12aa, >pgat_pos_753... *
+>Cluster 1196
+0	12aa, >pgat_pos_756... *
+>Cluster 1197
+0	12aa, >pgat_pos_757... *
+>Cluster 1198
+0	12aa, >pgat_pos_765... *
+>Cluster 1199
+0	12aa, >pgat_pos_767... *
+1	12aa, >pgat_pos_768... at 91.67%
+>Cluster 1200
+0	12aa, >pgat_pos_769... *
+1	12aa, >pgat_pos_771... at 91.67%
+2	12aa, >pgat_pos_775... at 83.33%
+3	12aa, >pgat_pos_776... at 83.33%
+4	12aa, >pgat_pos_777... at 83.33%
+5	12aa, >pgat_pos_778... at 83.33%
+6	12aa, >pgat_pos_779... at 83.33%
+7	12aa, >pgat_pos_780... at 83.33%
+8	12aa, >pgat_pos_781... at 83.33%
+9	12aa, >pgat_pos_782... at 83.33%
+10	12aa, >pgat_pos_783... at 83.33%
+11	12aa, >pgat_pos_784... at 83.33%
+12	12aa, >pgat_pos_785... at 83.33%
+13	12aa, >pgat_pos_786... at 83.33%
+14	12aa, >pgat_pos_787... at 83.33%
+15	12aa, >pgat_pos_788... at 83.33%
+16	12aa, >pgat_pos_789... at 83.33%
+17	12aa, >pgat_pos_792... at 83.33%
+18	12aa, >pgat_pos_805... at 83.33%
+19	12aa, >pgat_pos_858... at 83.33%
+20	12aa, >pgat_pos_1018... at 83.33%
+>Cluster 1201
+0	11aa, >pgat_pos_647... at 100.00%
+1	12aa, >pgat_pos_772... *
+>Cluster 1202
+0	11aa, >pgat_pos_666... at 81.82%
+1	12aa, >pgat_pos_773... *
+2	12aa, >pgat_pos_774... at 91.67%
+3	12aa, >pgat_pos_790... at 91.67%
+4	12aa, >pgat_pos_791... at 83.33%
+5	12aa, >pgat_pos_794... at 91.67%
+6	12aa, >pgat_pos_795... at 83.33%
+7	12aa, >pgat_pos_796... at 83.33%
+>Cluster 1203
+0	12aa, >pgat_pos_797... *
+1	12aa, >pgat_pos_798... at 83.33%
+2	12aa, >pgat_pos_799... at 83.33%
+3	12aa, >pgat_pos_800... at 83.33%
+4	12aa, >pgat_pos_801... at 83.33%
+5	12aa, >pgat_pos_802... at 83.33%
+6	12aa, >pgat_pos_873... at 83.33%
+>Cluster 1204
+0	12aa, >pgat_pos_803... *
+>Cluster 1205
+0	12aa, >pgat_pos_806... *
+>Cluster 1206
+0	12aa, >pgat_pos_807... *
+>Cluster 1207
+0	12aa, >pgat_pos_809... *
+>Cluster 1208
+0	12aa, >pgat_pos_815... *
+1	12aa, >pgat_pos_816... at 91.67%
+>Cluster 1209
+0	12aa, >pgat_pos_817... *
+>Cluster 1210
+0	12aa, >pgat_pos_820... *
+>Cluster 1211
+0	12aa, >pgat_pos_821... *
+>Cluster 1212
+0	12aa, >pgat_pos_822... *
+>Cluster 1213
+0	12aa, >pgat_pos_823... *
+>Cluster 1214
+0	12aa, >pgat_pos_825... *
+>Cluster 1215
+0	12aa, >pgat_pos_826... *
+>Cluster 1216
+0	12aa, >pgat_pos_827... *
+>Cluster 1217
+0	12aa, >pgat_pos_828... *
+>Cluster 1218
+0	12aa, >pgat_pos_834... *
+>Cluster 1219
+0	12aa, >pgat_pos_836... *
+>Cluster 1220
+0	12aa, >pgat_pos_838... *
+>Cluster 1221
+0	12aa, >pgat_pos_839... *
+>Cluster 1222
+0	12aa, >pgat_pos_841... *
+>Cluster 1223
+0	11aa, >pgat_pos_604... at 90.91%
+1	12aa, >pgat_pos_842... *
+>Cluster 1224
+0	12aa, >pgat_pos_847... *
+>Cluster 1225
+0	12aa, >pgat_pos_855... *
+>Cluster 1226
+0	12aa, >pgat_pos_856... *
+>Cluster 1227
+0	12aa, >pgat_pos_859... *
+>Cluster 1228
+0	12aa, >pgat_pos_863... *
+>Cluster 1229
+0	12aa, >pgat_pos_874... *
+1	12aa, >pgat_pos_875... at 91.67%
+2	12aa, >pgat_pos_876... at 91.67%
+3	12aa, >pgat_pos_907... at 83.33%
+4	12aa, >pgat_pos_917... at 83.33%
+5	12aa, >pgat_pos_921... at 83.33%
+6	12aa, >pgat_pos_922... at 83.33%
+7	12aa, >pgat_pos_923... at 83.33%
+8	12aa, >pgat_pos_924... at 83.33%
+9	12aa, >pgat_pos_925... at 83.33%
+10	12aa, >pgat_pos_929... at 83.33%
+11	12aa, >pgat_pos_930... at 83.33%
+>Cluster 1230
+0	12aa, >pgat_pos_877... *
+1	12aa, >pgat_pos_878... at 91.67%
+2	12aa, >pgat_pos_1029... at 83.33%
+3	12aa, >pgat_pos_1036... at 83.33%
+4	12aa, >pgat_pos_1041... at 83.33%
+5	12aa, >pgat_pos_1043... at 83.33%
+6	12aa, >pgat_pos_1044... at 83.33%
+>Cluster 1231
+0	12aa, >pgat_pos_879... *
+1	12aa, >pgat_pos_880... at 91.67%
+>Cluster 1232
+0	12aa, >pgat_pos_881... *
+1	12aa, >pgat_pos_883... at 83.33%
+2	12aa, >pgat_pos_945... at 83.33%
+>Cluster 1233
+0	12aa, >pgat_pos_887... *
+>Cluster 1234
+0	12aa, >pgat_pos_892... *
+>Cluster 1235
+0	12aa, >pgat_pos_893... *
+>Cluster 1236
+0	12aa, >pgat_pos_894... *
+>Cluster 1237
+0	12aa, >pgat_pos_903... *
+>Cluster 1238
+0	12aa, >pgat_pos_909... *
+>Cluster 1239
+0	12aa, >pgat_pos_910... *
+>Cluster 1240
+0	12aa, >pgat_pos_911... *
+>Cluster 1241
+0	12aa, >pgat_pos_918... *
+>Cluster 1242
+0	12aa, >pgat_pos_919... *
+>Cluster 1243
+0	12aa, >pgat_pos_920... *
+>Cluster 1244
+0	12aa, >pgat_pos_926... *
+>Cluster 1245
+0	12aa, >pgat_pos_927... *
+>Cluster 1246
+0	12aa, >pgat_pos_928... *
+>Cluster 1247
+0	12aa, >pgat_pos_932... *
+>Cluster 1248
+0	12aa, >pgat_pos_933... *
+>Cluster 1249
+0	12aa, >pgat_pos_935... *
+1	12aa, >pgat_pos_938... at 91.67%
+>Cluster 1250
+0	12aa, >pgat_pos_936... *
+>Cluster 1251
+0	12aa, >pgat_pos_937... *
+1	12aa, >pgat_pos_942... at 91.67%
+>Cluster 1252
+0	12aa, >pgat_pos_939... *
+1	12aa, >pgat_pos_940... at 91.67%
+2	12aa, >pgat_pos_948... at 83.33%
+>Cluster 1253
+0	12aa, >pgat_pos_941... *
+>Cluster 1254
+0	12aa, >pgat_pos_943... *
+>Cluster 1255
+0	12aa, >pgat_pos_944... *
+>Cluster 1256
+0	12aa, >pgat_pos_946... *
+>Cluster 1257
+0	12aa, >pgat_pos_951... *
+>Cluster 1258
+0	11aa, >pgat_pos_664... at 90.91%
+1	12aa, >pgat_pos_952... *
+>Cluster 1259
+0	11aa, >pgat_pos_631... at 90.91%
+1	11aa, >pgat_pos_632... at 100.00%
+2	12aa, >pgat_pos_954... *
+>Cluster 1260
+0	12aa, >pgat_pos_955... *
+>Cluster 1261
+0	12aa, >pgat_pos_960... *
+>Cluster 1262
+0	12aa, >pgat_pos_961... *
+>Cluster 1263
+0	12aa, >pgat_pos_962... *
+>Cluster 1264
+0	12aa, >pgat_pos_964... *
+>Cluster 1265
+0	12aa, >pgat_pos_966... *
+>Cluster 1266
+0	12aa, >pgat_pos_967... *
+1	12aa, >pgat_pos_971... at 91.67%
+2	12aa, >pgat_pos_973... at 83.33%
+>Cluster 1267
+0	12aa, >pgat_pos_968... *
+1	12aa, >pgat_pos_969... at 91.67%
+2	12aa, >pgat_pos_970... at 83.33%
+3	12aa, >pgat_pos_974... at 83.33%
+>Cluster 1268
+0	12aa, >pgat_pos_972... *
+1	12aa, >pgat_pos_975... at 91.67%
+>Cluster 1269
+0	12aa, >pgat_pos_976... *
+1	12aa, >pgat_pos_983... at 91.67%
+>Cluster 1270
+0	12aa, >pgat_pos_977... *
+1	12aa, >pgat_pos_985... at 91.67%
+>Cluster 1271
+0	12aa, >pgat_pos_978... *
+1	12aa, >pgat_pos_979... at 91.67%
+2	12aa, >pgat_pos_980... at 83.33%
+>Cluster 1272
+0	12aa, >pgat_pos_981... *
+1	12aa, >pgat_pos_982... at 91.67%
+>Cluster 1273
+0	12aa, >pgat_pos_984... *
+>Cluster 1274
+0	12aa, >pgat_pos_986... *
+>Cluster 1275
+0	12aa, >pgat_pos_987... *
+>Cluster 1276
+0	12aa, >pgat_pos_989... *
+>Cluster 1277
+0	12aa, >pgat_pos_990... *
+>Cluster 1278
+0	12aa, >pgat_pos_991... *
+>Cluster 1279
+0	12aa, >pgat_pos_993... *
+>Cluster 1280
+0	12aa, >pgat_pos_994... *
+1	12aa, >pgat_pos_995... at 83.33%
+>Cluster 1281
+0	12aa, >pgat_pos_996... *
+>Cluster 1282
+0	12aa, >pgat_pos_997... *
+>Cluster 1283
+0	11aa, >pgat_pos_680... at 100.00%
+1	11aa, >pgat_pos_689... at 100.00%
+2	12aa, >pgat_pos_1000... *
+>Cluster 1284
+0	12aa, >pgat_pos_1003... *
+>Cluster 1285
+0	12aa, >pgat_pos_1006... *
+>Cluster 1286
+0	12aa, >pgat_pos_1008... *
+>Cluster 1287
+0	12aa, >pgat_pos_1009... *
+>Cluster 1288
+0	12aa, >pgat_pos_1010... *
+>Cluster 1289
+0	12aa, >pgat_pos_1011... *
+1	12aa, >pgat_pos_1012... at 91.67%
+>Cluster 1290
+0	12aa, >pgat_pos_1030... *
+>Cluster 1291
+0	12aa, >pgat_pos_1031... *
+>Cluster 1292
+0	12aa, >pgat_pos_1033... *
+>Cluster 1293
+0	12aa, >pgat_pos_1034... *
+>Cluster 1294
+0	12aa, >pgat_pos_1035... *
+1	12aa, >pgat_pos_1037... at 91.67%
+2	12aa, >pgat_pos_1038... at 83.33%
+>Cluster 1295
+0	12aa, >pgat_pos_1039... *
+>Cluster 1296
+0	12aa, >pgat_pos_1040... *
+1	12aa, >pgat_pos_1045... at 83.33%
+>Cluster 1297
+0	12aa, >pgat_pos_1042... *
+>Cluster 1298
+0	12aa, >pgat_pos_1046... *
+>Cluster 1299
+0	12aa, >pgat_pos_1047... *
+>Cluster 1300
+0	12aa, >pgat_pos_1048... *
+>Cluster 1301
+0	12aa, >pgat_pos_1050... *
+>Cluster 1302
+0	12aa, >pgat_pos_1051... *
+>Cluster 1303
+0	12aa, >pgat_pos_1052... *
+>Cluster 1304
+0	12aa, >pgat_pos_1060... *
+1	12aa, >pgat_pos_1061... at 83.33%
+2	12aa, >pgat_pos_1062... at 83.33%
+3	12aa, >pgat_pos_1063... at 83.33%
+4	12aa, >pgat_pos_1064... at 83.33%
+5	12aa, >pgat_pos_1065... at 83.33%
+>Cluster 1305
+0	11aa, >pgat_pos_564... *
+>Cluster 1306
+0	11aa, >pgat_pos_565... *
+>Cluster 1307
+0	11aa, >pgat_pos_567... *
+>Cluster 1308
+0	11aa, >pgat_pos_568... *
+>Cluster 1309
+0	11aa, >pgat_pos_578... *
+1	11aa, >pgat_pos_579... at 90.91%
+2	11aa, >pgat_pos_588... at 81.82%
+>Cluster 1310
+0	11aa, >pgat_pos_583... *
+1	11aa, >pgat_pos_584... at 90.91%
+>Cluster 1311
+0	11aa, >pgat_pos_587... *
+>Cluster 1312
+0	11aa, >pgat_pos_589... *
+>Cluster 1313
+0	11aa, >pgat_pos_590... *
+>Cluster 1314
+0	11aa, >pgat_pos_593... *
+>Cluster 1315
+0	11aa, >pgat_pos_596... *
+>Cluster 1316
+0	11aa, >pgat_pos_597... *
+1	11aa, >pgat_pos_598... at 90.91%
+>Cluster 1317
+0	11aa, >pgat_pos_599... *
+>Cluster 1318
+0	11aa, >pgat_pos_603... *
+>Cluster 1319
+0	11aa, >pgat_pos_608... *
+>Cluster 1320
+0	11aa, >pgat_pos_617... *
+1	11aa, >pgat_pos_618... at 90.91%
+>Cluster 1321
+0	11aa, >pgat_pos_619... *
+1	11aa, >pgat_pos_620... at 90.91%
+2	11aa, >pgat_pos_629... at 81.82%
+3	11aa, >pgat_pos_630... at 81.82%
+>Cluster 1322
+0	11aa, >pgat_pos_622... *
+1	11aa, >pgat_pos_634... at 90.91%
+>Cluster 1323
+0	11aa, >pgat_pos_623... *
+>Cluster 1324
+0	11aa, >pgat_pos_624... *
+>Cluster 1325
+0	11aa, >pgat_pos_628... *
+>Cluster 1326
+0	11aa, >pgat_pos_633... *
+>Cluster 1327
+0	11aa, >pgat_pos_636... *
+1	11aa, >pgat_pos_638... at 81.82%
+>Cluster 1328
+0	11aa, >pgat_pos_642... *
+>Cluster 1329
+0	11aa, >pgat_pos_644... *
+>Cluster 1330
+0	11aa, >pgat_pos_645... *
+>Cluster 1331
+0	11aa, >pgat_pos_646... *
+>Cluster 1332
+0	11aa, >pgat_pos_650... *
+>Cluster 1333
+0	11aa, >pgat_pos_651... *
+>Cluster 1334
+0	11aa, >pgat_pos_658... *
+1	11aa, >pgat_pos_659... at 90.91%
+>Cluster 1335
+0	11aa, >pgat_pos_662... *
+>Cluster 1336
+0	11aa, >pgat_pos_663... *
+>Cluster 1337
+0	11aa, >pgat_pos_665... *
+>Cluster 1338
+0	11aa, >pgat_pos_667... *
+>Cluster 1339
+0	11aa, >pgat_pos_672... *
+>Cluster 1340
+0	11aa, >pgat_pos_673... *
+>Cluster 1341
+0	11aa, >pgat_pos_674... *
+>Cluster 1342
+0	11aa, >pgat_pos_677... *
+>Cluster 1343
+0	11aa, >pgat_pos_678... *
+>Cluster 1344
+0	11aa, >pgat_pos_679... *
+>Cluster 1345
+0	11aa, >pgat_pos_681... *
+1	11aa, >pgat_pos_692... at 81.82%
+2	11aa, >pgat_pos_702... at 81.82%
+>Cluster 1346
+0	11aa, >pgat_pos_686... *
+>Cluster 1347
+0	11aa, >pgat_pos_690... *
+>Cluster 1348
+0	11aa, >pgat_pos_691... *
+>Cluster 1349
+0	11aa, >pgat_pos_693... *
+>Cluster 1350
+0	11aa, >pgat_pos_695... *
+>Cluster 1351
+0	11aa, >pgat_pos_697... *
+>Cluster 1352
+0	11aa, >pgat_pos_698... *
+>Cluster 1353
+0	11aa, >pgat_pos_700... *
+1	11aa, >pgat_pos_701... at 90.91%
+>Cluster 1354
+0	11aa, >pgat_pos_706... *
+>Cluster 1355
+0	11aa, >pgat_pos_710... *
+>Cluster 1356
+0	11aa, >pgat_pos_711... *
+>Cluster 1357
+0	11aa, >pgat_pos_712... *
+>Cluster 1358
+0	11aa, >pgat_pos_717... *
+>Cluster 1359
+0	11aa, >pgat_pos_724... *
