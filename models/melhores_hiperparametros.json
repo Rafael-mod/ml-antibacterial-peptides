@@ -1,33 +1,39 @@
 {
   "SVM (RBF)": {
-    "clf__C": 1.990699667393337,
-    "clf__gamma": 0.04123206532618727
+    "clf__C": 2.689189948444277,
+    "clf__gamma": 0.02157696745589683
   },
   "LightGBM": {
-    "subsample": 0.9,
+    "subsample": 0.8,
     "reg_lambda": 1.0,
     "reg_alpha": 0.1,
-    "num_leaves": 15,
+    "num_leaves": 31,
     "n_estimators": 200,
-    "min_child_samples": 30,
+    "min_child_samples": 50,
     "max_depth": 6,
-    "learning_rate": 0.1,
-    "colsample_bytree": 0.8
-  },
-  "XGBoost": {
-    "subsample": 0.9,
-    "reg_lambda": 1.0,
-    "reg_alpha": 1.0,
-    "n_estimators": 200,
-    "min_child_weight": 7,
-    "max_depth": 4,
     "learning_rate": 0.1,
     "colsample_bytree": 0.4
   },
+  "XGBoost": {
+    "subsample": 0.8,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.1,
+    "n_estimators": 150,
+    "min_child_weight": 7,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.8
+  },
   "Random Forest": {
-    "max_depth": null,
-    "max_features": 0.3,
+    "max_depth": 15,
+    "max_features": "sqrt",
     "min_samples_leaf": 3,
-    "n_estimators": 180
+    "n_estimators": 183
+  },
+  "Extra Trees": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "n_estimators": 266
   }
 }

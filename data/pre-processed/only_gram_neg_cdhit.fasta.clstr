@@ -118,7 +118,9 @@
 >Cluster 38
 0	40aa, >gram_neg_1021... *
 >Cluster 39
-0	39aa, >gram_neg_996... *
+0	10aa, >gram_neg_40... at 100.00%
+1	10aa, >gram_neg_41... at 80.00%
+2	39aa, >gram_neg_996... *
 >Cluster 40
 0	37aa, >gram_neg_988... at 83.78%
 1	39aa, >gram_neg_997... *
@@ -407,9 +409,10 @@
 >Cluster 107
 0	31aa, >gram_neg_921... *
 >Cluster 108
-0	12aa, >gram_neg_63... at 91.67%
-1	12aa, >gram_neg_68... at 83.33%
-2	31aa, >gram_neg_923... *
+0	10aa, >gram_neg_39... at 90.00%
+1	12aa, >gram_neg_63... at 91.67%
+2	12aa, >gram_neg_68... at 83.33%
+3	31aa, >gram_neg_923... *
 >Cluster 109
 0	31aa, >gram_neg_924... *
 >Cluster 110
@@ -783,9 +786,10 @@
 >Cluster 258
 0	21aa, >gram_neg_712... *
 >Cluster 259
-0	11aa, >gram_neg_43... at 100.00%
-1	21aa, >gram_neg_716... *
-2	21aa, >gram_neg_717... at 80.95%
+0	10aa, >gram_neg_28... at 100.00%
+1	11aa, >gram_neg_43... at 100.00%
+2	21aa, >gram_neg_716... *
+3	21aa, >gram_neg_717... at 80.95%
 >Cluster 260
 0	14aa, >gram_neg_387... at 92.86%
 1	15aa, >gram_neg_421... at 93.33%
@@ -1404,14 +1408,18 @@
 >Cluster 404
 0	13aa, >gram_neg_99... *
 >Cluster 405
-0	11aa, >gram_neg_50... at 90.91%
-1	12aa, >gram_neg_67... at 91.67%
-2	13aa, >gram_neg_100... *
-3	13aa, >gram_neg_101... at 84.62%
-4	13aa, >gram_neg_102... at 84.62%
-5	13aa, >gram_neg_103... at 84.62%
-6	13aa, >gram_neg_104... at 84.62%
-7	13aa, >gram_neg_105... at 92.31%
+0	8aa, >gram_neg_7... at 87.50%
+1	9aa, >gram_neg_14... at 88.89%
+2	9aa, >gram_neg_16... at 88.89%
+3	10aa, >gram_neg_21... at 90.00%
+4	11aa, >gram_neg_50... at 90.91%
+5	12aa, >gram_neg_67... at 91.67%
+6	13aa, >gram_neg_100... *
+7	13aa, >gram_neg_101... at 84.62%
+8	13aa, >gram_neg_102... at 84.62%
+9	13aa, >gram_neg_103... at 84.62%
+10	13aa, >gram_neg_104... at 84.62%
+11	13aa, >gram_neg_105... at 92.31%
 >Cluster 406
 0	13aa, >gram_neg_106... *
 >Cluster 407
@@ -1448,3 +1456,56 @@
 3	11aa, >gram_neg_51... at 81.82%
 >Cluster 421
 0	11aa, >gram_neg_47... *
+>Cluster 422
+0	8aa, >gram_neg_2... at 100.00%
+1	10aa, >gram_neg_18... *
+2	10aa, >gram_neg_29... at 80.00%
+3	10aa, >gram_neg_30... at 80.00%
+4	10aa, >gram_neg_31... at 80.00%
+5	10aa, >gram_neg_32... at 80.00%
+6	10aa, >gram_neg_33... at 80.00%
+7	10aa, >gram_neg_34... at 80.00%
+8	10aa, >gram_neg_35... at 90.00%
+9	10aa, >gram_neg_36... at 80.00%
+10	10aa, >gram_neg_37... at 80.00%
+>Cluster 423
+0	10aa, >gram_neg_19... *
+>Cluster 424
+0	10aa, >gram_neg_20... *
+>Cluster 425
+0	10aa, >gram_neg_22... *
+>Cluster 426
+0	10aa, >gram_neg_23... *
+>Cluster 427
+0	10aa, >gram_neg_24... *
+>Cluster 428
+0	10aa, >gram_neg_25... *
+1	10aa, >gram_neg_26... at 90.00%
+>Cluster 429
+0	10aa, >gram_neg_27... *
+>Cluster 430
+0	10aa, >gram_neg_38... *
+>Cluster 431
+0	9aa, >gram_neg_8... *
+>Cluster 432
+0	9aa, >gram_neg_9... *
+>Cluster 433
+0	9aa, >gram_neg_10... *
+>Cluster 434
+0	9aa, >gram_neg_11... *
+>Cluster 435
+0	9aa, >gram_neg_12... *
+>Cluster 436
+0	8aa, >gram_neg_5... at 100.00%
+1	9aa, >gram_neg_13... *
+2	9aa, >gram_neg_15... at 88.89%
+>Cluster 437
+0	9aa, >gram_neg_17... *
+>Cluster 438
+0	8aa, >gram_neg_1... *
+>Cluster 439
+0	8aa, >gram_neg_3... *
+>Cluster 440
+0	8aa, >gram_neg_4... *
+>Cluster 441
+0	8aa, >gram_neg_6... *

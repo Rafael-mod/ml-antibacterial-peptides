@@ -140,9 +140,18 @@ def main() -> None:
     df_pgat = pd.read_csv(PATH_CSV_PGAT)
     print(f"Dataset carregado: {len(df_pgat)} peptídeos ({(df_pgat['label'] == 1).sum()} Pos | {(df_pgat['label'] == 0).sum()} Neg)")
 
-    # 1. Extrai ambas as representações na mesma ordem de df_pgat
+    # 1. Extrai descritores físico-químicos atualizados (148 features)
     X_pgat_fq = extrair_features_fq(df_pgat)
-    X_pgat_esm = extrair_embeddings_esm2(df_pgat["sequence"].tolist())
+
+    # 2. Reutiliza embeddings ESM-2 já salvos em disco (evita ~25 min de recálculo)
+    if OUT_X_ESM.exists():
+        print("\n[2/2] Reutilizando embeddings ESM-2 já existentes em cache...")
+        X_pgat_esm = pd.read_csv(OUT_X_ESM)
+        assert X_pgat_esm.shape == (len(df_pgat), 1280), "Cache ESM-2 incompatível!"
+        print(f"  -> Matriz ESM-2 carregada do disco: {X_pgat_esm.shape}")
+    else:
+        X_pgat_esm = extrair_embeddings_esm2(df_pgat["sequence"].tolist())
+
     y_pgat = df_pgat[["label"]].copy()
 
     # 2. Trava final de integridade

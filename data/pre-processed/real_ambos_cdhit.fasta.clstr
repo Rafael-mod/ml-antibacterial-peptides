@@ -134,9 +134,10 @@
 0	20aa, >real_ambos_1440... at 90.00%
 1	47aa, >real_ambos_3117... *
 >Cluster 48
-0	20aa, >real_ambos_1442... at 100.00%
-1	47aa, >real_ambos_3118... *
-2	47aa, >real_ambos_3119... at 87.23%
+0	10aa, >real_ambos_126... at 90.00%
+1	20aa, >real_ambos_1442... at 100.00%
+2	47aa, >real_ambos_3118... *
+3	47aa, >real_ambos_3119... at 87.23%
 >Cluster 49
 0	47aa, >real_ambos_3120... *
 1	47aa, >real_ambos_3121... at 97.87%
@@ -311,7 +312,8 @@
 >Cluster 111
 0	43aa, >real_ambos_3000... *
 >Cluster 112
-0	43aa, >real_ambos_3001... *
+0	10aa, >real_ambos_120... at 80.00%
+1	43aa, >real_ambos_3001... *
 >Cluster 113
 0	43aa, >real_ambos_3002... *
 >Cluster 114
@@ -346,7 +348,8 @@
 >Cluster 126
 0	43aa, >real_ambos_3019... *
 >Cluster 127
-0	43aa, >real_ambos_3020... *
+0	9aa, >real_ambos_67... at 88.89%
+1	43aa, >real_ambos_3020... *
 >Cluster 128
 0	43aa, >real_ambos_3021... *
 >Cluster 129
@@ -570,16 +573,17 @@
 >Cluster 199
 0	39aa, >real_ambos_2911... *
 >Cluster 200
-0	13aa, >real_ambos_554... at 100.00%
-1	14aa, >real_ambos_726... at 100.00%
-2	15aa, >real_ambos_822... at 100.00%
-3	16aa, >real_ambos_919... at 100.00%
-4	17aa, >real_ambos_967... at 100.00%
-5	17aa, >real_ambos_1028... at 100.00%
-6	18aa, >real_ambos_1071... at 100.00%
-7	18aa, >real_ambos_1128... at 100.00%
-8	19aa, >real_ambos_1295... at 100.00%
-9	39aa, >real_ambos_2912... *
+0	8aa, >real_ambos_30... at 87.50%
+1	13aa, >real_ambos_554... at 100.00%
+2	14aa, >real_ambos_726... at 100.00%
+3	15aa, >real_ambos_822... at 100.00%
+4	16aa, >real_ambos_919... at 100.00%
+5	17aa, >real_ambos_967... at 100.00%
+6	17aa, >real_ambos_1028... at 100.00%
+7	18aa, >real_ambos_1071... at 100.00%
+8	18aa, >real_ambos_1128... at 100.00%
+9	19aa, >real_ambos_1295... at 100.00%
+10	39aa, >real_ambos_2912... *
 >Cluster 201
 0	31aa, >real_ambos_2436... at 100.00%
 1	39aa, >real_ambos_2914... *
@@ -654,25 +658,27 @@
 >Cluster 223
 0	38aa, >real_ambos_2859... *
 >Cluster 224
-0	14aa, >real_ambos_728... at 85.71%
-1	14aa, >real_ambos_731... at 92.86%
-2	14aa, >real_ambos_732... at 85.71%
-3	14aa, >real_ambos_733... at 85.71%
-4	14aa, >real_ambos_738... at 85.71%
-5	18aa, >real_ambos_1087... at 100.00%
-6	18aa, >real_ambos_1105... at 94.44%
-7	33aa, >real_ambos_2538... at 100.00%
-8	34aa, >real_ambos_2639... at 97.06%
-9	38aa, >real_ambos_2860... *
+0	10aa, >real_ambos_102... at 80.00%
+1	14aa, >real_ambos_728... at 85.71%
+2	14aa, >real_ambos_731... at 92.86%
+3	14aa, >real_ambos_732... at 85.71%
+4	14aa, >real_ambos_733... at 85.71%
+5	14aa, >real_ambos_738... at 85.71%
+6	18aa, >real_ambos_1087... at 100.00%
+7	18aa, >real_ambos_1105... at 94.44%
+8	33aa, >real_ambos_2538... at 100.00%
+9	34aa, >real_ambos_2639... at 97.06%
+10	38aa, >real_ambos_2860... *
 >Cluster 225
 0	38aa, >real_ambos_2861... *
 >Cluster 226
 0	38aa, >real_ambos_2862... *
 >Cluster 227
-0	38aa, >real_ambos_2863... *
-1	38aa, >real_ambos_2864... at 97.37%
-2	38aa, >real_ambos_2865... at 89.47%
-3	38aa, >real_ambos_2866... at 84.21%
+0	10aa, >real_ambos_96... at 80.00%
+1	38aa, >real_ambos_2863... *
+2	38aa, >real_ambos_2864... at 97.37%
+3	38aa, >real_ambos_2865... at 89.47%
+4	38aa, >real_ambos_2866... at 84.21%
 >Cluster 228
 0	38aa, >real_ambos_2867... *
 >Cluster 229
@@ -1044,9 +1050,10 @@
 >Cluster 364
 0	34aa, >real_ambos_2645... *
 >Cluster 365
-0	14aa, >real_ambos_737... at 92.86%
-1	23aa, >real_ambos_1726... at 82.61%
-2	34aa, >real_ambos_2646... *
+0	10aa, >real_ambos_95... at 80.00%
+1	14aa, >real_ambos_737... at 92.86%
+2	23aa, >real_ambos_1726... at 82.61%
+3	34aa, >real_ambos_2646... *
 >Cluster 366
 0	26aa, >real_ambos_2126... at 80.77%
 1	30aa, >real_ambos_2370... at 90.00%
@@ -1309,12 +1316,13 @@
 >Cluster 438
 0	32aa, >real_ambos_2442... *
 >Cluster 439
-0	13aa, >real_ambos_377... at 92.31%
-1	26aa, >real_ambos_2142... at 96.15%
-2	28aa, >real_ambos_2217... at 92.86%
-3	32aa, >real_ambos_2443... *
-4	32aa, >real_ambos_2444... at 90.62%
-5	32aa, >real_ambos_2445... at 93.75%
+0	9aa, >real_ambos_44... at 88.89%
+1	13aa, >real_ambos_377... at 92.31%
+2	26aa, >real_ambos_2142... at 96.15%
+3	28aa, >real_ambos_2217... at 92.86%
+4	32aa, >real_ambos_2443... *
+5	32aa, >real_ambos_2444... at 90.62%
+6	32aa, >real_ambos_2445... at 93.75%
 >Cluster 440
 0	32aa, >real_ambos_2446... *
 1	32aa, >real_ambos_2447... at 96.88%
@@ -1568,13 +1576,14 @@
 0	30aa, >real_ambos_2363... *
 1	30aa, >real_ambos_2364... at 86.67%
 >Cluster 531
-0	11aa, >real_ambos_217... at 90.91%
-1	12aa, >real_ambos_266... at 83.33%
-2	12aa, >real_ambos_267... at 83.33%
-3	12aa, >real_ambos_268... at 91.67%
-4	16aa, >real_ambos_915... at 93.75%
-5	16aa, >real_ambos_916... at 100.00%
-6	30aa, >real_ambos_2365... *
+0	9aa, >real_ambos_52... at 88.89%
+1	11aa, >real_ambos_217... at 90.91%
+2	12aa, >real_ambos_266... at 83.33%
+3	12aa, >real_ambos_267... at 83.33%
+4	12aa, >real_ambos_268... at 91.67%
+5	16aa, >real_ambos_915... at 93.75%
+6	16aa, >real_ambos_916... at 100.00%
+7	30aa, >real_ambos_2365... *
 >Cluster 532
 0	30aa, >real_ambos_2367... *
 >Cluster 533
@@ -2050,39 +2059,41 @@
 >Cluster 711
 0	25aa, >real_ambos_2018... *
 >Cluster 712
-0	12aa, >real_ambos_254... at 100.00%
-1	12aa, >real_ambos_349... at 100.00%
-2	13aa, >real_ambos_478... at 100.00%
-3	14aa, >real_ambos_670... at 100.00%
-4	14aa, >real_ambos_677... at 100.00%
-5	15aa, >real_ambos_810... at 100.00%
-6	15aa, >real_ambos_853... at 100.00%
-7	16aa, >real_ambos_899... at 100.00%
-8	16aa, >real_ambos_903... at 100.00%
-9	16aa, >real_ambos_944... at 100.00%
-10	16aa, >real_ambos_945... at 93.75%
-11	16aa, >real_ambos_946... at 93.75%
-12	16aa, >real_ambos_947... at 93.75%
-13	16aa, >real_ambos_948... at 93.75%
-14	17aa, >real_ambos_1010... at 100.00%
-15	17aa, >real_ambos_1056... at 100.00%
-16	18aa, >real_ambos_1107... at 100.00%
-17	18aa, >real_ambos_1122... at 100.00%
-18	18aa, >real_ambos_1215... at 100.00%
-19	19aa, >real_ambos_1280... at 100.00%
-20	19aa, >real_ambos_1323... at 100.00%
-21	20aa, >real_ambos_1374... at 100.00%
-22	20aa, >real_ambos_1381... at 100.00%
-23	20aa, >real_ambos_1486... at 100.00%
-24	21aa, >real_ambos_1508... at 100.00%
-25	21aa, >real_ambos_1540... at 100.00%
-26	22aa, >real_ambos_1661... at 100.00%
-27	22aa, >real_ambos_1666... at 100.00%
-28	23aa, >real_ambos_1755... at 100.00%
-29	23aa, >real_ambos_1805... at 100.00%
-30	24aa, >real_ambos_1912... at 100.00%
-31	24aa, >real_ambos_1944... at 100.00%
-32	25aa, >real_ambos_2020... *
+0	8aa, >real_ambos_19... at 100.00%
+1	10aa, >real_ambos_94... at 100.00%
+2	12aa, >real_ambos_254... at 100.00%
+3	12aa, >real_ambos_349... at 100.00%
+4	13aa, >real_ambos_478... at 100.00%
+5	14aa, >real_ambos_670... at 100.00%
+6	14aa, >real_ambos_677... at 100.00%
+7	15aa, >real_ambos_810... at 100.00%
+8	15aa, >real_ambos_853... at 100.00%
+9	16aa, >real_ambos_899... at 100.00%
+10	16aa, >real_ambos_903... at 100.00%
+11	16aa, >real_ambos_944... at 100.00%
+12	16aa, >real_ambos_945... at 93.75%
+13	16aa, >real_ambos_946... at 93.75%
+14	16aa, >real_ambos_947... at 93.75%
+15	16aa, >real_ambos_948... at 93.75%
+16	17aa, >real_ambos_1010... at 100.00%
+17	17aa, >real_ambos_1056... at 100.00%
+18	18aa, >real_ambos_1107... at 100.00%
+19	18aa, >real_ambos_1122... at 100.00%
+20	18aa, >real_ambos_1215... at 100.00%
+21	19aa, >real_ambos_1280... at 100.00%
+22	19aa, >real_ambos_1323... at 100.00%
+23	20aa, >real_ambos_1374... at 100.00%
+24	20aa, >real_ambos_1381... at 100.00%
+25	20aa, >real_ambos_1486... at 100.00%
+26	21aa, >real_ambos_1508... at 100.00%
+27	21aa, >real_ambos_1540... at 100.00%
+28	22aa, >real_ambos_1661... at 100.00%
+29	22aa, >real_ambos_1666... at 100.00%
+30	23aa, >real_ambos_1755... at 100.00%
+31	23aa, >real_ambos_1805... at 100.00%
+32	24aa, >real_ambos_1912... at 100.00%
+33	24aa, >real_ambos_1944... at 100.00%
+34	25aa, >real_ambos_2020... *
 >Cluster 713
 0	24aa, >real_ambos_1914... at 91.67%
 1	25aa, >real_ambos_2021... *
@@ -2129,8 +2140,9 @@
 1	25aa, >real_ambos_2051... at 92.00%
 2	25aa, >real_ambos_2052... at 84.00%
 >Cluster 726
-0	25aa, >real_ambos_2053... *
-1	25aa, >real_ambos_2054... at 92.00%
+0	10aa, >real_ambos_121... at 80.00%
+1	25aa, >real_ambos_2053... *
+2	25aa, >real_ambos_2054... at 92.00%
 >Cluster 727
 0	25aa, >real_ambos_2055... *
 >Cluster 728
@@ -2183,7 +2195,8 @@
 1	25aa, >real_ambos_2085... at 92.00%
 2	25aa, >real_ambos_2086... at 88.00%
 >Cluster 749
-0	25aa, >real_ambos_2087... *
+0	10aa, >real_ambos_128... at 90.00%
+1	25aa, >real_ambos_2087... *
 >Cluster 750
 0	25aa, >real_ambos_2088... *
 >Cluster 751
@@ -2319,10 +2332,11 @@
 >Cluster 790
 0	24aa, >real_ambos_1879... *
 >Cluster 791
-0	24aa, >real_ambos_1880... *
-1	24aa, >real_ambos_1883... at 87.50%
-2	24aa, >real_ambos_1884... at 83.33%
-3	24aa, >real_ambos_1886... at 83.33%
+0	10aa, >real_ambos_93... at 80.00%
+1	24aa, >real_ambos_1880... *
+2	24aa, >real_ambos_1883... at 87.50%
+3	24aa, >real_ambos_1884... at 83.33%
+4	24aa, >real_ambos_1886... at 83.33%
 >Cluster 792
 0	24aa, >real_ambos_1885... *
 >Cluster 793
@@ -2462,8 +2476,9 @@
 >Cluster 834
 0	24aa, >real_ambos_1983... *
 >Cluster 835
-0	13aa, >real_ambos_520... at 84.62%
-1	24aa, >real_ambos_1984... *
+0	8aa, >real_ambos_8... at 87.50%
+1	13aa, >real_ambos_520... at 84.62%
+2	24aa, >real_ambos_1984... *
 >Cluster 836
 0	24aa, >real_ambos_1985... *
 >Cluster 837
@@ -2725,8 +2740,9 @@
 1	18aa, >real_ambos_1199... at 100.00%
 2	22aa, >real_ambos_1699... *
 >Cluster 939
-0	18aa, >real_ambos_1202... at 100.00%
-1	22aa, >real_ambos_1700... *
+0	8aa, >real_ambos_26... at 87.50%
+1	18aa, >real_ambos_1202... at 100.00%
+2	22aa, >real_ambos_1700... *
 >Cluster 940
 0	22aa, >real_ambos_1701... *
 >Cluster 941
@@ -2926,11 +2942,12 @@
 >Cluster 1005
 0	21aa, >real_ambos_1617... *
 >Cluster 1006
-0	19aa, >real_ambos_1320... at 100.00%
-1	19aa, >real_ambos_1321... at 94.74%
-2	20aa, >real_ambos_1471... at 90.00%
-3	21aa, >real_ambos_1618... *
-4	21aa, >real_ambos_1619... at 85.71%
+0	8aa, >real_ambos_1... at 100.00%
+1	19aa, >real_ambos_1320... at 100.00%
+2	19aa, >real_ambos_1321... at 94.74%
+3	20aa, >real_ambos_1471... at 90.00%
+4	21aa, >real_ambos_1618... *
+5	21aa, >real_ambos_1619... at 85.71%
 >Cluster 1007
 0	21aa, >real_ambos_1620... *
 >Cluster 1008
@@ -3385,11 +3402,15 @@
 >Cluster 1160
 0	18aa, >real_ambos_1110... *
 >Cluster 1161
-0	11aa, >real_ambos_192... at 81.82%
-1	13aa, >real_ambos_477... at 84.62%
-2	14aa, >real_ambos_674... at 92.86%
-3	17aa, >real_ambos_1057... at 82.35%
-4	18aa, >real_ambos_1111... *
+0	10aa, >real_ambos_101... at 80.00%
+1	10aa, >real_ambos_109... at 80.00%
+2	10aa, >real_ambos_124... at 80.00%
+3	10aa, >real_ambos_125... at 80.00%
+4	11aa, >real_ambos_192... at 81.82%
+5	13aa, >real_ambos_477... at 84.62%
+6	14aa, >real_ambos_674... at 92.86%
+7	17aa, >real_ambos_1057... at 82.35%
+8	18aa, >real_ambos_1111... *
 >Cluster 1162
 0	18aa, >real_ambos_1112... *
 >Cluster 1163
@@ -3401,10 +3422,11 @@
 >Cluster 1166
 0	18aa, >real_ambos_1119... *
 >Cluster 1167
-0	11aa, >real_ambos_216... at 100.00%
-1	14aa, >real_ambos_675... at 92.86%
-2	14aa, >real_ambos_783... at 85.71%
-3	18aa, >real_ambos_1120... *
+0	10aa, >real_ambos_119... at 90.00%
+1	11aa, >real_ambos_216... at 100.00%
+2	14aa, >real_ambos_675... at 92.86%
+3	14aa, >real_ambos_783... at 85.71%
+4	18aa, >real_ambos_1120... *
 >Cluster 1168
 0	18aa, >real_ambos_1123... *
 >Cluster 1169
@@ -3487,8 +3509,9 @@
 0	18aa, >real_ambos_1192... *
 >Cluster 1192
 0	17aa, >real_ambos_1032... at 82.35%
-1	18aa, >real_ambos_1196... *
-2	18aa, >real_ambos_1197... at 94.44%
+1	17aa, >real_ambos_1050... at 88.24%
+2	18aa, >real_ambos_1196... *
+3	18aa, >real_ambos_1197... at 94.44%
 >Cluster 1193
 0	18aa, >real_ambos_1198... *
 >Cluster 1194
@@ -3591,7 +3614,6 @@
 0	17aa, >real_ambos_1030... *
 >Cluster 1235
 0	17aa, >real_ambos_1033... *
-1	17aa, >real_ambos_1050... at 88.24%
 >Cluster 1236
 0	17aa, >real_ambos_1035... *
 >Cluster 1237
@@ -3641,12 +3663,13 @@
 1	15aa, >real_ambos_798... at 100.00%
 2	16aa, >real_ambos_887... *
 >Cluster 1257
-0	13aa, >real_ambos_383... at 92.31%
-1	13aa, >real_ambos_384... at 84.62%
-2	16aa, >real_ambos_888... *
-3	16aa, >real_ambos_889... at 93.75%
-4	16aa, >real_ambos_890... at 87.50%
-5	16aa, >real_ambos_896... at 81.25%
+0	10aa, >real_ambos_92... at 90.00%
+1	13aa, >real_ambos_383... at 92.31%
+2	13aa, >real_ambos_384... at 84.62%
+3	16aa, >real_ambos_888... *
+4	16aa, >real_ambos_889... at 93.75%
+5	16aa, >real_ambos_890... at 87.50%
+6	16aa, >real_ambos_896... at 81.25%
 >Cluster 1258
 0	14aa, >real_ambos_648... at 100.00%
 1	16aa, >real_ambos_891... *
@@ -3789,11 +3812,13 @@
 >Cluster 1310
 0	15aa, >real_ambos_837... *
 >Cluster 1311
-0	15aa, >real_ambos_841... *
+0	10aa, >real_ambos_139... at 100.00%
+1	15aa, >real_ambos_841... *
 >Cluster 1312
 0	15aa, >real_ambos_843... *
 >Cluster 1313
-0	15aa, >real_ambos_845... *
+0	8aa, >real_ambos_9... at 87.50%
+1	15aa, >real_ambos_845... *
 >Cluster 1314
 0	15aa, >real_ambos_850... *
 >Cluster 1315
@@ -3805,10 +3830,11 @@
 >Cluster 1318
 0	15aa, >real_ambos_855... *
 >Cluster 1319
-0	11aa, >real_ambos_201... at 81.82%
-1	13aa, >real_ambos_618... at 84.62%
-2	15aa, >real_ambos_856... *
-3	15aa, >real_ambos_859... at 80.00%
+0	10aa, >real_ambos_133... at 90.00%
+1	11aa, >real_ambos_201... at 81.82%
+2	13aa, >real_ambos_618... at 84.62%
+3	15aa, >real_ambos_856... *
+4	15aa, >real_ambos_859... at 80.00%
 >Cluster 1320
 0	15aa, >real_ambos_858... *
 >Cluster 1321
@@ -3862,7 +3888,8 @@
 >Cluster 1338
 0	14aa, >real_ambos_644... *
 >Cluster 1339
-0	14aa, >real_ambos_645... *
+0	9aa, >real_ambos_48... at 88.89%
+1	14aa, >real_ambos_645... *
 >Cluster 1340
 0	14aa, >real_ambos_646... *
 >Cluster 1341
@@ -3953,7 +3980,8 @@
 >Cluster 1373
 0	14aa, >real_ambos_722... *
 >Cluster 1374
-0	14aa, >real_ambos_723... *
+0	10aa, >real_ambos_89... at 100.00%
+1	14aa, >real_ambos_723... *
 >Cluster 1375
 0	14aa, >real_ambos_724... *
 >Cluster 1376
@@ -3975,10 +4003,11 @@
 0	14aa, >real_ambos_750... *
 1	14aa, >real_ambos_761... at 85.71%
 >Cluster 1384
-0	11aa, >real_ambos_160... at 81.82%
-1	14aa, >real_ambos_751... *
-2	14aa, >real_ambos_752... at 92.86%
-3	14aa, >real_ambos_753... at 85.71%
+0	8aa, >real_ambos_12... at 100.00%
+1	11aa, >real_ambos_160... at 81.82%
+2	14aa, >real_ambos_751... *
+3	14aa, >real_ambos_752... at 92.86%
+4	14aa, >real_ambos_753... at 85.71%
 >Cluster 1385
 0	14aa, >real_ambos_755... *
 >Cluster 1386
@@ -4343,7 +4372,8 @@
 >Cluster 1512
 0	13aa, >real_ambos_594... *
 >Cluster 1513
-0	13aa, >real_ambos_595... *
+0	9aa, >real_ambos_53... at 88.89%
+1	13aa, >real_ambos_595... *
 >Cluster 1514
 0	13aa, >real_ambos_596... *
 >Cluster 1515
@@ -4361,8 +4391,9 @@
 1	13aa, >real_ambos_605... at 84.62%
 2	13aa, >real_ambos_606... at 84.62%
 >Cluster 1521
-0	12aa, >real_ambos_298... at 83.33%
-1	13aa, >real_ambos_607... *
+0	10aa, >real_ambos_136... at 80.00%
+1	12aa, >real_ambos_298... at 83.33%
+2	13aa, >real_ambos_607... *
 >Cluster 1522
 0	13aa, >real_ambos_609... *
 >Cluster 1523
@@ -4432,7 +4463,8 @@
 >Cluster 1540
 0	12aa, >real_ambos_225... *
 >Cluster 1541
-0	12aa, >real_ambos_226... *
+0	9aa, >real_ambos_81... at 88.89%
+1	12aa, >real_ambos_226... *
 >Cluster 1542
 0	12aa, >real_ambos_227... *
 >Cluster 1543
@@ -4552,8 +4584,9 @@
 >Cluster 1577
 0	12aa, >real_ambos_328... *
 >Cluster 1578
-0	12aa, >real_ambos_337... *
-1	12aa, >real_ambos_338... at 83.33%
+0	8aa, >real_ambos_6... at 87.50%
+1	12aa, >real_ambos_337... *
+2	12aa, >real_ambos_338... at 83.33%
 >Cluster 1579
 0	11aa, >real_ambos_211... at 90.91%
 1	12aa, >real_ambos_339... *
@@ -4564,7 +4597,8 @@
 2	12aa, >real_ambos_344... at 91.67%
 3	12aa, >real_ambos_345... at 83.33%
 >Cluster 1581
-0	12aa, >real_ambos_346... *
+0	9aa, >real_ambos_62... at 88.89%
+1	12aa, >real_ambos_346... *
 >Cluster 1582
 0	12aa, >real_ambos_347... *
 >Cluster 1583
@@ -4614,7 +4648,8 @@
 >Cluster 1600
 0	11aa, >real_ambos_193... *
 >Cluster 1601
-0	11aa, >real_ambos_195... *
+0	9aa, >real_ambos_60... at 100.00%
+1	11aa, >real_ambos_195... *
 >Cluster 1602
 0	11aa, >real_ambos_196... *
 >Cluster 1603
@@ -4645,3 +4680,191 @@
 0	11aa, >real_ambos_213... *
 >Cluster 1616
 0	11aa, >real_ambos_214... *
+>Cluster 1617
+0	10aa, >real_ambos_84... *
+>Cluster 1618
+0	10aa, >real_ambos_85... *
+>Cluster 1619
+0	10aa, >real_ambos_86... *
+>Cluster 1620
+0	10aa, >real_ambos_87... *
+>Cluster 1621
+0	10aa, >real_ambos_88... *
+>Cluster 1622
+0	10aa, >real_ambos_90... *
+>Cluster 1623
+0	10aa, >real_ambos_91... *
+>Cluster 1624
+0	10aa, >real_ambos_97... *
+1	10aa, >real_ambos_98... at 80.00%
+2	10aa, >real_ambos_99... at 80.00%
+3	10aa, >real_ambos_100... at 80.00%
+4	10aa, >real_ambos_103... at 80.00%
+5	10aa, >real_ambos_104... at 80.00%
+6	10aa, >real_ambos_112... at 90.00%
+7	10aa, >real_ambos_115... at 80.00%
+8	10aa, >real_ambos_117... at 80.00%
+>Cluster 1625
+0	10aa, >real_ambos_105... *
+1	10aa, >real_ambos_106... at 80.00%
+2	10aa, >real_ambos_107... at 80.00%
+3	10aa, >real_ambos_108... at 80.00%
+4	10aa, >real_ambos_110... at 80.00%
+5	10aa, >real_ambos_111... at 80.00%
+6	10aa, >real_ambos_113... at 80.00%
+7	10aa, >real_ambos_114... at 80.00%
+>Cluster 1626
+0	10aa, >real_ambos_116... *
+>Cluster 1627
+0	10aa, >real_ambos_118... *
+>Cluster 1628
+0	10aa, >real_ambos_122... *
+>Cluster 1629
+0	10aa, >real_ambos_123... *
+>Cluster 1630
+0	10aa, >real_ambos_127... *
+>Cluster 1631
+0	10aa, >real_ambos_129... *
+>Cluster 1632
+0	10aa, >real_ambos_130... *
+>Cluster 1633
+0	10aa, >real_ambos_131... *
+>Cluster 1634
+0	10aa, >real_ambos_132... *
+>Cluster 1635
+0	10aa, >real_ambos_134... *
+1	10aa, >real_ambos_135... at 90.00%
+2	10aa, >real_ambos_138... at 90.00%
+3	10aa, >real_ambos_140... at 80.00%
+4	10aa, >real_ambos_141... at 90.00%
+>Cluster 1636
+0	10aa, >real_ambos_137... *
+>Cluster 1637
+0	10aa, >real_ambos_142... *
+>Cluster 1638
+0	10aa, >real_ambos_143... *
+>Cluster 1639
+0	10aa, >real_ambos_144... *
+>Cluster 1640
+0	10aa, >real_ambos_145... *
+>Cluster 1641
+0	10aa, >real_ambos_146... *
+>Cluster 1642
+0	9aa, >real_ambos_45... *
+>Cluster 1643
+0	8aa, >real_ambos_14... at 100.00%
+1	9aa, >real_ambos_46... *
+2	9aa, >real_ambos_79... at 88.89%
+>Cluster 1644
+0	9aa, >real_ambos_47... *
+>Cluster 1645
+0	9aa, >real_ambos_49... *
+>Cluster 1646
+0	9aa, >real_ambos_50... *
+>Cluster 1647
+0	9aa, >real_ambos_51... *
+>Cluster 1648
+0	9aa, >real_ambos_54... *
+>Cluster 1649
+0	9aa, >real_ambos_55... *
+>Cluster 1650
+0	9aa, >real_ambos_56... *
+>Cluster 1651
+0	9aa, >real_ambos_57... *
+>Cluster 1652
+0	9aa, >real_ambos_58... *
+>Cluster 1653
+0	9aa, >real_ambos_59... *
+>Cluster 1654
+0	9aa, >real_ambos_61... *
+>Cluster 1655
+0	9aa, >real_ambos_63... *
+>Cluster 1656
+0	9aa, >real_ambos_64... *
+>Cluster 1657
+0	9aa, >real_ambos_65... *
+>Cluster 1658
+0	9aa, >real_ambos_66... *
+>Cluster 1659
+0	9aa, >real_ambos_68... *
+>Cluster 1660
+0	9aa, >real_ambos_69... *
+>Cluster 1661
+0	9aa, >real_ambos_70... *
+>Cluster 1662
+0	9aa, >real_ambos_71... *
+>Cluster 1663
+0	9aa, >real_ambos_72... *
+>Cluster 1664
+0	9aa, >real_ambos_73... *
+>Cluster 1665
+0	9aa, >real_ambos_74... *
+>Cluster 1666
+0	8aa, >real_ambos_20... at 87.50%
+1	9aa, >real_ambos_75... *
+>Cluster 1667
+0	9aa, >real_ambos_76... *
+>Cluster 1668
+0	9aa, >real_ambos_77... *
+>Cluster 1669
+0	9aa, >real_ambos_78... *
+>Cluster 1670
+0	9aa, >real_ambos_80... *
+>Cluster 1671
+0	9aa, >real_ambos_82... *
+>Cluster 1672
+0	9aa, >real_ambos_83... *
+>Cluster 1673
+0	8aa, >real_ambos_2... *
+>Cluster 1674
+0	8aa, >real_ambos_3... *
+>Cluster 1675
+0	8aa, >real_ambos_4... *
+>Cluster 1676
+0	8aa, >real_ambos_5... *
+1	8aa, >real_ambos_7... at 87.50%
+2	8aa, >real_ambos_43... at 87.50%
+>Cluster 1677
+0	8aa, >real_ambos_10... *
+1	8aa, >real_ambos_11... at 87.50%
+>Cluster 1678
+0	8aa, >real_ambos_13... *
+1	8aa, >real_ambos_18... at 87.50%
+2	8aa, >real_ambos_32... at 87.50%
+>Cluster 1679
+0	8aa, >real_ambos_15... *
+>Cluster 1680
+0	8aa, >real_ambos_16... *
+1	8aa, >real_ambos_17... at 87.50%
+>Cluster 1681
+0	8aa, >real_ambos_21... *
+1	8aa, >real_ambos_22... at 87.50%
+2	8aa, >real_ambos_23... at 87.50%
+>Cluster 1682
+0	8aa, >real_ambos_24... *
+>Cluster 1683
+0	8aa, >real_ambos_25... *
+>Cluster 1684
+0	8aa, >real_ambos_27... *
+1	8aa, >real_ambos_35... at 87.50%
+2	8aa, >real_ambos_40... at 87.50%
+>Cluster 1685
+0	8aa, >real_ambos_28... *
+>Cluster 1686
+0	8aa, >real_ambos_29... *
+>Cluster 1687
+0	8aa, >real_ambos_31... *
+>Cluster 1688
+0	8aa, >real_ambos_33... *
+>Cluster 1689
+0	8aa, >real_ambos_34... *
+1	8aa, >real_ambos_38... at 87.50%
+>Cluster 1690
+0	8aa, >real_ambos_36... *
+1	8aa, >real_ambos_37... at 87.50%
+>Cluster 1691
+0	8aa, >real_ambos_39... *
+>Cluster 1692
+0	8aa, >real_ambos_41... *
+>Cluster 1693
+0	8aa, >real_ambos_42... *

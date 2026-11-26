@@ -945,8 +945,9 @@
 0	16aa, >gram_pos_230... *
 1	16aa, >gram_pos_231... at 93.75%
 >Cluster 368
-0	12aa, >gram_pos_37... at 100.00%
-1	16aa, >gram_pos_232... *
+0	8aa, >gram_pos_2... at 100.00%
+1	12aa, >gram_pos_37... at 100.00%
+2	16aa, >gram_pos_232... *
 >Cluster 369
 0	16aa, >gram_pos_233... *
 >Cluster 370
@@ -1302,8 +1303,11 @@
 >Cluster 517
 0	12aa, >gram_pos_55... *
 >Cluster 518
-0	11aa, >gram_pos_19... *
-1	11aa, >gram_pos_20... at 81.82%
+0	9aa, >gram_pos_6... at 88.89%
+1	10aa, >gram_pos_11... at 100.00%
+2	10aa, >gram_pos_12... at 100.00%
+3	11aa, >gram_pos_19... *
+4	11aa, >gram_pos_20... at 81.82%
 >Cluster 519
 0	11aa, >gram_pos_21... *
 1	11aa, >gram_pos_22... at 90.91%
@@ -1319,3 +1323,29 @@
 0	11aa, >gram_pos_27... *
 >Cluster 525
 0	11aa, >gram_pos_28... *
+>Cluster 526
+0	10aa, >gram_pos_9... *
+>Cluster 527
+0	10aa, >gram_pos_10... *
+>Cluster 528
+0	10aa, >gram_pos_13... *
+1	10aa, >gram_pos_15... at 80.00%
+>Cluster 529
+0	10aa, >gram_pos_14... *
+1	10aa, >gram_pos_16... at 90.00%
+>Cluster 530
+0	10aa, >gram_pos_17... *
+>Cluster 531
+0	10aa, >gram_pos_18... *
+>Cluster 532
+0	9aa, >gram_pos_5... *
+>Cluster 533
+0	9aa, >gram_pos_7... *
+>Cluster 534
+0	9aa, >gram_pos_8... *
+>Cluster 535
+0	8aa, >gram_pos_1... *
+>Cluster 536
+0	8aa, >gram_pos_3... *
+>Cluster 537
+0	8aa, >gram_pos_4... *
