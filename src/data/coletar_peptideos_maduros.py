@@ -1,15 +1,16 @@
 """
 src/data/coletar_peptideos_maduros.py
 
-Coleta Peptídeos Maduros Clivados (FT PEPTIDE / FT CHAIN) do UniProt/Swiss-Prot
-via API REST e unifica com as sequências naturais completas existentes:
+Coleta Peptídeos Maduros Clivados (FT PEPTIDE / FT CHAIN com start > 1)
+do UniProt/Swiss-Prot via API REST para composição da classe negativa:
 1. Busca entradas revisadas (reviewed:true, fragment:false) com anotações
    de Peptide ou Chain, excluindo qualquer função/keyword antimicrobiana ou tóxica.
-2. Extrai apenas regiões com coordenadas exatas (modifier == EXACT) entre 8 e 50 AA
-   e compostas exclusivamente pelos 20 aminoácidos canônicos.
-3. Salva 'uniprot_peptideos_maduros.fasta' em data/raw/.
-4. Combina (sem duplicatas) com 'negativoV2.fasta' e grava o pool unificado em
-   'data/raw/uniprot_negativos_naturais.fasta' pronto para o preprocess_fasta.py.
+2. Extrai apenas regiões com coordenadas exatas (modifier == EXACT),
+   clivadas pós-traducionalmente (start > 1, removendo a Metionina iniciadora
+   de tradução de proteínas completas), entre 8 e 50 AA e compostas
+   exclusivamente pelos 20 aminoácidos canônicos.
+3. Salva 'uniprot_peptideos_maduros.fasta' e 'uniprot_negativos_naturais.fasta'
+   em data/raw/, prontos para o preprocess_fasta.py.
 
 Uso:
     python src/data/coletar_peptideos_maduros.py
@@ -34,9 +35,8 @@ from urllib3.util.retry import Retry
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "raw"
 
-IN_NEG_COMPLETOS = RAW / "negativoV2.fasta"
 OUT_MADUROS = RAW / "uniprot_peptideos_maduros.fasta"
-OUT_UNIFICADO = RAW / "uniprot_negativos_naturais.fasta"
+OUT_NEGATIVOS = RAW / "uniprot_negativos_naturais.fasta"
 
 TAMANHO_MIN = 8
 TAMANHO_MAX = 50
@@ -88,7 +88,7 @@ def extrair_proximo_link(header_link: str | None) -> str | None:
 
 
 # ==========================================
-# Coleta e Parsing dos Peptídeos Maduros
+# Coleta e Parsing dos Peptídeos Maduros Clivados
 # ==========================================
 def baixar_peptideos_maduros() -> dict[str, str]:
     sessao = criar_sessao()
@@ -99,7 +99,7 @@ def baixar_peptideos_maduros() -> dict[str, str]:
         "size": 500,
     }
 
-    print("=== [1/3] Consultando API REST do UniProt/Swiss-Prot ===")
+    print("=== [1/2] Consultando API REST do UniProt/Swiss-Prot ===")
     print(f"  -> EXCLUIR_SECRETADOS (KW-0964): {EXCLUIR_SECRETADOS}")
     resp = sessao.get(UNIPROT_SEARCH_URL, params=params, timeout=60)
     resp.raise_for_status()
@@ -142,7 +142,8 @@ def baixar_peptideos_maduros() -> dict[str, str]:
                     continue
 
                 tam = end - start + 1
-                if TAMANHO_MIN <= tam <= TAMANHO_MAX and 1 <= start <= end <= len(seq_completa):
+                # start > 1 garante clivagem pós-traducional (evita Metionina iniciadora)
+                if TAMANHO_MIN <= tam <= TAMANHO_MAX and 1 < start <= end <= len(seq_completa):
                     subseq = seq_completa[start - 1 : end]
                     if PADRAO_CANONICOS.match(subseq) and subseq not in peptideos_unicos:
                         peptideos_unicos[subseq] = f"{acc}_{tipo}_{start}_{end}"
@@ -158,63 +159,46 @@ def baixar_peptideos_maduros() -> dict[str, str]:
         resp.raise_for_status()
 
     pbar.close()
-    print(f"  -> Entradas varridas: {entradas_lidas} | Peptídeos maduros únicos (8-50 AA): {len(peptideos_unicos)}")
+    print(
+        f"  -> Entradas varridas: {entradas_lidas} | "
+        f"Peptídeos maduros clivados únicos (8-50 AA, start > 1): {len(peptideos_unicos)}"
+    )
     return peptideos_unicos
 
 
 # ==========================================
-# Exportação e Unificação com negativoV2.fasta
+# Exportação dos Peptídeos Maduros Clivados
 # ==========================================
 def main() -> None:
     t0 = time.time()
     RAW.mkdir(parents=True, exist_ok=True)
 
     peptideos_maduros = baixar_peptideos_maduros()
+    itens_ordenados = sorted(peptideos_maduros.items(), key=lambda x: (len(x[0]), x[0]))
 
-    print("\n=== [2/3] Salvando Peptídeos Maduros Extraídos ===")
+    print("\n=== [2/2] Salvando Peptídeos Maduros Clivados ===")
     regs_maduros = [
         SeqRecord(Seq(seq), id=f"mature_{i}_{origem}", description="")
-        for i, (seq, origem) in enumerate(
-            sorted(peptideos_maduros.items(), key=lambda x: (len(x[0]), x[0])), 1
-        )
+        for i, (seq, origem) in enumerate(itens_ordenados, 1)
     ]
     SeqIO.write(regs_maduros, str(OUT_MADUROS), "fasta")
     print(f"  -> Salvo: {OUT_MADUROS.relative_to(ROOT)} ({len(regs_maduros)} sequências)")
 
-    print("\n=== [3/3] Unificando com Sequências Naturais Completas ===")
-    pool_unificado: dict[str, str] = {}
-
-    if IN_NEG_COMPLETOS.exists():
-        for rec in SeqIO.parse(str(IN_NEG_COMPLETOS), "fasta"):
-            s = str(rec.seq).upper()
-            if TAMANHO_MIN <= len(s) <= TAMANHO_MAX and PADRAO_CANONICOS.match(s):
-                pool_unificado[s] = f"full_{rec.id}"
-        print(f"  -> Carregadas de {IN_NEG_COMPLETOS.name}: {len(pool_unificado)} sequências")
-    else:
-        print(f"  [!] Aviso: {IN_NEG_COMPLETOS.name} não encontrado; usando apenas os maduros.")
-
-    novos_adicionados = 0
-    for seq, origem in peptideos_maduros.items():
-        if seq not in pool_unificado:
-            pool_unificado[seq] = f"mature_{origem}"
-            novos_adicionados += 1
-
-    regs_unificados = [
-        SeqRecord(Seq(seq), id=f"uniprot_nat_{i}", description=origem)
-        for i, (seq, origem) in enumerate(
-            sorted(pool_unificado.items(), key=lambda x: (len(x[0]), x[0])), 1
-        )
+    regs_negativos = [
+        SeqRecord(Seq(seq), id=f"uniprot_nat_{i}", description=f"mature_{origem}")
+        for i, (seq, origem) in enumerate(itens_ordenados, 1)
     ]
-    SeqIO.write(regs_unificados, str(OUT_UNIFICADO), "fasta")
+    SeqIO.write(regs_negativos, str(OUT_NEGATIVOS), "fasta")
+    print(f"  -> Salvo: {OUT_NEGATIVOS.relative_to(ROOT)} ({len(regs_negativos)} sequências)")
 
-    tamanhos = [len(s) for s in pool_unificado]
+    tamanhos = [len(s) for s in peptideos_maduros]
     faixa_curta = sum(1 for t in tamanhos if 10 <= t <= 30)
+    com_m = sum(1 for s in peptideos_maduros if s.startswith("M"))
+    pct_m = (100 * com_m / len(tamanhos)) if tamanhos else 0.0
 
-    print(f"  -> Novos peptídeos maduros incorporados: +{novos_adicionados}")
-    print(f"  -> Pool Unificado salvo em: {OUT_UNIFICADO.relative_to(ROOT)} ({len(regs_unificados)} sequências)")
     print(
         f"  -> Comprimento médio bruto: {np.mean(tamanhos):.2f} ± {np.std(tamanhos):.2f} AA "
-        f"| Na faixa 10-30 AA: {faixa_curta} sequências"
+        f"| Na faixa 10-30 AA: {faixa_curta} | Iniciam com M: {com_m} ({pct_m:.1f}%)"
     )
     print(f"\n✅ Coleta concluída em {time.time() - t0:.1f}s!")
 

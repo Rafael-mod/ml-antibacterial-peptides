@@ -2258,7 +2258,6 @@
 0	27aa, >pgat_neg_3034... *
 >Cluster 1129
 0	27aa, >pgat_neg_3035... *
-1	11aa, >nat_neg_736... at 90.91%
 >Cluster 1130
 0	27aa, >pgat_neg_3036... *
 >Cluster 1131
@@ -4311,7 +4310,6 @@
 0	23aa, >pgat_neg_1970... *
 >Cluster 2155
 0	23aa, >pgat_neg_1971... *
-1	11aa, >nat_neg_735... at 100.00%
 >Cluster 2156
 0	23aa, >pgat_neg_1972... *
 >Cluster 2157
@@ -6084,6 +6082,7 @@
 0	18aa, >pgat_neg_1095... *
 >Cluster 3041
 0	18aa, >pgat_neg_1096... *
+1	8aa, >nat_neg_55... at 87.50%
 >Cluster 3042
 0	18aa, >pgat_neg_1097... *
 >Cluster 3043
@@ -6542,6 +6541,7 @@
 0	17aa, >pgat_neg_1008... *
 >Cluster 3270
 0	17aa, >pgat_neg_1009... *
+1	11aa, >nat_neg_470... at 100.00%
 >Cluster 3271
 0	17aa, >pgat_neg_1010... *
 >Cluster 3272

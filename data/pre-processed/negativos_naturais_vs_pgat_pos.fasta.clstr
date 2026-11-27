@@ -14,7 +14,6 @@
 0	30aa, >pgat_pos_924... *
 >Cluster 7
 0	30aa, >pgat_pos_925... *
-1	30aa, >nat_neg_3122... at 100.00%
 >Cluster 8
 0	30aa, >pgat_pos_926... *
 >Cluster 9
@@ -47,7 +46,7 @@
 0	30aa, >pgat_pos_940... *
 >Cluster 23
 0	30aa, >pgat_pos_941... *
-1	11aa, >nat_neg_728... at 100.00%
+1	11aa, >nat_neg_417... at 100.00%
 >Cluster 24
 0	30aa, >pgat_pos_942... *
 >Cluster 25
@@ -232,7 +231,7 @@
 0	26aa, >pgat_pos_834... *
 >Cluster 115
 0	26aa, >pgat_pos_835... *
-1	11aa, >nat_neg_715... at 100.00%
+1	11aa, >nat_neg_409... at 100.00%
 >Cluster 116
 0	26aa, >pgat_pos_836... *
 >Cluster 117
@@ -371,8 +370,8 @@
 0	24aa, >pgat_pos_772... *
 >Cluster 184
 0	24aa, >pgat_pos_773... *
-1	9aa, >nat_neg_314... at 88.89%
-2	9aa, >nat_neg_324... at 88.89%
+1	9aa, >nat_neg_173... at 88.89%
+2	9aa, >nat_neg_181... at 88.89%
 >Cluster 185
 0	24aa, >pgat_pos_774... *
 >Cluster 186
